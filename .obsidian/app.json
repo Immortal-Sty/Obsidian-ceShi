@@ -1,0 +1,15 @@
+{
+  "defaultViewMode": "preview",
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "vimMode": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./attachments",
+  "userIgnoreFilters": [
+    "/^.+\\.(pn|jp)g$/"
+  ],
+  "legacyEditor": false
+}

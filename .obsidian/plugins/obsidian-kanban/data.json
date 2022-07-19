@@ -1,0 +1,11 @@
+{
+  "show-checkboxes": true,
+  "hide-tags-in-title": true,
+  "date-format": "Y.MM.DD",
+  "time-format": "HH:mm:ss",
+  "date-display-format": "Y.MM.DD",
+  "hide-date-display": true,
+  "link-date-to-daily-note": true,
+  "prepend-archive-format": "Y.MM.DD HH:mm:ss",
+  "date-picker-week-start": 1
+}

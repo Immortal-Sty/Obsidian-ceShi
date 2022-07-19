@@ -1,0 +1,8 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "hyphenation-and-justification"
+  ],
+  "baseFontSize": 14
+}
