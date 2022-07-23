@@ -46,5 +46,6 @@
   "obsidian-sortable",
   "cm-typewriter-scroll-obsidian",
   "obsidian-banners",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-git"
 ]
