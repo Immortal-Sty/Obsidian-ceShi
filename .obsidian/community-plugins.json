@@ -15,7 +15,6 @@
   "tag-wrangler",
   "quickadd",
   "url-into-selection",
-  "obsidian-emoji-toolbar",
   "periodic-notes",
   "obsidian-annotator",
   "find-unlinked-files",
@@ -47,5 +46,6 @@
   "cm-typewriter-scroll-obsidian",
   "obsidian-banners",
   "templater-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-icon-shortcodes"
 ]
