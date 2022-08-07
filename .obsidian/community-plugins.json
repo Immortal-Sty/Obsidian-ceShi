@@ -21,7 +21,6 @@
   "obsidian-hider",
   "obsidian-pandoc",
   "obsidian-charts",
-  "buttons",
   "media-extended",
   "table-extended",
   "alx-folder-note",
@@ -33,7 +32,6 @@
   "obsidian-collapse-all-plugin",
   "obsidian-contextual-typography",
   "obsidian-copy-block-link",
-  "customizable-sidebar",
   "obsidian-excel-to-markdown-table",
   "quick-explorer",
   "file-explorer-note-count",
@@ -47,5 +45,6 @@
   "obsidian-banners",
   "templater-obsidian",
   "obsidian-git",
-  "obsidian-icon-shortcodes"
+  "obsidian-icon-shortcodes",
+  "cmdr"
 ]
