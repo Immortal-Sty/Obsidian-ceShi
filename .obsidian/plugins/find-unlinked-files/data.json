@@ -17,5 +17,6 @@
   "unresolvedLinksTagsToIgnore": [],
   "withoutTagsDirectoriesToIgnore": [],
   "withoutTagsFilesToIgnore": [],
-  "withoutTagsOutputFileName": "无标签文件"
+  "withoutTagsOutputFileName": "无标签文件",
+  "openOutputFile": true
 }
