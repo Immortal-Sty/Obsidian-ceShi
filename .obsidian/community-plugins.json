@@ -46,5 +46,6 @@
   "templater-obsidian",
   "obsidian-git",
   "obsidian-icon-shortcodes",
-  "cmdr"
+  "cmdr",
+  "obsidian-better-codeblock"
 ]

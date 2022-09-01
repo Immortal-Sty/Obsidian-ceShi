@@ -1,0 +1,11 @@
+{
+  "titleBackgroundColor": "#00000020",
+  "titleFontColor": "#ffffffff",
+  "highLightColor": "#2d82cc20",
+  "excludeLangs": [
+    "mermaid"
+  ],
+  "showLineNumber": true,
+  "showDividingLine": true,
+  "showLangNameInTopRight": true
+}
