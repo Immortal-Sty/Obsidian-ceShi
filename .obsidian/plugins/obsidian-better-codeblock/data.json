@@ -1,9 +1,12 @@
 {
   "titleBackgroundColor": "#00000020",
-  "titleFontColor": "#ffffffff",
+  "titleFontColor": "",
   "highLightColor": "#2d82cc20",
   "excludeLangs": [
-    "mermaid"
+    "mermaid",
+    "chart",
+    "dataview",
+    "dataviewjs"
   ],
   "showLineNumber": true,
   "showDividingLine": true,
