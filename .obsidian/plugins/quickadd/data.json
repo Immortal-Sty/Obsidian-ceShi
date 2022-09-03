@@ -1,5 +1,49 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "7abf3992-2c81-4768-a6e7-b6833212778a",
+      "name": "Callout",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "ca2c4bbf-9cd0-408b-8e32-2137b2e050ef",
+          "name": "Note",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "> [!note]- {{VALUE}}\n> \n> "
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": false
+    }
+  ],
   "macros": [],
   "inputPrompt": "single-line"
 }
