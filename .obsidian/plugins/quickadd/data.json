@@ -21,7 +21,7 @@
           },
           "format": {
             "enabled": true,
-            "format": "> [!note]- {{VALUE}}\n> \n> "
+            "format": "> [!note]+ {{VALUE}}\n> \n> "
           },
           "insertAfter": {
             "enabled": false,
@@ -44,6 +44,13 @@
       "collapsed": false
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "Callout",
+      "id": "c0072689-992f-43a2-bff0-0c45ce49becb",
+      "commands": [],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line"
 }
