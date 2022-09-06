@@ -32,7 +32,7 @@
   "bordersToggle": true,
   "bordersTitle": true,
   "minimalStatus": true,
-  "focusMode": false,
+  "focusMode": true,
   "underlineInternal": false,
   "underlineExternal": true,
   "useSystemTheme": true,
