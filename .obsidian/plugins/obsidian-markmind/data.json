@@ -4,7 +4,7 @@
   "fontSize": 16,
   "background": "transparent",
   "layout": "mindmap",
-  "layoutDirect": "right",
+  "layoutDirect": "mind map",
   "protocol": "jump-to-pdf",
   "registerPdfEvent": true,
   "viewerTheme": 2,
@@ -16,5 +16,6 @@
   "highlightFormat": "\nPage:{{page}}\n<span style=\"color:rgb({{color}})\">■</span>:{{highlightText}}\nComment:{{comment}}\n[📌]({{link}})\n^{{id}}\n",
   "setup": 1662711985503,
   "useAnimate": true,
-  "uid": "00p01001000q01100p00q00p00s00q01201000t"
+  "uid": "00p01001000q01100p00q00p00s00q01201000t",
+  "openCodeBlock": true
 }

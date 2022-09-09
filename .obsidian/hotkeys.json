@@ -442,5 +442,14 @@
       ],
       "key": "3"
     }
+  ],
+  "obsidian-markmind:Create New MindMap": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "N"
+    }
   ]
 }
