@@ -55,6 +55,12 @@
         "Shift"
       ],
       "key": "ArrowRight"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
     }
   ],
   "editor:focus-left": [
@@ -64,6 +70,13 @@
         "Shift"
       ],
       "key": "ArrowLeft"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Tab"
     }
   ],
   "audio-recorder:stop": [
@@ -461,5 +474,13 @@
       "key": "P"
     }
   ],
-  "switcher:open": []
+  "switcher:open": [],
+  "obsidian-tabs:toggle-tabs": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ]
 }

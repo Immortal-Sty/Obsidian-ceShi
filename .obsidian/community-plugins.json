@@ -4,7 +4,6 @@
   "dataview",
   "obsidian-kanban",
   "obsidian-excalidraw-plugin",
-  "sliding-panes-obsidian",
   "obsidian-outliner",
   "obsidian-minimal-settings",
   "nldates-obsidian",
@@ -53,5 +52,6 @@
   "obsidian-heading-shifter",
   "obsidian-banners",
   "obsidian-better-codeblock",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "obsidian-tabs"
 ]
