@@ -53,5 +53,7 @@
   "obsidian-banners",
   "obsidian-better-codeblock",
   "obsidian-image-toolkit",
-  "obsidian-tabs"
+  "obsidian-tabs",
+  "reveal-active-file-button",
+  "code-block-from-selection"
 ]
