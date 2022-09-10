@@ -51,5 +51,6 @@
   "multi-column-markdown",
   "obsidian-markmind",
   "obsidian-better-command-palette",
-  "remember-cursor-position"
+  "remember-cursor-position",
+  "obsidian-auto-pair-chinese-symbol"
 ]
