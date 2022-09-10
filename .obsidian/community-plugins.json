@@ -42,7 +42,6 @@
   "quick-latex",
   "obsidian-sortable",
   "cm-typewriter-scroll-obsidian",
-  "obsidian-banners",
   "obsidian-git",
   "obsidian-icon-shortcodes",
   "cmdr",
@@ -52,5 +51,7 @@
   "remember-cursor-position",
   "obsidian-auto-pair-chinese-symbol",
   "obsidian-heading-shifter",
-  "obsidian-code-block-enhancer"
+  "obsidian-banners",
+  "obsidian-better-codeblock",
+  "obsidian-image-toolkit"
 ]
