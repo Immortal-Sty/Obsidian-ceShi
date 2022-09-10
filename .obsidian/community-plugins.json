@@ -46,11 +46,11 @@
   "obsidian-git",
   "obsidian-icon-shortcodes",
   "cmdr",
-  "obsidian-better-codeblock",
   "multi-column-markdown",
   "obsidian-markmind",
   "obsidian-better-command-palette",
   "remember-cursor-position",
   "obsidian-auto-pair-chinese-symbol",
-  "obsidian-heading-shifter"
+  "obsidian-heading-shifter",
+  "obsidian-code-block-enhancer"
 ]
