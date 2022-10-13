@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "8de8b65a40cb17af",
+    "type": "split",
+    "children": [
+      {
+        "id": "580fbc99607e00ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13ee076ac1b760c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "测试.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b840a42e6f6e91bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a98c2c01a0c3d39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbd69a8244cc660d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "632604465a9e98fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "108d80c1a3d519a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0997d6b32dd60e0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdf6a90b8212264e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "测试.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "95e4735504a1462c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "测试.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "947e1064ecf21b59",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "292b803206fac72a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "测试.md"
+              }
+            }
+          },
+          {
+            "id": "64070270a5518803",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "13ee076ac1b760c3",
+  "lastOpenFiles": [
+    "asdsdf.md",
+    "gj.md",
+    "测试.md",
+    "Template.md",
+    "Template/Try.md",
+    "Excalidraw.md",
+    "attachments/PanDownload-背景.jpg",
+    "Day Planners/Day Planner-20220718.md"
+  ]
+}

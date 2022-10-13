@@ -4,5 +4,6 @@
   "enabledCssSnippets": [
     "hyphenation-and-justification"
   ],
-  "baseFontSize": 12
+  "baseFontSize": 12,
+  "accentColor": ""
 }

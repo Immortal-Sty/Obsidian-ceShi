@@ -11,5 +11,6 @@
   "userIgnoreFilters": [
     "/^.+\\.(pn|jp)g$/"
   ],
-  "legacyEditor": false
+  "legacyEditor": false,
+  "showInlineTitle": true
 }
