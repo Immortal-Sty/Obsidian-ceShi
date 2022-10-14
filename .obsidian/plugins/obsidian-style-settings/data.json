@@ -4,6 +4,7 @@
   "minimal-style@@minimal-strike-lists": true,
   "minimal-style@@table-lines": true,
   "minimal-style@@row-alt": true,
-  "quick-explorer@@qe-obsidian-title": "qe-title-center",
-  "quick-explorer@@qe-hide-breadcrumbs": false
+  "quick-explorer@@qe-hide-breadcrumbs": true,
+  "quick-explorer@@qe-obsidian-title": "qe-title-hide",
+  "minimal-style@@trim-cols": false
 }
