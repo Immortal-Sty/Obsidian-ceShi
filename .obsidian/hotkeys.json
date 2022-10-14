@@ -431,23 +431,6 @@
   "templater-obsidian:replace-in-file-templater": [],
   "templater-obsidian:jump-to-next-cursor-location": [],
   "templater-obsidian:insert-templater": [],
-  "obsidian-heading-shifter:decrease-heading": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "3"
-    }
-  ],
-  "obsidian-heading-shifter:increase-heading": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "3"
-    }
-  ],
   "obsidian-markmind:Create New MindMap": [
     {
       "modifiers": [
@@ -495,6 +478,23 @@
         "Alt"
       ],
       "key": "N"
+    }
+  ],
+  "obsidian-heading-shifter:decrease-heading": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "3"
+    }
+  ],
+  "obsidian-heading-shifter:increase-heading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "3"
     }
   ]
 }

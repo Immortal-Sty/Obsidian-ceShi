@@ -9,6 +9,7 @@
   "fileTypesToDelete": [],
   "ignoreFileTypes": true,
   "ignoreDirectories": true,
+  "unresolvedLinksIgnoreDirectories": true,
   "unresolvedLinksOutputFileName": "无文件链接",
   "unresolvedLinksDirectoriesToIgnore": [],
   "unresolvedLinksFilesToIgnore": [],
@@ -18,5 +19,9 @@
   "withoutTagsDirectoriesToIgnore": [],
   "withoutTagsFilesToIgnore": [],
   "withoutTagsOutputFileName": "无标签文件",
+  "emptyFilesOutputFileName": "empty files",
+  "emptyFilesDirectories": [],
+  "emptyFilesFilesToIgnore": [],
+  "emptyFilesIgnoreDirectories": true,
   "openOutputFile": true
 }
