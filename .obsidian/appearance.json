@@ -8,5 +8,6 @@
   "accentColor": "",
   "interfaceFontFamily": "JetBrains Mono,霞鹜文楷 屏幕阅读版",
   "textFontFamily": "JetBrains Mono,霞鹜文楷 屏幕阅读版",
-  "monospaceFontFamily": "JetBrains Mono,霞鹜文楷 屏幕阅读版"
+  "monospaceFontFamily": "JetBrains Mono,霞鹜文楷 屏幕阅读版",
+  "showViewHeader": true
 }
