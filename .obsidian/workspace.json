@@ -11,11 +11,9 @@
             "id": "13ee076ac1b760c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "测试.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw.md"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "Excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "Excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试.md"
+                "file": "Excalidraw.md"
               }
             }
           }
@@ -150,14 +148,14 @@
   "active": "13ee076ac1b760c3",
   "lastOpenFiles": [
     "测试.md",
-    "Excalidraw.md",
+    "Template/Try.md",
     "Template/网址集合.md",
     "Template.md",
-    "Excalidraw/Excalidraw 2022.10.14 14.32.05.md",
+    "未命名思维导图.md",
     "asdsdf.md",
     "gj.md",
-    "Template/Try.md",
-    "attachments/PanDownload-背景.jpg",
-    "Day Planners/Day Planner-20220718.md"
+    "Excalidraw.md",
+    "Excalidraw/Excalidraw 2022.10.14 14.32.05.md",
+    "attachments/PanDownload-背景.jpg"
   ]
 }

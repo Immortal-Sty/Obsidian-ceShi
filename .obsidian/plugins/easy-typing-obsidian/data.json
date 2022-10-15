@@ -1,10 +1,10 @@
 {
   "SelectionEnhance": true,
-  "IntrinsicSymbolPairs": false,
-  "BaseObEditEnhance": false,
+  "IntrinsicSymbolPairs": true,
+  "BaseObEditEnhance": true,
   "FW2HWEnhance": false,
   "AutoFormat": true,
-  "ExcludeFiles": "",
+  "ExcludeFiles": "Kanban/\nKanban.md\nExcalidraw/\nExcalidraw.md",
   "ChineseEnglishSpace": true,
   "ChineseNoSpace": true,
   "PunctuationSpace": false,
@@ -16,7 +16,7 @@
   "InlineLinkSpaceMode": 0,
   "InlineLinkSmartSpace": false,
   "UserDefinedRegSwitch": true,
-  "UserDefinedRegExp": "{{.*?}}|++\n#[\\u4e00-\\u9fa5\\w\\/]+|++\n(https?:\\/\\/|ftp:\\/\\/|obsidian:\\/\\/|zotero:\\/\\/|www.)[^\\s（）《》。,，！？;；：“”‘’\\)\\(\\[\\]\\{\\}']+|--",
+  "UserDefinedRegExp": "{{.*?}}|==\n#[\\u4e00-\\u9fa5\\w\\/]+|++\n(https?:\\/\\/|ftp:\\/\\/|obsidian:\\/\\/|zotero:\\/\\/|www.)[^\\s（）《》。,，！？;；：“”‘’\\)\\(\\[\\]\\{\\}']+|==",
   "debug": false,
   "userSelRepRuleTrigger": [
     "<",
@@ -43,25 +43,29 @@
       "|"
     ],
     [
-      "=|=",
+      "==|==",
       "|"
     ],
     [
       " | ",
       "|"
+    ],
+    [
+      "$$\n|\n$$",
+      "$$|$$"
     ]
   ],
   "userConvertRulesStrList": [
     [
-      "$$\n|$$",
-      "$$\n|\n$$"
-    ],
-    [
       "$|",
       "$|$"
+    ],
+    [
+      "$$\n|$$",
+      "$$\n|\n$$"
     ]
   ],
-  "userSelRuleSettingsOpen": false,
-  "userDelRuleSettingsOpen": false,
+  "userSelRuleSettingsOpen": true,
+  "userDelRuleSettingsOpen": true,
   "userCvtRuleSettingsOpen": true
 }
