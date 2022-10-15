@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -68,8 +68,24 @@
     "type": "split",
     "children": [
       {
+        "id": "c80e3a776a05265f",
+        "type": "tabs",
+        "dimension": 28.197674418604652,
+        "children": [
+          {
+            "id": "64070270a5518803",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "0997d6b32dd60e0e",
         "type": "tabs",
+        "dimension": 71.80232558139535,
         "children": [
           {
             "id": "bdf6a90b8212264e",
@@ -119,14 +135,6 @@
               "state": {
                 "file": "测试.md"
               }
-            }
-          },
-          {
-            "id": "64070270a5518803",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           }
         ],

@@ -13,8 +13,8 @@
   "PunctuationSpaceMode": "global",
   "InlineCodeSpaceMode": 1,
   "InlineFormulaSpaceMode": 1,
-  "InlineLinkSpaceMode": 1,
-  "InlineLinkSmartSpace": true,
+  "InlineLinkSpaceMode": 0,
+  "InlineLinkSmartSpace": false,
   "UserDefinedRegSwitch": true,
   "UserDefinedRegExp": "{{.*?}}|++\n#[\\u4e00-\\u9fa5\\w\\/]+|++\n(https?:\\/\\/|ftp:\\/\\/|obsidian:\\/\\/|zotero:\\/\\/|www.)[^\\s（）《》。,，！？;；：“”‘’\\)\\(\\[\\]\\{\\}']+|--",
   "debug": false,
@@ -51,7 +51,16 @@
       "|"
     ]
   ],
-  "userConvertRulesStrList": [],
+  "userConvertRulesStrList": [
+    [
+      "$$\n|$$",
+      "$$\n|\n$$"
+    ],
+    [
+      "$|",
+      "$|$"
+    ]
+  ],
   "userSelRuleSettingsOpen": false,
   "userDelRuleSettingsOpen": false,
   "userCvtRuleSettingsOpen": true
