@@ -1,6 +1,6 @@
 {
   "SelectionEnhance": true,
-  "IntrinsicSymbolPairs": true,
+  "IntrinsicSymbolPairs": false,
   "BaseObEditEnhance": false,
   "FW2HWEnhance": false,
   "AutoFormat": true,
@@ -45,10 +45,14 @@
     [
       "=|=",
       "|"
+    ],
+    [
+      " | ",
+      "|"
     ]
   ],
   "userConvertRulesStrList": [],
-  "userSelRuleSettingsOpen": true,
-  "userDelRuleSettingsOpen": true,
+  "userSelRuleSettingsOpen": false,
+  "userDelRuleSettingsOpen": false,
   "userCvtRuleSettingsOpen": true
 }
