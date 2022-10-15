@@ -1,9 +1,10 @@
 {
   "SelectionEnhance": true,
   "IntrinsicSymbolPairs": true,
-  "BaseObEditEnhance": true,
+  "BaseObEditEnhance": false,
   "FW2HWEnhance": false,
   "AutoFormat": true,
+  "ExcludeFiles": "",
   "ChineseEnglishSpace": true,
   "ChineseNoSpace": true,
   "PunctuationSpace": false,
