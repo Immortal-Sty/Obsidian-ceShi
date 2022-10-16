@@ -16,7 +16,7 @@
   "InlineLinkSpaceMode": 0,
   "InlineLinkSmartSpace": false,
   "UserDefinedRegSwitch": true,
-  "UserDefinedRegExp": "{{.*?}}|==\n#[\\u4e00-\\u9fa5\\w\\/]+|++\n(https?:\\/\\/|ftp:\\/\\/|obsidian:\\/\\/|zotero:\\/\\/|www.)[^\\s（）《》。,，！？;；：“”‘’\\)\\(\\[\\]\\{\\}']+|==",
+  "UserDefinedRegExp": "{{.*?}}|==\n#[\\u4e00-\\u9fa5\\w\\/]+|++\n\\[\\!.*?\\][-+]{0,1}|-=\n(https?:\\/\\/|ftp:\\/\\/|obsidian:\\/\\/|zotero:\\/\\/|www.)[^\\s（）《》。,，！？;；：“”‘’\\)\\(\\[\\]\\{\\}']+|==",
   "debug": false,
   "userSelRepRuleTrigger": [
     "<",
