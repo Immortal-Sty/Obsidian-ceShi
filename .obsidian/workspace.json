@@ -11,9 +11,11 @@
             "id": "67a564f168a58128",
             "type": "leaf",
             "state": {
-              "type": "kity-mind",
+              "type": "markdown",
               "state": {
-                "file": "Mindmap/20221110081358.km.md"
+                "file": "测试.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -142,17 +144,17 @@
     "direction": "horizontal",
     "width": 301.5
   },
-  "active": "cbd69a8244cc660d",
+  "active": "67a564f168a58128",
   "lastOpenFiles": [
+    "Mindmap/20221110081358.km.md",
+    "测试.md",
     "Template/Try.md",
     "Template.md",
     "asdsdf.md",
-    "测试.md",
     "Mindmap/lkj.mk.md",
     "Excalidraw.md",
     "Template/网址集合.md",
     "未命名思维导图.md",
-    "gj.md",
-    "Excalidraw/Excalidraw 2022.10.14 14.32.05.md"
+    "gj.md"
   ]
 }
