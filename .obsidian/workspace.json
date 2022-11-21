@@ -14,23 +14,12 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "ade1e01b02f60101",
-            "type": "leaf",
-            "state": {
-              "type": "kity-mind",
-              "state": {
-                "file": "Mindmap/20221110081358.km.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +69,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mindmap/20221110081358.km.md"
+                "file": "测试.md"
               }
             }
           }
@@ -120,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mindmap/20221110081358.km.md",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mindmap/20221110081358.km.md",
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,17 +149,17 @@
     "direction": "horizontal",
     "width": 301.5
   },
-  "active": "ade1e01b02f60101",
+  "active": "67a564f168a58128",
   "lastOpenFiles": [
-    "测试.md",
-    "Mindmap/20221110081358.km.md",
-    "Template/Try.md",
     "Template.md",
+    "测试.md",
+    "gj.md",
+    "Mindmap/s3.km.md",
+    "Mindmap/20221121100812.km.md",
+    "Template/Try.md",
     "asdsdf.md",
     "Mindmap/lkj.mk.md",
     "Excalidraw.md",
-    "Template/网址集合.md",
-    "未命名思维导图.md",
-    "gj.md"
+    "Template/网址集合.md"
   ]
 }
