@@ -14,12 +14,23 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "ade1e01b02f60101",
+            "type": "leaf",
+            "state": {
+              "type": "kity-mind",
+              "state": {
+                "file": "Mindmap/20221110081358.km.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,6 +65,22 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "39d07a2c42657312",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "292b803206fac72a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Mindmap/20221110081358.km.md"
               }
             }
           }
@@ -93,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "Mindmap/20221110081358.km.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "Mindmap/20221110081358.km.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,28 +153,17 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "292b803206fac72a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "测试.md"
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 301.5
   },
-  "active": "67a564f168a58128",
+  "active": "ade1e01b02f60101",
   "lastOpenFiles": [
-    "Mindmap/20221110081358.km.md",
     "测试.md",
+    "Mindmap/20221110081358.km.md",
     "Template/Try.md",
     "Template.md",
     "asdsdf.md",
