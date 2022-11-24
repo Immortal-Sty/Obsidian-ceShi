@@ -209,7 +209,7 @@ var InterfaceService = class {
 
 // src/features/applyHeading/module.ts
 var applyHeading = (chunk, headingSize) => {
-  const remove = chunk.replace(/^#+ /, "").replace(/^(\-|\*|\d+\.) /, "");
+  const remove = chunk.replace(/^(\-|\*|\d+\.) /, "").replace(/^#+ /, "");
   if (headingSize <= 0)
     return remove;
   return new Array(headingSize).fill("#").reduce((prev, cur) => {
