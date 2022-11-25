@@ -55,12 +55,6 @@
         "Shift"
       ],
       "key": "ArrowRight"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Tab"
     }
   ],
   "editor:focus-left": [
@@ -70,13 +64,6 @@
         "Shift"
       ],
       "key": "ArrowLeft"
-    },
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "Tab"
     }
   ],
   "audio-recorder:stop": [
@@ -337,14 +324,6 @@
         "Mod"
       ],
       "key": "D"
-    }
-  ],
-  "nldates-obsidian:nlp-parse-time": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "T"
     }
   ],
   "obsidian-charts:chart-from-table-column": [
