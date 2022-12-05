@@ -52,5 +52,6 @@
   "table-extended",
   "tag-wrangler",
   "cm-typewriter-scroll-obsidian",
-  "cm-chs-patch"
+  "cm-chs-patch",
+  "obsidian-relative-line-numbers"
 ]
