@@ -1,7 +1,13 @@
 {
-  "recentFiles": [],
+  "recentFiles": [
+    {
+      "basename": "测试",
+      "path": "测试.md"
+    }
+  ],
   "omittedPaths": [
     ""
   ],
-  "maxLength": null
+  "maxLength": null,
+  "openType": "tab"
 }

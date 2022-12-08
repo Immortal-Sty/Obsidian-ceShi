@@ -56,6 +56,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "49578976ab129243",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       },
@@ -149,7 +157,7 @@
     "direction": "horizontal",
     "width": 301.5
   },
-  "active": "67a564f168a58128",
+  "active": "cbd69a8244cc660d",
   "lastOpenFiles": [
     "Template.md",
     "测试.md",
