@@ -80,6 +80,17 @@
                 "file": "测试.md"
               }
             }
+          },
+          {
+            "id": "947e1064ecf21b59",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ]
       }
@@ -124,17 +135,6 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "947e1064ecf21b59",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
           }
         ]
       },
@@ -157,7 +157,7 @@
     "direction": "horizontal",
     "width": 301.5
   },
-  "active": "cbd69a8244cc660d",
+  "active": "292b803206fac72a",
   "lastOpenFiles": [
     "Template.md",
     "测试.md",
