@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "14c4f8716feb03f3",
+        "id": "dfd273a0e365f088",
         "type": "tabs",
         "children": [
           {
-            "id": "67a564f168a58128",
+            "id": "90e427255df55415",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -166,10 +166,10 @@
     "direction": "horizontal",
     "width": 301.5
   },
-  "active": "67a564f168a58128",
+  "active": "90e427255df55415",
   "lastOpenFiles": [
-    "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
     "测试.md",
+    "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.50.26.md",
     "Template.md",
     "Template/Try.md",
