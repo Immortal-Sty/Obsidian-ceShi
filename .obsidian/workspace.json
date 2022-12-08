@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -168,15 +168,15 @@
   },
   "active": "90e427255df55415",
   "lastOpenFiles": [
+    "Template.md",
     "测试.md",
+    "Excalidraw.md",
+    "gj.md",
+    "Mindmap/20221121100812.km.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.50.26.md",
-    "Template.md",
     "Template/Try.md",
     "Template/网址集合.md",
-    "gj.md",
-    "Mindmap/s3.km.md",
-    "Mindmap/20221121100812.km.md",
-    "asdsdf.md"
+    "Mindmap/s3.km.md"
   ]
 }

@@ -2,7 +2,7 @@
   "code2emoji": false,
   "suggester": true,
   "disabledPacks": [],
-  "triggerWithTrailingSpace": true,
-  "spaceAfterSC": true,
+  "triggerWithTrailingSpace": false,
+  "spaceAfterSC": false,
   "isMigrated": false
 }
