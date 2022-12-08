@@ -318,14 +318,6 @@
       "key": "F"
     }
   ],
-  "nldates-obsidian:nlp-date-clean": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "obsidian-charts:chart-from-table-column": [
     {
       "modifiers": [
@@ -476,5 +468,21 @@
       "key": "3"
     }
   ],
-  "easy-typing-obsidian:easy-typing-delete-blank-line": []
+  "easy-typing-obsidian:easy-typing-delete-blank-line": [],
+  "nldates-obsidian:nlp-parse-time": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "nldates-obsidian:nlp-date-clean": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ]
 }
