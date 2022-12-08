@@ -3,6 +3,18 @@
     {
       "basename": "测试",
       "path": "测试.md"
+    },
+    {
+      "basename": "Template",
+      "path": "Template.md"
+    },
+    {
+      "basename": "Try",
+      "path": "Template/Try.md"
+    },
+    {
+      "basename": "网址集合",
+      "path": "Template/网址集合.md"
     }
   ],
   "omittedPaths": [
