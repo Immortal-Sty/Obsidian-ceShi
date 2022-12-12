@@ -123,8 +123,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "32ee4f9fed766846",
@@ -168,9 +167,9 @@
   },
   "active": "f5fc427419cddd2a",
   "lastOpenFiles": [
-    "gj.md",
-    "测试.md",
     "Template.md",
+    "测试.md",
+    "gj.md",
     "Excalidraw.md",
     "Mindmap/20221121100812.km.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",

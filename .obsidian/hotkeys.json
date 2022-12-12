@@ -336,7 +336,6 @@
       "key": "H"
     }
   ],
-  "obsidian-outliner:move-list-item-down": [],
   "obsidian-outliner:move-list-item-up": [],
   "periodic-notes:open-daily-note": [
     {
@@ -484,5 +483,6 @@
       ],
       "key": "D"
     }
-  ]
+  ],
+  "obsidian-outliner:move-list-item-down": []
 }
