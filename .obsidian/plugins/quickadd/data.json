@@ -418,14 +418,7 @@
       "collapsed": true
     }
   ],
-  "macros": [
-    {
-      "name": "Callout",
-      "id": "c0072689-992f-43a2-bff0-0c45ce49becb",
-      "commands": [],
-      "runOnStartup": false
-    }
-  ],
+  "macros": [],
   "inputPrompt": "single-line",
   "devMode": false
 }
