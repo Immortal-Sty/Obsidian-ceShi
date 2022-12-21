@@ -21,7 +21,7 @@
   "matchTheme": true,
   "matchThemeAlways": true,
   "matchThemeTrigger": true,
-  "defaultMode": "normal",
+  "defaultMode": "view-mobile",
   "defaultPenMode": "never",
   "zoomToFitOnOpen": true,
   "zoomToFitOnResize": true,
