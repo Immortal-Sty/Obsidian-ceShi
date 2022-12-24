@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -179,7 +179,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cbd69a8244cc660d",
+  "active": "c603683e9e96c370",
   "lastOpenFiles": [
     "Canvas.canvas",
     "测试.md",
