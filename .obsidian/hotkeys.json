@@ -450,23 +450,6 @@
       "key": "N"
     }
   ],
-  "obsidian-heading-shifter:decrease-heading": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "3"
-    }
-  ],
-  "obsidian-heading-shifter:increase-heading": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "3"
-    }
-  ],
   "easy-typing-obsidian:easy-typing-delete-blank-line": [],
   "nldates-obsidian:nlp-parse-time": [
     {
@@ -484,5 +467,22 @@
       "key": "D"
     }
   ],
-  "obsidian-outliner:move-list-item-down": []
+  "obsidian-outliner:move-list-item-down": [],
+  "obsidian-heading-shifter:decrease-heading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "obsidian-heading-shifter:increase-heading": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "3"
+    }
+  ]
 }
