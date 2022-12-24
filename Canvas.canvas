@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"e61b84f0ad880306","x":-247,"y":-403,"width":490,"height":340,"type":"group","label":"Mine"},
+		{"id":"49d0bda6e945b93e","x":110,"y":-372,"width":105,"height":60,"color":"1","type":"text","text":"First"},
+		{"id":"54b89a192fe21064","x":110,"y":-266,"width":105,"height":60,"color":"2","type":"text","text":"Second"},
+		{"id":"2bc3745924e764e0","x":-220,"y":-266,"width":109,"height":60,"type":"text","text":"Main Card"},
+		{"id":"9bcfaf9dedd1e566","x":110,"y":-156,"width":105,"height":60,"color":"3","type":"text","text":"Third"}
+	],
+	"edges":[
+		{"id":"0d96153c89521f62","fromNode":"2bc3745924e764e0","fromSide":"right","toNode":"54b89a192fe21064","toSide":"left","label":"2"},
+		{"id":"4394549f795e891a","fromNode":"2bc3745924e764e0","fromSide":"right","toNode":"9bcfaf9dedd1e566","toSide":"left","label":"3"},
+		{"id":"c03ae81414c1e491","fromNode":"2bc3745924e764e0","fromSide":"right","toNode":"49d0bda6e945b93e","toSide":"left","label":"1"}
+	]
+}

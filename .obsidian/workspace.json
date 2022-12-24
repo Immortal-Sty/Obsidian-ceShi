@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dfd273a0e365f088",
+        "id": "75623c2a40c2daac",
         "type": "tabs",
         "children": [
           {
-            "id": "f5fc427419cddd2a",
+            "id": "c603683e9e96c370",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,17 +179,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f5fc427419cddd2a",
+  "active": "cbd69a8244cc660d",
   "lastOpenFiles": [
-    "Template.md",
+    "Canvas.canvas",
     "测试.md",
+    "Template.md",
     "gj.md",
     "Excalidraw.md",
     "Mindmap/20221121100812.km.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.50.26.md",
     "Template/Try.md",
-    "Template/网址集合.md",
-    "Mindmap/s3.km.md"
+    "Template/网址集合.md"
   ]
 }

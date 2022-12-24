@@ -5,6 +5,10 @@
       "path": "测试.md"
     },
     {
+      "basename": "Canvas",
+      "path": "Canvas.canvas"
+    },
+    {
       "basename": "Template",
       "path": "Template.md"
     },
