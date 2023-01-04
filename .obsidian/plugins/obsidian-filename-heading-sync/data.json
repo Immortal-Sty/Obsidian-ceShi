@@ -1,0 +1,7 @@
+{
+  "userIllegalSymbols": [],
+  "ignoredFiles": {},
+  "ignoreRegex": "^Excalidraw(\\.md|\\/.+)$|^attachments\\/.+$|^Kanban(\\.md|\\/.+)$|^.*\\.canvas$|^Mindmap\\/.+$",
+  "useFileOpenHook": true,
+  "useFileSaveHook": true
+}
