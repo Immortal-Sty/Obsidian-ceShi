@@ -24,7 +24,7 @@
   "defaultMode": "view-mobile",
   "defaultPenMode": "never",
   "zoomToFitOnOpen": true,
-  "zoomToFitOnResize": true,
+  "zoomToFitOnResize": false,
   "zoomToFitMaxLevel": 10,
   "linkPrefix": "📍",
   "urlPrefix": "🌐",

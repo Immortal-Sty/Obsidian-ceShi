@@ -4,6 +4,7 @@
   "taskCompletionUseEmojiShorthand": false,
   "taskCompletionText": "completion",
   "taskCompletionDateFormat": "yyyy-MM-dd",
+  "recursiveSubTaskCompletion": true,
   "warnOnEmptyResult": true,
   "refreshEnabled": true,
   "refreshInterval": 2500,
@@ -12,11 +13,14 @@
   "maxRecursiveRenderDepth": 4,
   "tableIdColumnName": "文件",
   "tableGroupColumnName": "组",
+  "showResultCount": true,
   "allowHtml": true,
   "inlineQueryPrefix": "=:",
   "inlineJsQueryPrefix": "$=",
   "inlineQueriesInCodeblocks": true,
+  "enableInlineDataview": true,
   "enableDataviewJs": false,
   "enableInlineDataviewJs": false,
-  "prettyRenderInlineFields": true
+  "prettyRenderInlineFields": true,
+  "dataviewJsKeyword": "dataviewjs"
 }

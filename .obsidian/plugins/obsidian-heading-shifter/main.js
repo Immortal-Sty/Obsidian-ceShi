@@ -68,7 +68,7 @@ __export(main_exports, {
   default: () => HeadingShifter
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian5 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 
 // src/settings.ts
 var import_obsidian = require("obsidian");
@@ -318,6 +318,19 @@ var getHeadingLines = (editor, from, to) => {
   }
   return { headingLines, minHeading, maxHeading };
 };
+var getPreviousHeading = (editor, from) => {
+  let fence = null;
+  let start = from > 0 ? from - 1 : 0;
+  for (let line = start; line >= 0; line--) {
+    fence = getFenceStatus(fence, checkFence(editor.getLine(line)));
+    if (fence)
+      continue;
+    if (checkHeading(editor.getLine(line)) > 0) {
+      return line;
+    }
+  }
+  return void 0;
+};
 
 // src/features/shiftHeading/module.ts
 var shiftHeading = (chunk, dir) => {
@@ -391,6 +404,73 @@ var DecreaseHeading = class {
   }
 };
 
+// src/features/insertHeading/operation.ts
+var import_obsidian5 = require("obsidian");
+var createInsertHeadingAtCurrentLevelCommand = () => {
+  const createEditorCallback = () => {
+    return (editor) => {
+      const cursorLine = editor.getCursor("from").line;
+      const lastHeadingLine = getPreviousHeading(editor, cursorLine);
+      const headingLevel = lastHeadingLine != void 0 ? checkHeading(editor.getLine(lastHeadingLine)) : 0;
+      editor.transaction({
+        changes: composeLineChanges(editor, [cursorLine], (chunk) => applyHeading(chunk, headingLevel))
+      });
+      editor.setCursor(editor.getCursor().line);
+      return;
+    };
+  };
+  return {
+    id: `insert-heading-current`,
+    name: `Insert Heading at current level`,
+    icon: `headingShifter_heading`,
+    editorCallback: createEditorCallback()
+  };
+};
+var createInsertHeadingAtDeeperLevelCommand = () => {
+  const createEditorCallback = () => {
+    return (editor) => {
+      const cursorLine = editor.getCursor("from").line;
+      const lastHeadingLine = getPreviousHeading(editor, cursorLine);
+      const headingLevel = lastHeadingLine ? checkHeading(editor.getLine(lastHeadingLine)) : 0;
+      if (headingLevel + 1 > 6) {
+        new import_obsidian5.Notice("Cannot Increase (contains more than Heading 6)");
+        return true;
+      }
+      editor.transaction({
+        changes: composeLineChanges(editor, [cursorLine], (chunk) => applyHeading(chunk, headingLevel + 1))
+      });
+      editor.setCursor(editor.getCursor().line);
+      return;
+    };
+  };
+  return {
+    id: `insert-heading-deeper`,
+    name: `Insert Heading at one level deeper`,
+    icon: `headingShifter_heading`,
+    editorCallback: createEditorCallback()
+  };
+};
+var createInsertHeadingAtHigherLevelCommand = () => {
+  const createEditorCallback = () => {
+    return (editor) => {
+      const cursorLine = editor.getCursor("from").line;
+      const lastHeadingLine = getPreviousHeading(editor, cursorLine);
+      const headingLevel = lastHeadingLine ? checkHeading(editor.getLine(lastHeadingLine)) : 0;
+      editor.transaction({
+        changes: composeLineChanges(editor, [cursorLine], (chunk) => applyHeading(chunk, headingLevel - 1))
+      });
+      editor.setCursor(editor.getCursor().line);
+      return;
+    };
+  };
+  return {
+    id: `insert-heading-higher`,
+    name: `Insert Heading at one level higher`,
+    icon: `headingShifter_heading`,
+    editorCallback: createEditorCallback()
+  };
+};
+
 // src/services/registerService.ts
 var import_state = require("@codemirror/state");
 var import_view = require("@codemirror/view");
@@ -408,6 +488,9 @@ var RegisterService = class {
     HEADINGS.forEach((heading) => this.plugin.addCommand(createApplyHeadingCommand(this.plugin.settings, heading)));
     this.plugin.addCommand(increaseHeading2.createCommand());
     this.plugin.addCommand(decreaseHeading2.createCommand());
+    this.plugin.addCommand(createInsertHeadingAtCurrentLevelCommand());
+    this.plugin.addCommand(createInsertHeadingAtDeeperLevelCommand());
+    this.plugin.addCommand(createInsertHeadingAtHigherLevelCommand());
     this.plugin.registerEditorExtension(import_state.Prec.highest(import_view.keymap.of([
       {
         key: "Tab",
@@ -430,7 +513,7 @@ var RegisterService = class {
 };
 
 // src/main.ts
-var HeadingShifter = class extends import_obsidian5.Plugin {
+var HeadingShifter = class extends import_obsidian6.Plugin {
   constructor() {
     super(...arguments);
     __publicField(this, "settings");
