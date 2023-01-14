@@ -419,7 +419,6 @@
       "key": "P"
     }
   ],
-  "switcher:open": [],
   "obsidian-tabs:toggle-tabs": [
     {
       "modifiers": [
@@ -483,6 +482,15 @@
         "Alt"
       ],
       "key": "3"
+    }
+  ],
+  "switcher:open": [],
+  "darlal-switcher-plus:switcher-plus:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
     }
   ]
 }
