@@ -45,8 +45,7 @@
   "selectNearestHeading": true,
   "excludeFolders": [
     "attachments",
-    ".+Excalidraw.+",
-    "ZhiXi",
+    "Excalidraw",
     "Kanban"
   ],
   "excludeLinkSubTypes": 0,
