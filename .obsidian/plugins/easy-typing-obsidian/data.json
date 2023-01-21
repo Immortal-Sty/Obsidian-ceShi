@@ -5,7 +5,7 @@
   "BaseObEditEnhance": true,
   "FW2HWEnhance": false,
   "AutoFormat": true,
-  "ExcludeFiles": "Kanban/\nKanban.md\nExcalidraw/\nExcalidraw.md",
+  "ExcludeFiles": "Excalidraw/\nExcalidraw.md\nZhiXi/\nattachments/",
   "ChineseEnglishSpace": true,
   "ChineseNoSpace": true,
   "PunctuationSpace": false,
