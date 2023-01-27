@@ -24,6 +24,7 @@
   "limit": 50,
   "includeSidePanelViewTypes": [
     "audio",
+    "calendar",
     "canvas",
     "diff-view",
     "excalidraw",
