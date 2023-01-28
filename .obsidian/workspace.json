@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f876fffeeb8bc2e0",
+        "id": "90c20ada18102d84",
         "type": "tabs",
         "children": [
           {
-            "id": "d56734478fa7789a",
+            "id": "157d85f4cb0d67e0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -72,9 +72,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "测试.md"
-              }
+              "state": {}
             }
           },
           {
@@ -132,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,11 +172,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d56734478fa7789a",
+  "active": "157d85f4cb0d67e0",
   "lastOpenFiles": [
     "剧本杀.md",
-    "Excalidraw.md",
     "测试.md",
+    "Excalidraw.md",
     "Template.md",
     "Canvas.canvas",
     "gj.md",

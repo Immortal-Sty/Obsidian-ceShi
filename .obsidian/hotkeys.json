@@ -20,15 +20,6 @@
       "key": "ArrowLeft"
     }
   ],
-  "workspace:close-others": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "W"
-    }
-  ],
   "graph:open": [],
   "editor:focus-top": [
     {
@@ -491,6 +482,16 @@
         "Mod"
       ],
       "key": "O"
+    }
+  ],
+  "workspace:close-window": [],
+  "workspace:close-others": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
     }
   ]
 }
