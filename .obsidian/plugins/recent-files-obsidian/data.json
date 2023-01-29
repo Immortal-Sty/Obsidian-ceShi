@@ -5,6 +5,10 @@
       "path": "测试.md"
     },
     {
+      "basename": "Canvas",
+      "path": "Canvas.canvas"
+    },
+    {
       "basename": "JSON",
       "path": "Mindmap/JSON.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Excalidraw",
       "path": "Excalidraw.md"
-    },
-    {
-      "basename": "Canvas",
-      "path": "Canvas.canvas"
     },
     {
       "basename": "gj",
