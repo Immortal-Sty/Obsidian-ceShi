@@ -231,15 +231,15 @@
       "audio-recorder:开始/结束录音": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "periodic-notes:Open today": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "dfa35c178d2cb1c6",
   "lastOpenFiles": [
     "剧本杀.md",
-    "测试.md",
     "Canvas.canvas",
+    "测试.md",
     "Excalidraw.md",
     "Mindmap/JSON.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
