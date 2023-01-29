@@ -11,8 +11,12 @@
             "id": "dfa35c178d2cb1c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "测试.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -225,12 +229,12 @@
   },
   "active": "dfa35c178d2cb1c6",
   "lastOpenFiles": [
+    "剧本杀.md",
     "Canvas.canvas",
     "测试.md",
     "Mindmap/JSON.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
     "Template.md",
-    "剧本杀.md",
     "Excalidraw.md",
     "gj.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.50.26.md",

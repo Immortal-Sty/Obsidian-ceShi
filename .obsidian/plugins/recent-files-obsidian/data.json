@@ -5,6 +5,10 @@
       "path": "测试.md"
     },
     {
+      "basename": "剧本杀",
+      "path": "剧本杀.md"
+    },
+    {
       "basename": "Canvas",
       "path": "Canvas.canvas"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Template",
       "path": "Template.md"
-    },
-    {
-      "basename": "剧本杀",
-      "path": "剧本杀.md"
     },
     {
       "basename": "Excalidraw",
