@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "测试.md",
+                "file": "剧本杀.md",
                 "mode": "preview",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试.md"
+                "file": "剧本杀.md"
               }
             }
           },
@@ -135,7 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
+                "file": "剧本杀.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "剧本杀.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "剧本杀.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,13 +229,13 @@
   },
   "active": "dfa35c178d2cb1c6",
   "lastOpenFiles": [
+    "测试.md",
+    "Excalidraw.md",
     "剧本杀.md",
     "Canvas.canvas",
-    "测试.md",
     "Mindmap/JSON.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
     "Template.md",
-    "Excalidraw.md",
     "gj.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.50.26.md",
     "Template/Try.md"
