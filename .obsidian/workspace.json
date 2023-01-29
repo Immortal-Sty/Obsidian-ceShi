@@ -122,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4dbf103314f6888d",
@@ -230,8 +229,8 @@
   "active": "dfa35c178d2cb1c6",
   "lastOpenFiles": [
     "剧本杀.md",
-    "Canvas.canvas",
     "测试.md",
+    "Canvas.canvas",
     "Excalidraw.md",
     "Mindmap/JSON.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
