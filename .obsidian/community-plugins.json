@@ -23,7 +23,6 @@
   "obsidian-hider",
   "obsidian-hover-editor",
   "obsidian-icon-shortcodes",
-  "obsidian-image-toolkit",
   "obsidian-kanban",
   "kity-mindmap",
   "media-extended",
@@ -55,5 +54,5 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-better-codeblock",
   "obsidian-trash-explorer",
-  "obsidian-table-generator"
+  "obsidian-image-toolkit"
 ]

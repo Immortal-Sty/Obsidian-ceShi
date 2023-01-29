@@ -11,12 +11,8 @@
             "id": "dfa35c178d2cb1c6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "测试.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -66,7 +62,7 @@
             }
           },
           {
-            "id": "5b8f73f4e4a6347e",
+            "id": "a6d6d49e650df659",
             "type": "leaf",
             "state": {
               "type": "trash-explorer",
@@ -123,7 +119,7 @@
             }
           },
           {
-            "id": "70f1e791b0e423bc",
+            "id": "9c0efb6bc8b77cde",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -237,9 +233,9 @@
   },
   "active": "dfa35c178d2cb1c6",
   "lastOpenFiles": [
-    "剧本杀.md",
     "Canvas.canvas",
     "测试.md",
+    "剧本杀.md",
     "Excalidraw.md",
     "Mindmap/JSON.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
