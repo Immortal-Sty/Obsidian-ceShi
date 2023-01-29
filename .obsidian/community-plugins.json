@@ -13,7 +13,6 @@
   "obsidian-copy-block-link",
   "dataview",
   "easy-typing-obsidian",
-  "cm-editor-syntax-highlight-obsidian",
   "obsidian-excalidraw-plugin",
   "obsidian-excel-to-markdown-table",
   "file-explorer-note-count",
@@ -53,5 +52,7 @@
   "multi-column-markdown",
   "obsidian-filename-heading-sync",
   "darlal-switcher-plus",
-  "mysnippets-plugin"
+  "mysnippets-plugin",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-better-codeblock"
 ]
