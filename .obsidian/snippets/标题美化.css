@@ -189,15 +189,28 @@ h1 {
   text-align: center;
 }
 
+:is(h1, .HyperMD-header-1) {
+  position: relative;
+}
+:is(h1, .HyperMD-header-1)::after {
+  content: "";
+  position: absolute;
+  height: 5%;
+  width: 100%;
+  bottom: 15%;
+  left: 0;
+  background-image: linear-gradient(to left, transparent 0%, var(--h1-color) 50%, transparent 100%);
+}
+
 :is(h2, .HyperMD-header-2) {
   position: relative;
 }
 :is(h2, .HyperMD-header-2)::after {
   content: "";
   position: absolute;
-  height: var(--size-4-1);
+  height: 5%;
   width: 100%;
-  bottom: var(--size-4-1);
+  bottom: 15%;
   left: 0;
   background-image: linear-gradient(to right, var(--h2-color) 30%, transparent 70%);
 }
