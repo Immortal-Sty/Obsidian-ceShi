@@ -37,7 +37,6 @@
   "obsidian-paste-image-rename",
   "url-into-selection",
   "periodic-notes",
-  "quick-explorer",
   "quickadd",
   "remember-cursor-position",
   "reveal-active-file-button",
@@ -54,5 +53,7 @@
   "darlal-switcher-plus",
   "mysnippets-plugin",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-better-codeblock"
+  "obsidian-better-codeblock",
+  "obsidian-trash-explorer",
+  "obsidian-table-generator"
 ]

@@ -12,5 +12,6 @@
     "/^.+\\.(pn|jp)g$/"
   ],
   "legacyEditor": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "trashOption": "local"
 }
