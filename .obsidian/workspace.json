@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "90c20ada18102d84",
+        "id": "3308c7e9b80de5b6",
         "type": "tabs",
         "children": [
           {
-            "id": "157d85f4cb0d67e0",
+            "id": "dfa35c178d2cb1c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "测试.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -72,7 +76,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "测试.md"
+              }
             }
           },
           {
@@ -97,9 +103,8 @@
     "type": "split",
     "children": [
       {
-        "id": "0997d6b32dd60e0e",
+        "id": "016914691a733b95",
         "type": "tabs",
-        "dimension": 28.29457364341085,
         "children": [
           {
             "id": "06b2a923fa803a5d",
@@ -117,12 +122,61 @@
               "state": {}
             }
           }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "4dbf103314f6888d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87e16bfa63e4cb8b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "测试.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": true,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -1.5,
+                  "nodeSizeMultiplier": 0.508333333333333,
+                  "lineSizeMultiplier": 1.50364583333333,
+                  "collapse-forces": false,
+                  "centerStrength": 0.796875,
+                  "repelStrength": 14.0625,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.713275462622442,
+                  "close": false
+                }
+              }
+            }
+          },
+          {
+            "id": "157d85f4cb0d67e0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
         ]
       },
       {
         "id": "32ee4f9fed766846",
         "type": "tabs",
-        "dimension": 71.70542635658914,
         "children": [
           {
             "id": "bdf6a90b8212264e",
@@ -130,6 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,13 +201,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,16 +227,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "06b2a923fa803a5d",
+  "active": "87e16bfa63e4cb8b",
   "lastOpenFiles": [
-    "剧本杀.md",
-    "测试.md",
-    "Excalidraw.md",
+    "Mindmap/JSON.md",
+    "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
     "Template.md",
+    "测试.md",
+    "剧本杀.md",
+    "Excalidraw.md",
     "Canvas.canvas",
     "gj.md",
-    "Mindmap/20221121100812.km.md",
-    "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.50.26.md",
     "Template/Try.md"
   ]
