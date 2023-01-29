@@ -9,7 +9,7 @@
   "imageMoveSpeed": 10,
   "imgTipToggle": true,
   "imgFullScreenMode": "FIT",
-  "imgViewBackgroundColor": "#00000000",
+  "imgViewBackgroundColor": "#282A37",
   "imageBorderToggle": false,
   "imageBorderWidth": "medium",
   "imageBorderStyle": "solid",
@@ -22,5 +22,5 @@
   "moveTheImageHotkey": "NONE",
   "switchTheImageHotkey": "CTRL",
   "doubleClickToolbar": "toolbar_close",
-  "viewTriggerHotkey": "NONE"
+  "viewTriggerHotkey": "CTRL"
 }
