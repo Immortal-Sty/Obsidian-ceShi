@@ -2,7 +2,8 @@
   "theme": "obsidian",
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "hyphenation-and-justification"
+    "hyphenation-and-justification",
+    "预览模式优化-空白行-行间距"
   ],
   "baseFontSize": 12,
   "accentColor": "",
