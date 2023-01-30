@@ -13,5 +13,6 @@
   ],
   "legacyEditor": false,
   "showInlineTitle": false,
-  "trashOption": "local"
+  "trashOption": "local",
+  "foldHeading": true
 }
