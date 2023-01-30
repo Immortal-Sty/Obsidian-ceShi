@@ -14,5 +14,6 @@
   "legacyEditor": false,
   "showInlineTitle": false,
   "trashOption": "local",
-  "foldHeading": true
+  "foldHeading": true,
+  "showFrontmatter": false
 }
