@@ -1,6 +1,6 @@
 {
   "minimal-style@@active-line-on": true,
-  "minimal-style@@embed-strict": true,
+  "minimal-style@@embed-strict": false,
   "minimal-style@@minimal-strike-lists": true,
   "minimal-style@@table-lines": true,
   "minimal-style@@row-alt": true,
