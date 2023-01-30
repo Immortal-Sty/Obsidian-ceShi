@@ -9,7 +9,7 @@
   "imageMoveSpeed": 10,
   "imgTipToggle": true,
   "imgFullScreenMode": "FIT",
-  "imgViewBackgroundColor": "#282A37",
+  "imgViewBackgroundColor": "#282A3787",
   "imageBorderToggle": false,
   "imageBorderWidth": "medium",
   "imageBorderStyle": "solid",
