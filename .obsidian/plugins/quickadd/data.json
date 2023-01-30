@@ -7,6 +7,74 @@
       "command": true,
       "choices": [
         {
+          "id": "3ad0e491-58eb-4752-a8a0-c9ba2e092151",
+          "name": "Multi-Column",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "> [!multi-column]\n> \n> "
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "7ec4c9d0-a6e7-4999-ba45-26781fa80f31",
+          "name": "Blank",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "> [!blank]\n> \n> "
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
           "id": "ca2c4bbf-9cd0-408b-8e32-2137b2e050ef",
           "name": "Note",
           "type": "Capture",
@@ -416,9 +484,48 @@
         }
       ],
       "collapsed": true
+    },
+    {
+      "id": "14a19914-1e05-4874-919e-36c09b17c324",
+      "name": "在 Hover 中打开",
+      "type": "Macro",
+      "command": true,
+      "macroId": "37ee9edf-a64b-41f9-a1cc-22328922e50b"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "Hover open",
+      "id": "37ee9edf-a64b-41f9-a1cc-22328922e50b",
+      "commands": [
+        {
+          "name": "Hover Editor: Open new Hover Editor",
+          "type": "Obsidian",
+          "id": "a70206df-f663-41a6-a478-ef21a0054f1a",
+          "commandId": "obsidian-hover-editor:open-new-popover"
+        },
+        {
+          "name": "Quick Switcher++: Open in Standard Mode",
+          "type": "Obsidian",
+          "id": "73de11f8-cdb5-4cae-8e38-bebfc1e055d2",
+          "commandId": "darlal-switcher-plus:switcher-plus:open"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "3275a512-65b6-4dd7-bc61-ab3c97de9f4c",
+          "time": 10000
+        },
+        {
+          "name": "切换编辑/预览视图",
+          "type": "Obsidian",
+          "id": "7caaf218-1791-483a-be66-8969062de510",
+          "commandId": "markdown:toggle-preview"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false
 }

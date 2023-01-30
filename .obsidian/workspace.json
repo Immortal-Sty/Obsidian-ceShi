@@ -232,8 +232,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-trash-explorer:Open trash explorer": false,
-      "periodic-notes:Open today": false,
-      "obsidian42-brat:BRAT": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "dfa35c178d2cb1c6",
