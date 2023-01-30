@@ -17,5 +17,20 @@
   "minimal-style@@window-title-off": false,
   "minimal-style@@h4-variant": "normal",
   "minimal-style@@h5-variant": "normal",
-  "minimal-style@@h6-variant": "normal"
+  "minimal-style@@h6-variant": "normal",
+  "floating-toc-styles@@toggle-floating-toc-header-color": true,
+  "floating-toc-styles@@floating-toc-color-h1@@dark": "#F03F28",
+  "floating-toc-styles@@floating-toc-color-h2@@dark": "#E4980C",
+  "floating-toc-styles@@floating-toc-color-h3@@dark": "#51BC00",
+  "floating-toc-styles@@floating-toc-color-h4@@dark": "#0993D3",
+  "floating-toc-styles@@floating-toc-color-h5@@dark": "#9084E9",
+  "floating-toc-styles@@floating-toc-background-color@@dark": "#21222C66",
+  "floating-toc-styles@@floating-toc-header-background-color@@dark": "#21222CC4",
+  "floating-toc-styles@@floating-toc-highlight-color": "#BF95F9",
+  "floating-toc-styles@@enable-heading-nowrap": true,
+  "floating-toc-styles@@enable-outline-style": "default-outline-style",
+  "floating-toc-styles@@enable-bar-icon": false,
+  "floating-toc-styles@@enable-bar-heading-text": false,
+  "floating-toc-styles@@focus-heading": 0.9,
+  "floating-toc-styles@@enable-background-blur-dept": false
 }
