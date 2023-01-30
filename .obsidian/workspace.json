@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "剧本杀.md",
+                "file": "测试.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "剧本杀.md"
+                "file": "测试.md"
               }
             }
           },
@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "108d80c1a3d519a4",
@@ -143,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "剧本杀.md",
+                "file": "测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "剧本杀.md",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "剧本杀.md",
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,8 +237,8 @@
   },
   "active": "dfa35c178d2cb1c6",
   "lastOpenFiles": [
-    "测试.md",
     "剧本杀.md",
+    "测试.md",
     "Excalidraw.md",
     "Canvas.canvas",
     "Mindmap/JSON.md",
