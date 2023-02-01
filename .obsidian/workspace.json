@@ -11,8 +11,12 @@
             "id": "dfa35c178d2cb1c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "测试.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
