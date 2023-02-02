@@ -1,0 +1,6 @@
+{
+  "launchOnStartup": false,
+  "runInBackground": false,
+  "createTrayIcon": false,
+  "toggleWindowFocusHotkey": "CmdOrCtrl+Shift+Alt+F4"
+}
