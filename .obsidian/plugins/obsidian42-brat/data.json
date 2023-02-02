@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "omnivore-app/obsidian-omnivore",
     "cumany/obsidian-floating-toc-plugin"
   ],
   "pluginSubListFrozenVersion": [],

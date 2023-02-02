@@ -11,8 +11,12 @@
             "id": "dfa35c178d2cb1c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试.md"
+                "file": "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md"
               }
             }
           },
@@ -138,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
+                "file": "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,11 +232,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-trash-explorer:Open trash explorer": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-omnivore:Omnivore": false
     }
   },
   "active": "dfa35c178d2cb1c6",
   "lastOpenFiles": [
+    "Omnivore/2023.02.02/Getting Started with Omnivore.md",
     "Excalidraw/测试's Excalidraw 2023.02.01 22.03.01.md",
     "测试.md",
     "剧本杀.md",
@@ -241,7 +247,6 @@
     "Mindmap/JSON.md",
     "Excalidraw/测试's Excalidraw 2022.12.08 20.54.31.md",
     "Template.md",
-    "gj.md",
-    "Excalidraw/测试's Excalidraw 2022.12.08 20.50.26.md"
+    "gj.md"
   ]
 }
