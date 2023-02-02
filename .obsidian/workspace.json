@@ -80,7 +80,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "测试.md"
+              }
             }
           },
           {
@@ -136,6 +138,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,6 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,6 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
