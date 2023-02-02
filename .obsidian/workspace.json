@@ -11,12 +11,8 @@
             "id": "dfa35c178d2cb1c6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -232,8 +228,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-trash-explorer:Open trash explorer": false,
-      "periodic-notes:Open today": false,
-      "obsidian-omnivore:Omnivore": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "dfa35c178d2cb1c6",
