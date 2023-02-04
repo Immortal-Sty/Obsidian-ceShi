@@ -5,6 +5,14 @@
       "path": "测试.md"
     },
     {
+      "basename": "剧本杀",
+      "path": "剧本杀.md"
+    },
+    {
+      "basename": "Canvas",
+      "path": "Canvas.canvas"
+    },
+    {
       "basename": "键道形码-rime键道输入法-1861108f8f9",
       "path": "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md"
     },
@@ -13,16 +21,8 @@
       "path": "Omnivore/2023.02.02/Getting Started with Omnivore.md"
     },
     {
-      "basename": "剧本杀",
-      "path": "剧本杀.md"
-    },
-    {
       "basename": "Excalidraw",
       "path": "Excalidraw.md"
-    },
-    {
-      "basename": "Canvas",
-      "path": "Canvas.canvas"
     },
     {
       "basename": "测试's Excalidraw 2022.12.08 20.54.31",
