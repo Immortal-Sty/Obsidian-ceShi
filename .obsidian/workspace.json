@@ -14,12 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "438c6509166f2f04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试.md"
+                "file": "未命名.md"
               }
             }
           },
@@ -142,7 +155,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
+                "file": "未命名.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,11 +248,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dfa35c178d2cb1c6",
+  "active": "438c6509166f2f04",
   "lastOpenFiles": [
+    "测试.md",
     "剧本杀.md",
     "Canvas.canvas",
-    "测试.md",
     "Omnivore/2023.02.02/Getting Started with Omnivore.md",
     "Excalidraw/测试's Excalidraw 2023.02.01 22.03.01.md",
     "Excalidraw.md",
