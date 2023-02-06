@@ -11,8 +11,12 @@
             "id": "438c6509166f2f04",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "随手记/剧本杀.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生存战争：伤害记录.md"
+                "file": "随手记/剧本杀.md"
               }
             }
           },
@@ -138,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "生存战争：伤害记录.md",
+                "file": "随手记/剧本杀.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生存战争：伤害记录.md",
+                "file": "随手记/剧本杀.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生存战争：伤害记录.md",
+                "file": "随手记/剧本杀.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,11 +235,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "438c6509166f2f04",
+  "active": "cbd69a8244cc660d",
   "lastOpenFiles": [
     "测试.md",
-    "生存战争：伤害记录.md",
-    "剧本杀.md",
+    "随手记/生存战争：伤害记录.md",
+    "随手记/剧本杀.md",
     "Canvas.canvas",
     "Omnivore/2023.02.02/Getting Started with Omnivore.md",
     "Excalidraw/测试's Excalidraw 2023.02.01 22.03.01.md",
