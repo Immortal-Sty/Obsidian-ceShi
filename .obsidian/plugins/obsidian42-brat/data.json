@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "Stardusten/ob-table-enhancer",
     "dragonwocky/obsidian-tray",
     "omnivore-app/obsidian-omnivore",
     "cumany/obsidian-floating-toc-plugin"

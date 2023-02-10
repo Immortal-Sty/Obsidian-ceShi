@@ -24,7 +24,6 @@
   "obsidian-hover-editor",
   "obsidian-icon-shortcodes",
   "obsidian-kanban",
-  "kity-mindmap",
   "media-extended",
   "mx-bili-plugin",
   "obsidian-minimal-settings",
@@ -55,5 +54,7 @@
   "obsidian-image-toolkit",
   "obsidian42-brat",
   "obsidian-better-codeblock",
-  "obsidian-any-block"
+  "obsidian-any-block",
+  "ob-table-enhancer",
+  "obsidian-table-generator"
 ]
