@@ -1,0 +1,11 @@
+{
+  "select_list": "ifhead",
+  "select_quote": "ifhead",
+  "select_code": "ifhead",
+  "select_heading": "ifhead",
+  "select_brace": "yes",
+  "decoration_source": "none",
+  "decoration_live": "block",
+  "decoration_render": "block",
+  "is_neg_level": false
+}
