@@ -15,7 +15,6 @@
   "easy-typing-obsidian",
   "obsidian-excalidraw-plugin",
   "obsidian-excel-to-markdown-table",
-  "file-explorer-note-count",
   "find-unlinked-files",
   "folder-note-core",
   "obsidian-footnotes",
@@ -56,5 +55,6 @@
   "obsidian-better-codeblock",
   "obsidian-any-block",
   "ob-table-enhancer",
-  "obsidian-table-generator"
+  "obsidian-table-generator",
+  "novel-word-count"
 ]
