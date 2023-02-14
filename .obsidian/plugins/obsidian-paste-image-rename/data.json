@@ -5,6 +5,6 @@
   "dupNumberAlways": true,
   "autoRename": true,
   "handleAllAttachments": true,
-  "excludeExtensionPattern": "",
+  "excludeExtensionPattern": "^Excalidraw.+$|^ZhiXi.+$|^\\.docx?$|^\\.xlsx?$|^\\.pptx?$|^\\.zip$|^\\.rar$|^\\.tar\\.gz$",
   "disableRenameNotice": false
 }
