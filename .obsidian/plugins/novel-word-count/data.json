@@ -11,6 +11,16 @@
     "pageCountType": "ByChars"
   },
   "cachedCounts": {
+    "测试.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 348,
+      "pageCount": 1.0893333333333333,
+      "characterCount": 2103,
+      "nonWhitespaceCharacterCount": 1634,
+      "createdDate": 1657670244861,
+      "modifiedDate": 1676357626763
+    },
     "随手记/生存战争：伤害记录.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -30,16 +40,6 @@
       "nonWhitespaceCharacterCount": 226,
       "createdDate": 1674043742790,
       "modifiedDate": 1675088758319
-    },
-    "测试.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 330,
-      "pageCount": 0.952,
-      "characterCount": 1880,
-      "nonWhitespaceCharacterCount": 1428,
-      "createdDate": 1657670244861,
-      "modifiedDate": 1676357146015
     },
     "Template.md": {
       "isDirectory": false,
@@ -70,16 +70,6 @@
       "nonWhitespaceCharacterCount": 4,
       "createdDate": 1657670247012,
       "modifiedDate": 1665815795542
-    },
-    "gj.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 29,
-      "pageCount": 0.094,
-      "characterCount": 187,
-      "nonWhitespaceCharacterCount": 141,
-      "createdDate": 1662789575374,
-      "modifiedDate": 1662789666765
     },
     "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md": {
       "isDirectory": false,
@@ -121,6 +111,16 @@
       "createdDate": 1675322701158,
       "modifiedDate": 1675323089007
     },
+    "gj.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 29,
+      "pageCount": 0.094,
+      "characterCount": 187,
+      "nonWhitespaceCharacterCount": 141,
+      "createdDate": 1662789575374,
+      "modifiedDate": 1662789666765
+    },
     "Excalidraw.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -130,6 +130,16 @@
       "nonWhitespaceCharacterCount": 6648,
       "createdDate": 1661937155562,
       "modifiedDate": 1662788557378
+    },
+    "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 61,
+      "pageCount": 1.448,
+      "characterCount": 2268,
+      "nonWhitespaceCharacterCount": 2172,
+      "createdDate": 1676357569652,
+      "modifiedDate": 1676357619431
     },
     "Excalidraw/Scripts/Downloaded/Set Text Alignment.md": {
       "isDirectory": false,
@@ -161,16 +171,6 @@
       "createdDate": 1661937828185,
       "modifiedDate": 1661937828187
     },
-    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 396,
-      "pageCount": 1.8893333333333333,
-      "characterCount": 3537,
-      "nonWhitespaceCharacterCount": 2834,
-      "createdDate": 1661937656787,
-      "modifiedDate": 1676354210898
-    },
     "Excalidraw/Scripts/Downloaded/Repeat Elements.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -180,6 +180,16 @@
       "nonWhitespaceCharacterCount": 4217,
       "createdDate": 1661937757857,
       "modifiedDate": 1676354234724
+    },
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 396,
+      "pageCount": 1.8893333333333333,
+      "characterCount": 3537,
+      "nonWhitespaceCharacterCount": 2834,
+      "createdDate": 1661937656787,
+      "modifiedDate": 1676354210898
     },
     "Excalidraw/Scripts/Downloaded/Elbow connectors.md": {
       "isDirectory": false,
