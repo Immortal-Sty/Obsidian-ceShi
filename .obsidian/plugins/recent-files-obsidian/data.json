@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "测试",
+      "path": "测试.md"
+    },
+    {
+      "basename": "测试's Excalidraw 2023.02.14 14.34.32",
+      "path": "Excalidraw/测试's Excalidraw 2023.02.14 14.34.32.md"
+    },
+    {
       "basename": "Excalidraw",
       "path": "Excalidraw.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Canvas",
       "path": "Canvas.canvas"
-    },
-    {
-      "basename": "测试",
-      "path": "测试.md"
     },
     {
       "basename": "剧本杀",
