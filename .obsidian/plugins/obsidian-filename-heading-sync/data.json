@@ -1,7 +1,7 @@
 {
   "userIllegalSymbols": [],
   "ignoredFiles": {},
-  "ignoreRegex": "^Excalidraw(\\.md|\\/.+)$|^attachments\\/.+$|.+\\.(zxm|png|svg|jpe?g)",
+  "ignoreRegex": "^Excalidraw(\\.md|\\/.+)$|^attachments\\/.+$|^.+\\.(zxm|png|svg|jpe?g)$|^Kanban.+$",
   "useFileOpenHook": true,
   "useFileSaveHook": true
 }
