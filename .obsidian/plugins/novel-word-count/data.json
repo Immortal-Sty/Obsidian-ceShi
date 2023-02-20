@@ -11,25 +11,15 @@
     "pageCountType": "ByChars"
   },
   "cachedCounts": {
-    "测试.md": {
+    "README.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 385,
-      "pageCount": 1.1333333333333333,
-      "characterCount": 2267,
-      "nonWhitespaceCharacterCount": 1700,
-      "createdDate": 1657670244861,
-      "modifiedDate": 1676513149051
-    },
-    "随手记/生存战争：伤害记录.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 84,
-      "pageCount": 0.17466666666666666,
-      "characterCount": 411,
-      "nonWhitespaceCharacterCount": 262,
-      "createdDate": 1675583009880,
-      "modifiedDate": 1675583795090
+      "wordCount": 2,
+      "pageCount": 0.004666666666666667,
+      "characterCount": 9,
+      "nonWhitespaceCharacterCount": 7,
+      "createdDate": 1676877121449,
+      "modifiedDate": 1676877127504
     },
     "随手记/剧本杀.md": {
       "isDirectory": false,
@@ -41,6 +31,26 @@
       "createdDate": 1674043742790,
       "modifiedDate": 1676472483722
     },
+    "随手记/生存战争：伤害记录.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 84,
+      "pageCount": 0.17466666666666666,
+      "characterCount": 411,
+      "nonWhitespaceCharacterCount": 262,
+      "createdDate": 1675583009880,
+      "modifiedDate": 1675583795090
+    },
+    "测试.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 385,
+      "pageCount": 1.1333333333333333,
+      "characterCount": 2267,
+      "nonWhitespaceCharacterCount": 1700,
+      "createdDate": 1657670244861,
+      "modifiedDate": 1676513149051
+    },
     "Template.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -50,6 +60,26 @@
       "nonWhitespaceCharacterCount": 108,
       "createdDate": 1657670244855,
       "modifiedDate": 1662791154027
+    },
+    "Template/Try.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 2,
+      "pageCount": 0.0026666666666666666,
+      "characterCount": 6,
+      "nonWhitespaceCharacterCount": 4,
+      "createdDate": 1657670247012,
+      "modifiedDate": 1665815795542
+    },
+    "Template/网址集合.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 78,
+      "pageCount": 0.7273333333333334,
+      "characterCount": 1183,
+      "nonWhitespaceCharacterCount": 1091,
+      "createdDate": 1657670247019,
+      "modifiedDate": 1648415692564
     },
     "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md": {
       "isDirectory": false,
@@ -71,16 +101,6 @@
       "createdDate": 1675322701136,
       "modifiedDate": 1675322701139
     },
-    "Omnivore/2023.02.02/Getting Started with Omnivore.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 1206,
-      "pageCount": 4.171333333333333,
-      "characterCount": 7612,
-      "nonWhitespaceCharacterCount": 6257,
-      "createdDate": 1675322701158,
-      "modifiedDate": 1675323089007
-    },
     "Omnivore/2023.02.02/organize-your-omnivore-library-with-labels-18610df6606.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -91,25 +111,15 @@
       "createdDate": 1675322701119,
       "modifiedDate": 1675322701121
     },
-    "Template/网址集合.md": {
+    "Omnivore/2023.02.02/Getting Started with Omnivore.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 78,
-      "pageCount": 0.7273333333333334,
-      "characterCount": 1183,
-      "nonWhitespaceCharacterCount": 1091,
-      "createdDate": 1657670247019,
-      "modifiedDate": 1648415692564
-    },
-    "Template/Try.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 2,
-      "pageCount": 0.0026666666666666666,
-      "characterCount": 6,
-      "nonWhitespaceCharacterCount": 4,
-      "createdDate": 1657670247012,
-      "modifiedDate": 1665815795542
+      "wordCount": 1206,
+      "pageCount": 4.171333333333333,
+      "characterCount": 7612,
+      "nonWhitespaceCharacterCount": 6257,
+      "createdDate": 1675322701158,
+      "modifiedDate": 1675323089007
     },
     "gj.md": {
       "isDirectory": false,
@@ -130,16 +140,6 @@
       "nonWhitespaceCharacterCount": 6648,
       "createdDate": 1661937155562,
       "modifiedDate": 1662788557378
-    },
-    "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 61,
-      "pageCount": 1.448,
-      "characterCount": 2268,
-      "nonWhitespaceCharacterCount": 2172,
-      "createdDate": 1676357569652,
-      "modifiedDate": 1676357619431
     },
     "Excalidraw/Scripts/Downloaded/Set Text Alignment.md": {
       "isDirectory": false,
@@ -230,6 +230,16 @@
       "nonWhitespaceCharacterCount": 3408,
       "createdDate": 1661937190613,
       "modifiedDate": 1661937190616
+    },
+    "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 61,
+      "pageCount": 1.448,
+      "characterCount": 2268,
+      "nonWhitespaceCharacterCount": 2172,
+      "createdDate": 1676357569652,
+      "modifiedDate": 1676357619431
     },
     "Day Planners/Day Planner-20220718.md": {
       "isDirectory": false,
