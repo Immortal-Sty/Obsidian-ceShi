@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -232,8 +232,8 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "obsidian-omnivore:Omnivore": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
   "active": "fbdc235c4e0f92a9",

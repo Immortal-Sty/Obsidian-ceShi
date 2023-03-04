@@ -8,6 +8,7 @@
     "debugMode": false,
     "wordsPerPage": 300,
     "charsPerPage": 1500,
+    "wordCountType": "SpaceDelimited",
     "pageCountType": "ByChars"
   },
   "cachedCounts": {
@@ -34,12 +35,12 @@
     "测试.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 389,
-      "pageCount": 1.152,
-      "characterCount": 2301,
-      "nonWhitespaceCharacterCount": 1728,
+      "wordCount": 385,
+      "pageCount": 1.1333333333333333,
+      "characterCount": 2267,
+      "nonWhitespaceCharacterCount": 1700,
       "createdDate": 1657670244861,
-      "modifiedDate": 1677908150118
+      "modifiedDate": 1677908165598
     },
     "Template.md": {
       "isDirectory": false,
