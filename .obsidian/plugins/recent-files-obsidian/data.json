@@ -5,12 +5,12 @@
       "path": "测试.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "剧本杀",
       "path": "随手记/剧本杀.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "测试's Excalidraw 2023.02.14 14.52.49",

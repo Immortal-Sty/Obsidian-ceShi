@@ -1,4 +1,6 @@
 {
+  "dateHighlightedFormat": "yyyy.MM.dd HH:mm:ss",
+  "dateSavedFormat": "yyyy.MM.dd HH:mm:ss",
   "apiKey": "3f93d8a0-17f7-4873-abf4-caaa3ef79cf6",
   "filter": "ALL",
   "syncAt": "2023-02-14T13:52:56",
@@ -7,6 +9,7 @@
   "highlightOrder": "LOCATION",
   "syncing": false,
   "folder": "Omnivore",
-  "dateFormat": "yyyy.MM.dd",
-  "endpoint": "https://api-prod.omnivore.app/api/graphql"
+  "folderDateFormat": "yyyy.MM.dd",
+  "endpoint": "https://api-prod.omnivore.app/api/graphql",
+  "dateFormat": "yyyy.MM.dd"
 }

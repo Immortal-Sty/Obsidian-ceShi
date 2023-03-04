@@ -1863,24 +1863,33 @@ function systemLocale() {
   }
 }
 function parseLocaleString(localeStr) {
+  const xIndex = localeStr.indexOf("-x-");
+  if (xIndex !== -1) {
+    localeStr = localeStr.substring(0, xIndex);
+  }
   const uIndex = localeStr.indexOf("-u-");
   if (uIndex === -1) {
     return [localeStr];
   } else {
     let options;
-    const smaller = localeStr.substring(0, uIndex);
+    let selectedStr;
     try {
       options = getCachedDTF(localeStr).resolvedOptions();
+      selectedStr = localeStr;
     } catch (e) {
+      const smaller = localeStr.substring(0, uIndex);
       options = getCachedDTF(smaller).resolvedOptions();
+      selectedStr = smaller;
     }
     const { numberingSystem, calendar } = options;
-    return [smaller, numberingSystem, calendar];
+    return [selectedStr, numberingSystem, calendar];
   }
 }
 function intlConfigString(localeStr, numberingSystem, outputCalendar) {
   if (outputCalendar || numberingSystem) {
-    localeStr += "-u";
+    if (!localeStr.includes("-u-")) {
+      localeStr += "-u";
+    }
     if (outputCalendar) {
       localeStr += `-ca-${outputCalendar}`;
     }
@@ -1950,7 +1959,7 @@ var PolyNumberFormatter = class {
 var PolyDateFormatter = class {
   constructor(dt, intl, opts) {
     this.opts = opts;
-    let z;
+    let z = void 0;
     if (dt.zone.isUniversal) {
       const gmtOffset = -1 * (dt.offset / 60);
       const offsetZ = gmtOffset >= 0 ? `Etc/GMT+${gmtOffset}` : `Etc/GMT${gmtOffset}`;
@@ -1972,9 +1981,7 @@ var PolyDateFormatter = class {
       z = dt.zone.name;
     }
     const intlOpts = { ...this.opts };
-    if (z) {
-      intlOpts.timeZone = z;
-    }
+    intlOpts.timeZone = intlOpts.timeZone || z;
     this.dtf = getCachedDTF(intl, intlOpts);
   }
   format() {
@@ -2699,6 +2706,10 @@ var Formatter = class {
     const df = this.loc.dtFormatter(dt, { ...this.opts, ...opts });
     return df.formatToParts();
   }
+  formatInterval(interval, opts = {}) {
+    const df = this.loc.dtFormatter(interval.start, { ...this.opts, ...opts });
+    return df.dtf.formatRange(interval.start.toJSDate(), interval.end.toJSDate());
+  }
   resolvedOptions(dt, opts = {}) {
     const df = this.loc.dtFormatter(dt, { ...this.opts, ...opts });
     return df.resolvedOptions();
@@ -3045,7 +3056,7 @@ function extractRFC2822(match2) {
   return [result, new FixedOffsetZone(offset3)];
 }
 function preprocessRFC2822(s2) {
-  return s2.replace(/\([^)]*\)|[\n\t]/g, " ").replace(/(\s\s+)/g, " ").trim();
+  return s2.replace(/\([^()]*\)|[\n\t]/g, " ").replace(/(\s\s+)/g, " ").trim();
 }
 var rfc1123 = /^(Mon|Tue|Wed|Thu|Fri|Sat|Sun), (\d\d) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4}) (\d\d):(\d\d):(\d\d) GMT$/;
 var rfc850 = /^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), (\d\d)-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)-(\d\d) (\d\d):(\d\d):(\d\d) GMT$/;
@@ -3826,6 +3837,9 @@ var Interval = class {
       return INVALID2;
     return `[${this.s.toISO()} \u2013 ${this.e.toISO()})`;
   }
+  toLocaleString(formatOpts = DATE_SHORT, opts = {}) {
+    return this.isValid ? Formatter.create(this.s.loc.clone(opts), formatOpts).formatInterval(this) : INVALID2;
+  }
   toISO(opts) {
     if (!this.isValid)
       return INVALID2;
@@ -3912,19 +3926,19 @@ function highOrderDiffs(cursor, later, units) {
     ["days", dayDiff]
   ];
   const results = {};
+  const earlier = cursor;
   let lowestOrder, highWater;
   for (const [unit, differ] of differs) {
     if (units.indexOf(unit) >= 0) {
       lowestOrder = unit;
-      let delta = differ(cursor, later);
-      highWater = cursor.plus({ [unit]: delta });
+      results[unit] = differ(cursor, later);
+      highWater = earlier.plus(results);
       if (highWater > later) {
-        cursor = cursor.plus({ [unit]: delta - 1 });
-        delta -= 1;
+        results[unit]--;
+        cursor = earlier.plus(results);
       } else {
         cursor = highWater;
       }
-      results[unit] = delta;
     }
   }
   return [cursor, results, highWater, lowestOrder];
@@ -4204,7 +4218,7 @@ var partTypeStyleToTokenVal = {
     short: "ZZZ"
   }
 };
-function tokenForPart(part, locale, formatOpts) {
+function tokenForPart(part, formatOpts) {
   const { type, value } = part;
   if (type === "literal") {
     return {
@@ -4361,7 +4375,7 @@ function formatOptsToTokens(formatOpts, locale) {
   }
   const formatter = Formatter.create(locale, formatOpts);
   const parts = formatter.formatDateTimeParts(getDummyDateTime());
-  return parts.map((p) => tokenForPart(p, locale, formatOpts));
+  return parts.map((p) => tokenForPart(p, formatOpts));
 }
 
 // node_modules/luxon/src/impl/conversions.js
@@ -5891,7 +5905,58 @@ var loadArticles = async (endpoint, apiKey, after = 0, first = 10, updatedAt = "
   const res = await (0, import_obsidian.requestUrl)({
     url: endpoint,
     headers: requestHeaders(apiKey),
-    body: `{"query":"\\n    query Search($after: String, $first: Int, $query: String, $includeContent: Boolean, $format: String) {\\n      search(first: $first, after: $after, query: $query, includeContent: $includeContent, format: $format) {\\n        ... on SearchSuccess {\\n          edges {\\n            node {\\n              title\\n              slug\\n              siteName\\n              originalArticleUrl\\n              url\\n              author\\n              updatedAt\\n              description\\n              savedAt\\n            pageType\\n            content\\n            highlights {\\n            id\\n        quote\\n        annotation\\n        patch\\n        updatedAt\\n          }\\n        labels {\\n            name\\n          }\\n            }\\n          }\\n          pageInfo {\\n            hasNextPage\\n          }\\n        }\\n        ... on SearchError {\\n          errorCodes\\n        }\\n      }\\n    }\\n  ","variables":{"after":"${after}","first":${first}, "query":"${updatedAt ? "updated:" + updatedAt : ""} sort:saved-asc ${query}", "includeContent": ${includeContent}, "format": "${format2}"}}`,
+    body: JSON.stringify({
+      query: `
+        query Search($after: String, $first: Int, $query: String, $includeContent: Boolean, $format: String) {
+          search(first: $first, after: $after, query: $query, includeContent: $includeContent, format: $format) {
+            ... on SearchSuccess {
+              edges {
+                node {
+                  id
+                  title
+                  slug
+                  siteName
+                  originalArticleUrl
+                  url
+                  author
+                  updatedAt
+                  description
+                  savedAt
+                  pageType
+                  content
+                  publishedAt
+                  highlights {
+                    id
+                    quote
+                    annotation
+                    patch
+                    updatedAt
+                    labels {
+                      name
+                    }
+                  }
+                  labels {
+                    name
+                  }
+                }
+              }
+              pageInfo {
+                hasNextPage
+              }
+            }
+            ... on SearchError {
+              errorCodes
+            }
+          }
+        }`,
+      variables: {
+        after: `${after}`,
+        first,
+        query: `${updatedAt ? "updated:" + updatedAt : ""} sort:saved-asc ${query}`,
+        includeContent,
+        format: format2
+      }
+    }),
     method: "POST"
   });
   const jsonRes = res.json;
@@ -5928,8 +5993,11 @@ var parseDateTime = (str) => {
 var wrapAround = (value, size) => {
   return (value % size + size) % size;
 };
-var unicodeSlug = (str, savedAt) => {
-  return str.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").trim().toLowerCase().replace(/[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,./:;<=>?@[\]^`{|}~]/g, "").replace(/\s+/g, "-").replace(/_/g, "-").replace(/-+/g, "-").replace(/-$/g, "").substring(0, 64) + "-" + new Date(savedAt).getTime().toString(16);
+var replaceIllegalChars = (str) => {
+  return str.replace(/[/\\?%*:|"<>]/g, "-");
+};
+var formatDate = (date, format2) => {
+  return DateTime.fromISO(date).toFormat(format2);
 };
 
 // src/settings/file-suggest.ts
@@ -7665,32 +7733,17 @@ var HighlightOrder = /* @__PURE__ */ ((HighlightOrder2) => {
   return HighlightOrder2;
 })(HighlightOrder || {});
 var DEFAULT_SETTINGS = {
+  dateHighlightedFormat: "yyyy-MM-dd HH:mm:ss",
+  dateSavedFormat: "yyyy-MM-dd HH:mm:ss",
   apiKey: "",
   filter: "HIGHLIGHTS",
   syncAt: "",
   customQuery: "",
-  template: `---
-title: {{{title}}}
-{{#author}}
-author: {{{author}}}
-{{/author}}
-{{#labels.length}}
-tags:
-{{#labels}}  - {{{name}}}
-{{/labels}}
-{{/labels.length}}
-date_saved: {{{dateSaved}}}
----
-
-# {{{title}}}
+  template: `# {{{title}}}
 #Omnivore
 
 [Read on Omnivore]({{{omnivoreUrl}}})
 [Read Original]({{{originalUrl}}})
-{{#content}}
-
-{{{content}}}
-{{/content}}
 
 {{#highlights.length}}
 ## Highlights
@@ -7706,8 +7759,8 @@ date_saved: {{{dateSaved}}}
 {{/highlights.length}}`,
   highlightOrder: "LOCATION",
   syncing: false,
-  folder: "Omnivore",
-  dateFormat: "yyyy-MM-dd",
+  folder: "Omnivore/{{date}}",
+  folderDateFormat: "yyyy-MM-dd",
   endpoint: "https://api-prod.omnivore.app/api/graphql"
 };
 var OmnivorePlugin = class extends import_obsidian4.Plugin {
@@ -7750,7 +7803,7 @@ var OmnivorePlugin = class extends import_obsidian4.Plugin {
     await this.saveData(this.settings);
   }
   async fetchOmnivore() {
-    var _a, _b, _c;
+    var _a, _b, _c, _d;
     const {
       syncAt,
       apiKey,
@@ -7770,20 +7823,20 @@ var OmnivorePlugin = class extends import_obsidian4.Plugin {
     this.settings.syncing = true;
     await this.saveSettings();
     try {
-      console.log(`obsidian-omnivore starting sync since: '${syncAt}`);
+      console.log(`obsidian-omnivore starting sync since: '${syncAt}'`);
       new import_obsidian4.Notice("\u{1F680} Fetching articles ...");
       const size = 50;
       for (let hasNextPage = true, articles = [], after = 0; hasNextPage; after += size) {
         [articles, hasNextPage] = await loadArticles(this.settings.endpoint, apiKey, after, size, parseDateTime(syncAt).toISO(), this.getQueryFromFilter(filter, customQuery), true, "markdown");
         for (const article of articles) {
-          const dateSaved = DateTime.fromISO(article.savedAt).toFormat(this.settings.dateFormat);
-          const folderName = `${folder}/${dateSaved}`;
+          const folderDate = formatDate(article.savedAt, this.settings.folderDateFormat);
+          const folderName = mustache_default.render(folder, {
+            date: folderDate
+          });
           const omnivoreFolder = app.vault.getAbstractFileByPath((0, import_obsidian4.normalizePath)(folderName));
           if (!(omnivoreFolder instanceof import_obsidian4.TFolder)) {
             await this.app.vault.createFolder(folderName);
           }
-          const pageName = `${folderName}/${unicodeSlug(article.title, article.savedAt)}.md`;
-          const siteName = article.siteName || this.siteNameFromUrl(article.originalArticleUrl);
           highlightOrder === "LOCATION" && ((_a = article.highlights) == null ? void 0 : _a.sort((a, b) => {
             try {
               if (article.pageType === "FILE" /* File */) {
@@ -7799,11 +7852,15 @@ var OmnivorePlugin = class extends import_obsidian4.Plugin {
             return {
               text: highlight.quote,
               highlightUrl: `https://omnivore.app/me/${article.slug}#${highlight.id}`,
-              dateHighlighted: DateTime.fromISO(highlight.updatedAt).toFormat(this.settings.dateFormat),
+              dateHighlighted: formatDate(highlight.updatedAt, this.settings.dateHighlightedFormat),
               note: highlight.annotation
             };
           });
+          const dateFormat = this.settings.dateSavedFormat;
+          const dateSaved = formatDate(article.savedAt, dateFormat);
+          const siteName = article.siteName || this.siteNameFromUrl(article.originalArticleUrl);
           const content = mustache_default.render(template, {
+            id: article.id,
             title: article.title,
             omnivoreUrl: `https://omnivore.app/me/${article.slug}`,
             siteName,
@@ -7818,15 +7875,57 @@ var OmnivorePlugin = class extends import_obsidian4.Plugin {
             highlights,
             content: article.content
           });
+          const publishedAt = article.publishedAt;
+          const datePublished = publishedAt ? formatDate(publishedAt, dateFormat) : null;
+          const frontmatter = {
+            id: article.id,
+            title: article.title,
+            author: article.author,
+            tags: (_d = article.labels) == null ? void 0 : _d.map((l2) => l2.name),
+            date_saved: dateSaved,
+            date_published: datePublished
+          };
+          const filteredFrontmatter = Object.fromEntries(Object.entries(frontmatter).filter(([_, value]) => value != null && value !== ""));
+          const frontmatterYaml = (0, import_obsidian4.stringifyYaml)(filteredFrontmatter);
+          const frontmatterString = `---
+${frontmatterYaml}---`;
+          let updatedContent = content.replace(/^(---[\s\S]*?---)/gm, frontmatterString);
+          if (!content.match(/^(---[\s\S]*?---)/gm)) {
+            updatedContent = `${frontmatterString}
+
+${content}`;
+          }
+          const pageName = `${folderName}/${replaceIllegalChars(article.title)}.md`;
           const normalizedPath = (0, import_obsidian4.normalizePath)(pageName);
           const omnivoreFile = app.vault.getAbstractFileByPath(normalizedPath);
-          if (omnivoreFile instanceof import_obsidian4.TFile) {
-            const existingContent = await this.app.vault.read(omnivoreFile);
-            if (existingContent !== content) {
-              await this.app.vault.modify(omnivoreFile, content);
+          try {
+            if (omnivoreFile instanceof import_obsidian4.TFile) {
+              await app.fileManager.processFrontMatter(omnivoreFile, async (frontMatter) => {
+                const id = frontMatter.id;
+                if (id && id !== article.id) {
+                  const newPageName = `${folderName}/${replaceIllegalChars(article.title)}-${article.id}.md`;
+                  const newNormalizedPath = (0, import_obsidian4.normalizePath)(newPageName);
+                  const newOmnivoreFile = app.vault.getAbstractFileByPath(newNormalizedPath);
+                  if (newOmnivoreFile instanceof import_obsidian4.TFile) {
+                    const existingContent2 = await this.app.vault.read(newOmnivoreFile);
+                    if (existingContent2 !== updatedContent) {
+                      await this.app.vault.modify(newOmnivoreFile, updatedContent);
+                    }
+                    return;
+                  }
+                  await this.app.vault.create(newNormalizedPath, updatedContent);
+                  return;
+                }
+                const existingContent = await this.app.vault.read(omnivoreFile);
+                if (existingContent !== updatedContent) {
+                  await this.app.vault.modify(omnivoreFile, updatedContent);
+                }
+              });
+            } else if (!omnivoreFile) {
+              await this.app.vault.create(normalizedPath, updatedContent);
             }
-          } else {
-            await this.app.vault.create(normalizedPath, content);
+          } catch (e) {
+            console.error(e);
           }
         }
       }
@@ -7916,12 +8015,16 @@ var OmnivoreSettingTab = class extends import_obsidian4.PluginSettingTab {
       fragment.append("Enter template to render articles with ", fragment.createEl("a", {
         text: "Reference",
         href: "https://github.com/janl/mustache.js/#templates"
-      }));
-    })).addTextArea((text) => text.setPlaceholder("Enter the template").setValue(this.plugin.settings.template).onChange(async (value) => {
-      this.plugin.settings.template = value;
-      await this.plugin.saveSettings();
-    }));
-    new import_obsidian4.Setting(generalSettings).setName("Folder").setDesc("Enter the folder where the data will be stored").addSearch((search) => {
+      }), fragment.createEl("br"), fragment.createEl("br"), "Available variables: id, title, omnivoreUrl, siteName, originalUrl, author, content, dateSaved, labels.name, highlights.text, highlights.highlightUrl, highlights.note, highlights.dateHighlighted");
+    })).addTextArea((text) => {
+      text.setPlaceholder("Enter the template").setValue(this.plugin.settings.template).onChange(async (value) => {
+        this.plugin.settings.template = value ? value : DEFAULT_SETTINGS.template;
+        await this.plugin.saveSettings();
+      });
+      text.inputEl.setAttr("rows", 10);
+      text.inputEl.setAttr("cols", 40);
+    });
+    new import_obsidian4.Setting(generalSettings).setName("Folder").setDesc("Enter the folder where the data will be stored. {{date}} could be used in the folder name").addSearch((search) => {
       new FolderSuggest(this.app, search.inputEl);
       search.setPlaceholder("Enter the folder").setValue(this.plugin.settings.folder).onChange(async (value) => {
         this.plugin.settings.folder = value;
@@ -7935,13 +8038,21 @@ var OmnivoreSettingTab = class extends import_obsidian4.PluginSettingTab {
     const advancedSettings = containerEl.createEl("div", {
       cls: "content"
     });
-    new import_obsidian4.Setting(generalSettings).setName("Date Format").setDesc(createFragment((fragment) => {
-      fragment.append("Enter the format date for use in rendered template.\nFormat ", fragment.createEl("a", {
+    new import_obsidian4.Setting(generalSettings).setName("Folder Date Format").setDesc(createFragment((fragment) => {
+      fragment.append("Enter the format date for use in rendered template. Format ", fragment.createEl("a", {
         text: "reference",
         href: "https://moment.github.io/luxon/#/formatting?id=table-of-tokens"
       }));
-    })).addText((text) => text.setPlaceholder("Date Format").setValue(this.plugin.settings.dateFormat).onChange(async (value) => {
-      this.plugin.settings.dateFormat = value;
+    })).addText((text) => text.setPlaceholder("yyyy-MM-dd").setValue(this.plugin.settings.folderDateFormat).onChange(async (value) => {
+      this.plugin.settings.folderDateFormat = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian4.Setting(generalSettings).setName("Date Saved Format").addText((text) => text.setPlaceholder("yyyy-MM-dd'T'HH:mm:ss").setValue(this.plugin.settings.dateSavedFormat).onChange(async (value) => {
+      this.plugin.settings.dateSavedFormat = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian4.Setting(generalSettings).setName("Date Highlighted Format").addText((text) => text.setPlaceholder("Date Highlighted Format").setValue(this.plugin.settings.dateHighlightedFormat).onChange(async (value) => {
+      this.plugin.settings.dateHighlightedFormat = value;
       await this.plugin.saveSettings();
     }));
     new import_obsidian4.Setting(advancedSettings).setName("API Endpoint").setDesc("Enter the Omnivore server's API endpoint").addText((text) => text.setPlaceholder("API endpoint").setValue(this.plugin.settings.endpoint).onChange(async (value) => {
@@ -7951,7 +8062,7 @@ var OmnivoreSettingTab = class extends import_obsidian4.PluginSettingTab {
     }));
     const help = containerEl.createEl("p");
     help.innerHTML = `For more information, please visit the <a href="https://github.com/omnivore-app/obsidian-omnivore/blob/master/README.md">plugin's GitHub page</a> or email us at <a href="mailto:feedback@omnivore.app">feedback@omnivore.app</a>.`;
-    const coll = document.getElementsByClassName("collapsible");
+    const coll = document.getElementsByClassName("omnivore-collapsible");
     let i;
     for (i = 0; i < coll.length; i++) {
       coll[i].addEventListener("click", function() {

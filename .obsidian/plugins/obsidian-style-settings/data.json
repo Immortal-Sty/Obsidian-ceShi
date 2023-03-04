@@ -34,5 +34,6 @@
   "floating-toc-styles@@focus-heading": 0.9,
   "floating-toc-styles@@enable-background-blur-dept": false,
   "minimal-style@@callouts-style": "callouts-default",
-  "minimal-style@@callout-blend-mode": "var(--highlight-mix-blend-mode)"
+  "minimal-style@@callout-blend-mode": "var(--highlight-mix-blend-mode)",
+  "minimal-style@@tag-radius": "14px"
 }
