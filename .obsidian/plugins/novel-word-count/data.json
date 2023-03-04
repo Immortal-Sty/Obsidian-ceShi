@@ -34,12 +34,12 @@
     "测试.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 385,
-      "pageCount": 1.1333333333333333,
-      "characterCount": 2267,
-      "nonWhitespaceCharacterCount": 1700,
+      "wordCount": 389,
+      "pageCount": 1.152,
+      "characterCount": 2301,
+      "nonWhitespaceCharacterCount": 1728,
       "createdDate": 1657670244861,
-      "modifiedDate": 1677083462036
+      "modifiedDate": 1677908150118
     },
     "Template.md": {
       "isDirectory": false,
@@ -50,6 +50,16 @@
       "nonWhitespaceCharacterCount": 108,
       "createdDate": 1657670244855,
       "modifiedDate": 1662791154027
+    },
+    "README.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 25,
+      "pageCount": 0.082,
+      "characterCount": 149,
+      "nonWhitespaceCharacterCount": 123,
+      "createdDate": 1676877121449,
+      "modifiedDate": 1676878830817
     },
     "Template/网址集合.md": {
       "isDirectory": false,
@@ -70,26 +80,6 @@
       "nonWhitespaceCharacterCount": 4,
       "createdDate": 1657670247012,
       "modifiedDate": 1665815795542
-    },
-    "README.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 25,
-      "pageCount": 0.082,
-      "characterCount": 149,
-      "nonWhitespaceCharacterCount": 123,
-      "createdDate": 1676877121449,
-      "modifiedDate": 1676878830817
-    },
-    "Excalidraw.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 131,
-      "pageCount": 4.432,
-      "characterCount": 6884,
-      "nonWhitespaceCharacterCount": 6648,
-      "createdDate": 1661937155562,
-      "modifiedDate": 1662788557378
     },
     "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md": {
       "isDirectory": false,
@@ -140,6 +130,16 @@
       "nonWhitespaceCharacterCount": 141,
       "createdDate": 1662789575374,
       "modifiedDate": 1662789666765
+    },
+    "Excalidraw.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 131,
+      "pageCount": 4.432,
+      "characterCount": 6884,
+      "nonWhitespaceCharacterCount": 6648,
+      "createdDate": 1661937155562,
+      "modifiedDate": 1662788557378
     },
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md": {
       "isDirectory": false,
