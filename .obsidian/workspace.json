@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "测试.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试.md"
+                "file": "README.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,10 +236,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cbd69a8244cc660d",
+  "active": "fbdc235c4e0f92a9",
   "lastOpenFiles": [
-    "随手记/剧本杀.md",
     "测试.md",
+    "随手记/剧本杀.md",
     "README.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.47.32.md",
