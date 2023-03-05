@@ -12,6 +12,16 @@
     "pageCountType": "ByChars"
   },
   "cachedCounts": {
+    "测试.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 385,
+      "pageCount": 1.1333333333333333,
+      "characterCount": 2267,
+      "nonWhitespaceCharacterCount": 1700,
+      "createdDate": 1657670244861,
+      "modifiedDate": 1677908165598
+    },
     "随手记/生存战争：伤害记录.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -31,16 +41,6 @@
       "nonWhitespaceCharacterCount": 226,
       "createdDate": 1674043742790,
       "modifiedDate": 1676472483722
-    },
-    "测试.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 385,
-      "pageCount": 1.1333333333333333,
-      "characterCount": 2267,
-      "nonWhitespaceCharacterCount": 1700,
-      "createdDate": 1657670244861,
-      "modifiedDate": 1677908165598
     },
     "Template.md": {
       "isDirectory": false,
@@ -72,15 +72,15 @@
       "createdDate": 1657670247012,
       "modifiedDate": 1665815795542
     },
-    "README.md": {
+    "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 25,
-      "pageCount": 0.082,
-      "characterCount": 149,
-      "nonWhitespaceCharacterCount": 123,
-      "createdDate": 1676877121449,
-      "modifiedDate": 1676878830817
+      "wordCount": 475,
+      "pageCount": 1.1533333333333333,
+      "characterCount": 2831,
+      "nonWhitespaceCharacterCount": 1730,
+      "createdDate": 1675323089083,
+      "modifiedDate": 1675323090618
     },
     "Omnivore/2023.02.02/the-secret-power-of-read-it-later-apps-18610df69e9.md": {
       "isDirectory": false,
@@ -102,16 +102,6 @@
       "createdDate": 1675322701119,
       "modifiedDate": 1675322701121
     },
-    "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 475,
-      "pageCount": 1.1533333333333333,
-      "characterCount": 2831,
-      "nonWhitespaceCharacterCount": 1730,
-      "createdDate": 1675323089083,
-      "modifiedDate": 1675323090618
-    },
     "Omnivore/2023.02.02/Getting Started with Omnivore.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -121,6 +111,16 @@
       "nonWhitespaceCharacterCount": 6257,
       "createdDate": 1675322701158,
       "modifiedDate": 1675323089007
+    },
+    "README.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 25,
+      "pageCount": 0.082,
+      "characterCount": 149,
+      "nonWhitespaceCharacterCount": 123,
+      "createdDate": 1676877121449,
+      "modifiedDate": 1676878830817
     },
     "gj.md": {
       "isDirectory": false,
