@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9777814d4b9fe51f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "try1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试.md"
+                "file": "try1.md"
               }
             }
           },
@@ -142,7 +155,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
+                "file": "try1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -166,7 +179,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 0.7132754626224422,
-                  "close": false
+                  "close": true
                 }
               }
             }
@@ -191,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "try1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "try1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,10 +249,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "87e16bfa63e4cb8b",
+  "active": "9777814d4b9fe51f",
   "lastOpenFiles": [
-    "随手记/good.md",
     "测试.md",
+    "try1.md",
+    "随手记/good.md",
     "README.md",
     "随手记/剧本杀.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
