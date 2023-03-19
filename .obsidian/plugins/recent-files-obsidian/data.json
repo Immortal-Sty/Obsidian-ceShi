@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "try1",
-      "path": "try1.md"
-    },
-    {
       "basename": "测试",
       "path": "测试.md"
+    },
+    {
+      "basename": "Canvas",
+      "path": "Canvas.canvas"
     },
     {
       "basename": "README",
@@ -27,10 +27,6 @@
     {
       "basename": "Template",
       "path": "Template.md"
-    },
-    {
-      "basename": "Canvas",
-      "path": "Canvas.canvas"
     },
     {
       "basename": "生存战争：伤害记录",

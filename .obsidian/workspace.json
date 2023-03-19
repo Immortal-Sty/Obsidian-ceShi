@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3308c7e9b80de5b6",
+        "id": "85104938d5a15c78",
         "type": "tabs",
         "children": [
           {
-            "id": "fbdc235c4e0f92a9",
+            "id": "f6e76daa7445bff9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9777814d4b9fe51f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "try1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "try1.md"
+                "file": "测试.md"
               }
             }
           },
@@ -155,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "try1.md",
+                "file": "测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "try1.md",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "try1.md",
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,9 +236,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9777814d4b9fe51f",
+  "active": "f6e76daa7445bff9",
   "lastOpenFiles": [
+    "Canvas.canvas",
     "测试.md",
+    "try2.md",
     "try1.md",
     "随手记/good.md",
     "README.md",

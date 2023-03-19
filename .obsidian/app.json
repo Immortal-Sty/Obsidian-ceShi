@@ -15,5 +15,6 @@
   "showInlineTitle": false,
   "trashOption": "local",
   "foldHeading": true,
-  "showFrontmatter": false
+  "showFrontmatter": false,
+  "readableLineLength": false
 }
