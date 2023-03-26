@@ -16,5 +16,5 @@
   "trashOption": "local",
   "foldHeading": true,
   "showFrontmatter": false,
-  "readableLineLength": false
+  "readableLineLength": true
 }
