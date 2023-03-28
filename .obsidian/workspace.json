@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -129,8 +129,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "be83f8990a4d7e60",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "4dbf103314f6888d",

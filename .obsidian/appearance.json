@@ -4,7 +4,6 @@
   "enabledCssSnippets": [
     "预览模式优化-空白行-行间距",
     "AnuExtendTheme",
-    "大纲美化",
     "标题美化",
     "hyphenation-and-justification",
     "代码块",
@@ -15,7 +14,8 @@
     "嵌入美化",
     "文件列表美化",
     "尾随空格可视化",
-    "标签美化"
+    "标签美化",
+    "大纲美化"
   ],
   "baseFontSize": 14,
   "accentColor": "",
