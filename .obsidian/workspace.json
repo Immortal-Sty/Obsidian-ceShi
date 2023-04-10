@@ -80,13 +80,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "292b803206fac72a",
+            "id": "be83f8990a4d7e60",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "测试.md"
-              }
+              "type": "quiet-outline",
+              "state": {}
             }
           },
           {
@@ -131,15 +129,17 @@
             }
           },
           {
-            "id": "be83f8990a4d7e60",
+            "id": "758564b066718e50",
             "type": "leaf",
             "state": {
-              "type": "quiet-outline",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "测试.md"
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "4dbf103314f6888d",
