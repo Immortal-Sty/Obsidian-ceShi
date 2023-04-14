@@ -1,4 +1,0 @@
----
-Aliases: [ "#Omnivore" ]
----
-# Omnivore
