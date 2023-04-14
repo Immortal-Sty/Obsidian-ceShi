@@ -66,6 +66,12 @@ var DebugHelper = class {
     }
     console.log("novel-word-count:", ...args);
   }
+  error(message) {
+    if (!this.debugMode) {
+      return;
+    }
+    console.error(message);
+  }
   debugStart(name) {
     if (!this.debugMode) {
       return () => {
@@ -88,10 +94,10 @@ var CountType;
   CountType2["Page"] = "page";
   CountType2["PageDecimal"] = "pagedecimal";
   CountType2["Note"] = "note";
-  CountType2["NoteFolderOnly"] = "notefolderonly";
   CountType2["Character"] = "character";
   CountType2["Created"] = "created";
   CountType2["Modified"] = "modified";
+  CountType2["FileSize"] = "filesize";
 })(CountType || (CountType = {}));
 var countTypeDisplayStrings = {
   [CountType.None]: "None",
@@ -99,10 +105,10 @@ var countTypeDisplayStrings = {
   [CountType.Page]: "Page Count",
   [CountType.PageDecimal]: "Page Count (decimal)",
   [CountType.Note]: "Note Count",
-  [CountType.NoteFolderOnly]: "Note Count (folders only)",
   [CountType.Character]: "Character Count",
   [CountType.Created]: "Created Date",
-  [CountType.Modified]: "Last Updated Date"
+  [CountType.Modified]: "Last Updated Date",
+  [CountType.FileSize]: "File Size"
 };
 var countTypes = [
   CountType.None,
@@ -110,10 +116,10 @@ var countTypes = [
   CountType.Page,
   CountType.PageDecimal,
   CountType.Note,
-  CountType.NoteFolderOnly,
   CountType.Character,
   CountType.Created,
-  CountType.Modified
+  CountType.Modified,
+  CountType.FileSize
 ];
 var AlignmentType;
 (function(AlignmentType2) {
@@ -141,6 +147,10 @@ var DEFAULT_SETTINGS = {
   countType: CountType.Word,
   countType2: CountType.None,
   countType3: CountType.None,
+  showSameCountsOnFolders: true,
+  folderCountType: CountType.Word,
+  folderCountType2: CountType.None,
+  folderCountType3: CountType.None,
   abbreviateDescriptions: false,
   alignment: AlignmentType.Inline,
   debugMode: false,
@@ -189,6 +199,7 @@ var FileHelper = class {
       total.nonWhitespaceCharacterCount += childCount.nonWhitespaceCharacterCount;
       total.createdDate = total.createdDate === 0 ? childCount.createdDate : Math.min(total.createdDate, childCount.createdDate);
       total.modifiedDate = Math.max(total.modifiedDate, childCount.modifiedDate);
+      total.sizeInBytes += childCount.sizeInBytes;
       return total;
     }, {
       isDirectory: true,
@@ -198,7 +209,8 @@ var FileHelper = class {
       characterCount: 0,
       nonWhitespaceCharacterCount: 0,
       createdDate: 0,
-      modifiedDate: 0
+      modifiedDate: 0,
+      sizeInBytes: 0
     });
   }
   setDebugMode(debug) {
@@ -254,8 +266,51 @@ var FileHelper = class {
       characterCount: content.length,
       nonWhitespaceCharacterCount,
       createdDate: file.stat.ctime,
-      modifiedDate: file.stat.mtime
+      modifiedDate: file.stat.mtime,
+      sizeInBytes: file.stat.size
     };
+  }
+};
+
+// logic/filesize.ts
+var formatThresholds = [{
+  suffix: "b",
+  suffixLong: " B",
+  divisor: 1
+}, {
+  suffix: "kb",
+  suffixLong: " KB",
+  divisor: 1e3
+}, {
+  suffix: "mb",
+  suffixLong: " MB",
+  divisor: 1e6
+}, {
+  suffix: "gb",
+  suffixLong: " GB",
+  divisor: 1e9
+}, {
+  suffix: "tb",
+  suffixLong: " TB",
+  divisor: 1e12
+}];
+var FileSizeHelper = class {
+  formatFileSize(bytes, shouldAbbreviate) {
+    const largestThreshold = formatThresholds.last();
+    for (const formatThreshold of formatThresholds) {
+      if (bytes < formatThreshold.divisor * 1e3 || formatThreshold === largestThreshold) {
+        const units = bytes / formatThreshold.divisor;
+        const suffix = shouldAbbreviate ? formatThreshold.suffix : formatThreshold.suffixLong;
+        return `${this.round(units)}${suffix}`;
+      }
+    }
+    return `?B`;
+  }
+  round(value) {
+    return value.toLocaleString(void 0, {
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 2
+    });
   }
 };
 
@@ -265,6 +320,7 @@ var NovelWordCountPlugin = class extends import_obsidian2.Plugin {
   constructor(app, manifest) {
     super(app, manifest);
     this.debugHelper = new DebugHelper();
+    this.fileSizeHelper = new FileSizeHelper();
     this.fileHelper = new FileHelper(this.app.vault, this);
   }
   get settings() {
@@ -350,6 +406,8 @@ var NovelWordCountPlugin = class extends import_obsidian2.Plugin {
       try {
         yield this.updateDisplayedCounts();
       } catch (err) {
+        this.debugHelper.debug("Error while updating displayed counts");
+        this.debugHelper.error(err);
         setTimeout(() => {
           this.initialize(false);
         }, 1e3);
@@ -358,6 +416,7 @@ var NovelWordCountPlugin = class extends import_obsidian2.Plugin {
   }
   updateDisplayedCounts(file = null) {
     return __async(this, null, function* () {
+      var _a;
       const debugEnd = this.debugHelper.debugStart("updateDisplayedCounts");
       if (!Object.keys(this.savedData.cachedCounts).length) {
         this.debugHelper.debug("No cached data found; refreshing all counts.");
@@ -378,7 +437,7 @@ var NovelWordCountPlugin = class extends import_obsidian2.Plugin {
         }
         const counts = this.fileHelper.getCountDataForPath(this.savedData.cachedCounts, path);
         const item = fileItems[path];
-        item.titleEl.setAttribute("data-novel-word-count-plugin", this.getNodeLabel(counts));
+        ((_a = item.titleEl) != null ? _a : item.selfEl).setAttribute("data-novel-word-count-plugin", this.getNodeLabel(counts));
       }
       debugEnd();
     });
@@ -430,11 +489,6 @@ var NovelWordCountPlugin = class extends import_obsidian2.Plugin {
         })}p` : getPluralizedCount("page", counts.pageCount, false);
       case CountType.Note:
         return abbreviateDescriptions ? `${counts.noteCount.toLocaleString()}n` : getPluralizedCount("note", counts.noteCount);
-      case CountType.NoteFolderOnly:
-        if (!counts.isDirectory) {
-          return null;
-        }
-        return abbreviateDescriptions ? `${counts.noteCount.toLocaleString()}n` : getPluralizedCount("note", counts.noteCount);
       case CountType.Character:
         return abbreviateDescriptions ? `${counts.characterCount.toLocaleString()}ch` : getPluralizedCount("character", counts.characterCount);
       case CountType.Created:
@@ -447,15 +501,14 @@ var NovelWordCountPlugin = class extends import_obsidian2.Plugin {
           return "";
         }
         return abbreviateDescriptions ? `${new Date(counts.modifiedDate).toLocaleDateString()}/u` : `Updated ${new Date(counts.modifiedDate).toLocaleDateString()}`;
+      case CountType.FileSize:
+        return this.fileSizeHelper.formatFileSize(counts.sizeInBytes, abbreviateDescriptions);
     }
     return "";
   }
   getNodeLabel(counts) {
-    return [
-      this.settings.countType,
-      this.settings.countType2,
-      this.settings.countType3
-    ].filter((ct) => ct !== CountType.None).map((ct) => this.getDataTypeLabel(counts, ct, this.settings.abbreviateDescriptions)).filter((display) => display !== null).join(" | ");
+    const countTypes2 = counts.isDirectory && !this.settings.showSameCountsOnFolders ? [this.settings.folderCountType, this.settings.folderCountType2, this.settings.folderCountType3] : [this.settings.countType, this.settings.countType2, this.settings.countType3];
+    return countTypes2.filter((ct) => ct !== CountType.None).map((ct) => this.getDataTypeLabel(counts, ct, this.settings.abbreviateDescriptions)).filter((display) => display !== null).join(" | ");
   }
   handleEvents() {
     return __async(this, null, function* () {
@@ -525,7 +578,7 @@ var NovelWordCountSettingTab = class extends import_obsidian2.PluginSettingTab {
         "novel-word-count-settings-header"
       ]
     });
-    mainHeader.createEl("div", { text: "General" });
+    mainHeader.createEl("div", { text: "Notes" });
     mainHeader.createEl("div", {
       text: "You can display up to three data types side by side.",
       cls: "setting-item-description"
@@ -572,6 +625,45 @@ var NovelWordCountSettingTab = class extends import_obsidian2.PluginSettingTab {
         yield this.plugin.updateDisplayedCounts();
       }));
     });
+    containerEl.createEl("div", { text: "Folders" }).addClasses(["setting-item", "setting-item-heading"]);
+    new import_obsidian2.Setting(containerEl).setName("Show same data on folders").addToggle((toggle) => toggle.setValue(this.plugin.settings.showSameCountsOnFolders).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.showSameCountsOnFolders = value;
+      yield this.plugin.saveSettings();
+      yield this.plugin.updateDisplayedCounts();
+      this.display();
+    })));
+    if (!this.plugin.settings.showSameCountsOnFolders) {
+      new import_obsidian2.Setting(containerEl).setName("1st data type to show").addDropdown((drop) => {
+        for (const countType of countTypes) {
+          drop.addOption(countType, countTypeDisplayStrings[countType]);
+        }
+        drop.setValue(this.plugin.settings.folderCountType).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.folderCountType = value;
+          yield this.plugin.saveSettings();
+          yield this.plugin.updateDisplayedCounts();
+        }));
+      });
+      new import_obsidian2.Setting(containerEl).setName("2nd data type to show").addDropdown((drop) => {
+        for (const countType of countTypes) {
+          drop.addOption(countType, countTypeDisplayStrings[countType]);
+        }
+        drop.setValue(this.plugin.settings.folderCountType2).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.folderCountType2 = value;
+          yield this.plugin.saveSettings();
+          yield this.plugin.updateDisplayedCounts();
+        }));
+      });
+      new import_obsidian2.Setting(containerEl).setName("3rd data type to show").addDropdown((drop) => {
+        for (const countType of countTypes) {
+          drop.addOption(countType, countTypeDisplayStrings[countType]);
+        }
+        drop.setValue(this.plugin.settings.folderCountType3).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.folderCountType3 = value;
+          yield this.plugin.saveSettings();
+          yield this.plugin.updateDisplayedCounts();
+        }));
+      });
+    }
     containerEl.createEl("div", { text: "Advanced" }).addClasses(["setting-item", "setting-item-heading"]);
     new import_obsidian2.Setting(containerEl).setName("Word count method").setDesc("For language compatibility").addDropdown((drop) => {
       drop.addOption(WordCountType.SpaceDelimited, "Space-delimited (European languages)").addOption(WordCountType.CJK, "Han/Kana/Hangul (CJK)").addOption(WordCountType.AutoDetect, "Auto-detect by file").setValue(this.plugin.settings.wordCountType).onChange((value) => __async(this, null, function* () {

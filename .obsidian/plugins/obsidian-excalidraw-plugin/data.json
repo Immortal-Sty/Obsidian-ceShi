@@ -17,6 +17,7 @@
   "displayExportedImageIfAvailable": true,
   "previewMatchObsidianTheme": true,
   "width": "400",
+  "dynamicStyling": "colorful",
   "isLeftHanded": false,
   "matchTheme": true,
   "matchThemeAlways": true,

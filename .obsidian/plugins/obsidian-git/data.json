@@ -1,6 +1,5 @@
 {
   "commitMessage": "{{date}} {{numFiles}} file be changed",
-  "autoCommitMessage": "AUTO: {{date}} {{numFiles}} file be changed",
   "commitDateFormat": "Y.MM.DD HH:mm:ss",
   "autoSaveInterval": 10,
   "autoPushInterval": 0,
@@ -23,5 +22,9 @@
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,
   "showBranchStatusBar": true,
-  "setLastSaveToLastCommit": false
+  "setLastSaveToLastCommit": false,
+  "submoduleRecurseCheckout": false,
+  "gitDir": "",
+  "showFileMenu": true,
+  "autoCommitMessage": "AUTO: {{date}} {{numFiles}} file be changed"
 }
