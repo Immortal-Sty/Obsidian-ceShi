@@ -529,10 +529,13 @@
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "/",
+  "announceUpdates": true,
+  "version": "0.20.1",
   "migrations": {
     "migrateToMacroIDFromEmbeddedMacro": true,
     "useQuickAddTemplateFolder": true,
     "incrementFileNameSettingMoveToDefaultBehavior": true,
-    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
   }
 }

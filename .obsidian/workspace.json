@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "测试.md",
-                "mode": "preview",
+                "file": "Omnivore.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试.md"
+                "file": "Omnivore.md"
               }
             }
           }
@@ -151,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
+                "file": "Omnivore.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -200,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "Omnivore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "Omnivore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,16 +240,17 @@
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-omnivore:Omnivore": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "f6e76daa7445bff9",
   "lastOpenFiles": [
-    "Canvas.canvas",
     "测试.md",
+    "Omnivore.md",
+    "Canvas.canvas",
     "try2.md",
     "try1.md",
     "随手记/good.md",

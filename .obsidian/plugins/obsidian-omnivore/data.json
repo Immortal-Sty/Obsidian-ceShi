@@ -11,5 +11,7 @@
   "folder": "Omnivore",
   "folderDateFormat": "yyyy.MM.dd",
   "endpoint": "https://api-prod.omnivore.app/api/graphql",
+  "filename": "{{{title}}}",
+  "attachmentFolder": "Omnivore/attachments",
   "dateFormat": "yyyy.MM.dd"
 }

@@ -16,6 +16,17 @@
     "pageCountType": "ByChars"
   },
   "cachedCounts": {
+    "gj.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 29,
+      "pageCount": 0.094,
+      "characterCount": 187,
+      "nonWhitespaceCharacterCount": 141,
+      "createdDate": 1678021779864,
+      "modifiedDate": 1662789666765,
+      "sizeInBytes": 191
+    },
     "测试.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -49,17 +60,6 @@
       "modifiedDate": 1676472483722,
       "sizeInBytes": 616
     },
-    "gj.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 29,
-      "pageCount": 0.094,
-      "characterCount": 187,
-      "nonWhitespaceCharacterCount": 141,
-      "createdDate": 1678021779864,
-      "modifiedDate": 1662789666765,
-      "sizeInBytes": 191
-    },
     "Template.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -70,28 +70,6 @@
       "createdDate": 1678021779915,
       "modifiedDate": 1662791154027,
       "sizeInBytes": 127
-    },
-    "README.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 25,
-      "pageCount": 0.082,
-      "characterCount": 149,
-      "nonWhitespaceCharacterCount": 123,
-      "createdDate": 1678021779896,
-      "modifiedDate": 1678014880174,
-      "sizeInBytes": 149
-    },
-    "Excalidraw.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 131,
-      "pageCount": 4.432,
-      "characterCount": 6884,
-      "nonWhitespaceCharacterCount": 6648,
-      "createdDate": 1678021779856,
-      "modifiedDate": 1662788557378,
-      "sizeInBytes": 6888
     },
     "Template/网址集合.md": {
       "isDirectory": false,
@@ -115,27 +93,27 @@
       "modifiedDate": 1665815795542,
       "sizeInBytes": 6
     },
-    "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md": {
+    "README.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 475,
-      "pageCount": 1.1533333333333333,
-      "characterCount": 2831,
-      "nonWhitespaceCharacterCount": 1730,
-      "createdDate": 1678021779890,
-      "modifiedDate": 1675323090618,
-      "sizeInBytes": 5059
+      "wordCount": 25,
+      "pageCount": 0.082,
+      "characterCount": 149,
+      "nonWhitespaceCharacterCount": 123,
+      "createdDate": 1678021779896,
+      "modifiedDate": 1678014880174,
+      "sizeInBytes": 149
     },
-    "Omnivore/2023.02.02/the-secret-power-of-read-it-later-apps-18610df69e9.md": {
+    "Omnivore.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 3702,
-      "pageCount": 15.100666666666667,
-      "characterCount": 26734,
-      "nonWhitespaceCharacterCount": 22651,
-      "createdDate": 1678021779884,
-      "modifiedDate": 1675322701139,
-      "sizeInBytes": 27024
+      "wordCount": 8,
+      "pageCount": 0.024,
+      "characterCount": 44,
+      "nonWhitespaceCharacterCount": 36,
+      "createdDate": 1681460725325,
+      "modifiedDate": 1681460726815,
+      "sizeInBytes": 44
     },
     "Omnivore/2023.02.02/organize-your-omnivore-library-with-labels-18610df6606.md": {
       "isDirectory": false,
@@ -148,6 +126,17 @@
       "modifiedDate": 1675322701121,
       "sizeInBytes": 4153
     },
+    "Omnivore/2023.02.02/键道形码-rime键道输入法-1861108f8f9.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 475,
+      "pageCount": 1.1533333333333333,
+      "characterCount": 2831,
+      "nonWhitespaceCharacterCount": 1730,
+      "createdDate": 1678021779890,
+      "modifiedDate": 1675323090618,
+      "sizeInBytes": 5059
+    },
     "Omnivore/2023.02.02/Getting Started with Omnivore.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -158,6 +147,39 @@
       "createdDate": 1678021779874,
       "modifiedDate": 1675323089007,
       "sizeInBytes": 7620
+    },
+    "Omnivore/2023.02.02/the-secret-power-of-read-it-later-apps-18610df69e9.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3702,
+      "pageCount": 15.100666666666667,
+      "characterCount": 26734,
+      "nonWhitespaceCharacterCount": 22651,
+      "createdDate": 1678021779884,
+      "modifiedDate": 1675322701139,
+      "sizeInBytes": 27024
+    },
+    "Excalidraw.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 131,
+      "pageCount": 4.432,
+      "characterCount": 6884,
+      "nonWhitespaceCharacterCount": 6648,
+      "createdDate": 1678021779856,
+      "modifiedDate": 1662788557378,
+      "sizeInBytes": 6888
+    },
+    "Day Planners/Day Planner-20220718.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 6,
+      "pageCount": 0.01,
+      "characterCount": 21,
+      "nonWhitespaceCharacterCount": 15,
+      "createdDate": 1678021779701,
+      "modifiedDate": 1658132248693,
+      "sizeInBytes": 21
     },
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md": {
       "isDirectory": false,
@@ -170,17 +192,6 @@
       "modifiedDate": 1676357619431,
       "sizeInBytes": 2272
     },
-    "Excalidraw/Scripts/Downloaded/Set Text Alignment.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 50,
-      "pageCount": 0.43266666666666664,
-      "characterCount": 717,
-      "nonWhitespaceCharacterCount": 649,
-      "createdDate": 1678021779799,
-      "modifiedDate": 1661938010151,
-      "sizeInBytes": 717
-    },
     "Excalidraw/Scripts/Downloaded/Select Elements of Type.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -191,6 +202,17 @@
       "createdDate": 1678021779785,
       "modifiedDate": 1661937920070,
       "sizeInBytes": 1836
+    },
+    "Excalidraw/Scripts/Downloaded/Set Text Alignment.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 50,
+      "pageCount": 0.43266666666666664,
+      "characterCount": 717,
+      "nonWhitespaceCharacterCount": 649,
+      "createdDate": 1678021779799,
+      "modifiedDate": 1661938010151,
+      "sizeInBytes": 717
     },
     "Excalidraw/Scripts/Downloaded/Reverse arrows.md": {
       "isDirectory": false,
@@ -268,17 +290,6 @@
       "createdDate": 1678021779714,
       "modifiedDate": 1661937190616,
       "sizeInBytes": 4238
-    },
-    "Day Planners/Day Planner-20220718.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 6,
-      "pageCount": 0.01,
-      "characterCount": 21,
-      "nonWhitespaceCharacterCount": 15,
-      "createdDate": 1678021779701,
-      "modifiedDate": 1658132248693,
-      "sizeInBytes": 21
     }
   }
 }
