@@ -16,27 +16,115 @@
     "pageCountType": "ByChars"
   },
   "cachedCounts": {
-    "gj.md": {
+    "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 29,
-      "pageCount": 0.094,
-      "characterCount": 187,
-      "nonWhitespaceCharacterCount": 141,
-      "createdDate": 1678021779864,
-      "modifiedDate": 1662789666765,
-      "sizeInBytes": 191
+      "wordCount": 61,
+      "pageCount": 1.448,
+      "characterCount": 2268,
+      "nonWhitespaceCharacterCount": 2172,
+      "createdDate": 1678021779844,
+      "modifiedDate": 1676357619431,
+      "sizeInBytes": 2272
     },
-    "测试.md": {
+    "Excalidraw/Scripts/Downloaded/Set Text Alignment.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 387,
-      "pageCount": 1.1433333333333333,
-      "characterCount": 2287,
-      "nonWhitespaceCharacterCount": 1715,
-      "createdDate": 1678021779933,
-      "modifiedDate": 1680510986436,
-      "sizeInBytes": 2409
+      "wordCount": 50,
+      "pageCount": 0.43266666666666664,
+      "characterCount": 717,
+      "nonWhitespaceCharacterCount": 649,
+      "createdDate": 1678021779799,
+      "modifiedDate": 1661938010151,
+      "sizeInBytes": 717
+    },
+    "Excalidraw/Scripts/Downloaded/Select Elements of Type.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 215,
+      "pageCount": 0.9773333333333334,
+      "characterCount": 1822,
+      "nonWhitespaceCharacterCount": 1466,
+      "createdDate": 1678021779785,
+      "modifiedDate": 1661937920070,
+      "sizeInBytes": 1836
+    },
+    "Excalidraw/Scripts/Downloaded/Reverse arrows.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 68,
+      "pageCount": 0.5593333333333333,
+      "characterCount": 936,
+      "nonWhitespaceCharacterCount": 839,
+      "createdDate": 1678021779775,
+      "modifiedDate": 1661937828187,
+      "sizeInBytes": 936
+    },
+    "Excalidraw/Scripts/Downloaded/Repeat Elements.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 478,
+      "pageCount": 2.8113333333333332,
+      "characterCount": 5139,
+      "nonWhitespaceCharacterCount": 4217,
+      "createdDate": 1678021779765,
+      "modifiedDate": 1676354234724,
+      "sizeInBytes": 5139
+    },
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 396,
+      "pageCount": 1.8893333333333333,
+      "characterCount": 3537,
+      "nonWhitespaceCharacterCount": 2834,
+      "createdDate": 1678021779756,
+      "modifiedDate": 1676354210898,
+      "sizeInBytes": 3537
+    },
+    "Excalidraw/Scripts/Downloaded/Elbow connectors.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 331,
+      "pageCount": 1.6213333333333333,
+      "characterCount": 3246,
+      "nonWhitespaceCharacterCount": 2432,
+      "createdDate": 1678021779746,
+      "modifiedDate": 1676354086222,
+      "sizeInBytes": 3246
+    },
+    "Excalidraw/Scripts/Downloaded/Connect elements.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 262,
+      "pageCount": 1.4813333333333334,
+      "characterCount": 2605,
+      "nonWhitespaceCharacterCount": 2222,
+      "createdDate": 1678021779734,
+      "modifiedDate": 1662094039758,
+      "sizeInBytes": 2605
+    },
+    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 406,
+      "pageCount": 2.272,
+      "characterCount": 4238,
+      "nonWhitespaceCharacterCount": 3408,
+      "createdDate": 1678021779714,
+      "modifiedDate": 1661937190616,
+      "sizeInBytes": 4238
+    },
+    "Excalidraw/Scripts/Downloaded/Box Selected Elements.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 159,
+      "pageCount": 0.9986666666666667,
+      "characterCount": 1716,
+      "nonWhitespaceCharacterCount": 1498,
+      "createdDate": 1678021779724,
+      "modifiedDate": 1661937271613,
+      "sizeInBytes": 1716
     },
     "随手记/生存战争：伤害记录.md": {
       "isDirectory": false,
@@ -60,6 +148,17 @@
       "modifiedDate": 1676472483722,
       "sizeInBytes": 616
     },
+    "测试.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 387,
+      "pageCount": 1.1433333333333333,
+      "characterCount": 2287,
+      "nonWhitespaceCharacterCount": 1715,
+      "createdDate": 1678021779933,
+      "modifiedDate": 1680510986436,
+      "sizeInBytes": 2409
+    },
     "README.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -70,6 +169,17 @@
       "createdDate": 1678021779896,
       "modifiedDate": 1678014880174,
       "sizeInBytes": 149
+    },
+    "gj.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 29,
+      "pageCount": 0.094,
+      "characterCount": 187,
+      "nonWhitespaceCharacterCount": 141,
+      "createdDate": 1678021779864,
+      "modifiedDate": 1662789666765,
+      "sizeInBytes": 191
     },
     "Template.md": {
       "isDirectory": false,
@@ -115,116 +225,6 @@
       "modifiedDate": 1662788557378,
       "sizeInBytes": 6888
     },
-    "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 61,
-      "pageCount": 1.448,
-      "characterCount": 2268,
-      "nonWhitespaceCharacterCount": 2172,
-      "createdDate": 1678021779844,
-      "modifiedDate": 1676357619431,
-      "sizeInBytes": 2272
-    },
-    "Excalidraw/Scripts/Downloaded/Set Text Alignment.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 50,
-      "pageCount": 0.43266666666666664,
-      "characterCount": 717,
-      "nonWhitespaceCharacterCount": 649,
-      "createdDate": 1678021779799,
-      "modifiedDate": 1661938010151,
-      "sizeInBytes": 717
-    },
-    "Excalidraw/Scripts/Downloaded/Select Elements of Type.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 215,
-      "pageCount": 0.9773333333333334,
-      "characterCount": 1822,
-      "nonWhitespaceCharacterCount": 1466,
-      "createdDate": 1678021779785,
-      "modifiedDate": 1661937920070,
-      "sizeInBytes": 1836
-    },
-    "Excalidraw/Scripts/Downloaded/Reverse arrows.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 68,
-      "pageCount": 0.5593333333333333,
-      "characterCount": 936,
-      "nonWhitespaceCharacterCount": 839,
-      "createdDate": 1678021779775,
-      "modifiedDate": 1661937828187,
-      "sizeInBytes": 936
-    },
-    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 396,
-      "pageCount": 1.8893333333333333,
-      "characterCount": 3537,
-      "nonWhitespaceCharacterCount": 2834,
-      "createdDate": 1678021779756,
-      "modifiedDate": 1676354210898,
-      "sizeInBytes": 3537
-    },
-    "Excalidraw/Scripts/Downloaded/Repeat Elements.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 478,
-      "pageCount": 2.8113333333333332,
-      "characterCount": 5139,
-      "nonWhitespaceCharacterCount": 4217,
-      "createdDate": 1678021779765,
-      "modifiedDate": 1676354234724,
-      "sizeInBytes": 5139
-    },
-    "Excalidraw/Scripts/Downloaded/Connect elements.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 262,
-      "pageCount": 1.4813333333333334,
-      "characterCount": 2605,
-      "nonWhitespaceCharacterCount": 2222,
-      "createdDate": 1678021779734,
-      "modifiedDate": 1662094039758,
-      "sizeInBytes": 2605
-    },
-    "Excalidraw/Scripts/Downloaded/Elbow connectors.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 331,
-      "pageCount": 1.6213333333333333,
-      "characterCount": 3246,
-      "nonWhitespaceCharacterCount": 2432,
-      "createdDate": 1678021779746,
-      "modifiedDate": 1676354086222,
-      "sizeInBytes": 3246
-    },
-    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 406,
-      "pageCount": 2.272,
-      "characterCount": 4238,
-      "nonWhitespaceCharacterCount": 3408,
-      "createdDate": 1678021779714,
-      "modifiedDate": 1661937190616,
-      "sizeInBytes": 4238
-    },
-    "Excalidraw/Scripts/Downloaded/Box Selected Elements.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 159,
-      "pageCount": 0.9986666666666667,
-      "characterCount": 1716,
-      "nonWhitespaceCharacterCount": 1498,
-      "createdDate": 1678021779724,
-      "modifiedDate": 1661937271613,
-      "sizeInBytes": 1716
-    },
     "Day Planners/Day Planner-20220718.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -235,6 +235,17 @@
       "createdDate": 1678021779701,
       "modifiedDate": 1658132248693,
       "sizeInBytes": 21
+    },
+    "Dataview 测试.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 33,
+      "pageCount": 0.11266666666666666,
+      "characterCount": 233,
+      "nonWhitespaceCharacterCount": 169,
+      "createdDate": 1681558645869,
+      "modifiedDate": 1681559475752,
+      "sizeInBytes": 241
     }
   }
 }

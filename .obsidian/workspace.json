@@ -11,11 +11,9 @@
             "id": "f6e76daa7445bff9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "测试.md",
-                "mode": "preview",
-                "source": false
+                "file": "Dataview 测试.md"
               }
             }
           }
@@ -135,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试.md"
+                "file": "Dataview 测试.md"
               }
             }
           }
@@ -152,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
+                "file": "Dataview 测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -201,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "Dataview 测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "Dataview 测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,8 +246,9 @@
   },
   "active": "f6e76daa7445bff9",
   "lastOpenFiles": [
-    "Omnivore.md",
     "测试.md",
+    "Dataview 测试.md",
+    "Omnivore.md",
     "Canvas.canvas",
     "try2.md",
     "try1.md",
