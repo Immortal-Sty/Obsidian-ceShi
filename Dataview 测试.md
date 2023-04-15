@@ -7,11 +7,11 @@ kanban-plugin: basic
 
 ## Dataview 测试
 
-- [ ] ```dataview
-      list without id
-      file.link + " is a good project."
-      from "Template"
-      ```
+
+
+## Dataview 测试
+
+- [ ] `=: [[测试]].banner_icon`
 
 
 

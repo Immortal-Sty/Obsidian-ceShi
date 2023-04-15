@@ -101,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "108d80c1a3d519a4",
@@ -226,7 +227,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,9 +249,10 @@
   "active": "f6e76daa7445bff9",
   "lastOpenFiles": [
     "测试.md",
-    "Dataview 测试.md",
-    "Omnivore.md",
     "Canvas.canvas",
+    "Dataview 测试.md",
+    "Dataview 测试 2023.04.15-1.canvas",
+    "Omnivore.md",
     "try2.md",
     "try1.md",
     "随手记/good.md",
