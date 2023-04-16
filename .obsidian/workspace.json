@@ -13,7 +13,7 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "Dataview 测试.md"
+                "file": "Kanban/Dataview 测试.md"
               }
             }
           }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dataview 测试.md"
+                "file": "Kanban/Dataview 测试.md"
               }
             }
           }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Dataview 测试.md",
+                "file": "Kanban/Dataview 测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dataview 测试.md",
+                "file": "Kanban/Dataview 测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dataview 测试.md",
+                "file": "Kanban/Dataview 测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,9 +246,10 @@
   },
   "active": "f6e76daa7445bff9",
   "lastOpenFiles": [
+    "Kanban",
     "测试.md",
+    "Kanban/Dataview 测试.md",
     "Canvas.canvas",
-    "Dataview 测试.md",
     "Dataview 测试 2023.04.15-1.canvas",
     "Omnivore.md",
     "try2.md",
