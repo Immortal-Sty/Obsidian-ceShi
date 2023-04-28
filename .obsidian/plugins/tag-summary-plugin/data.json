@@ -1,6 +1,6 @@
 {
   "includecallout": false,
-  "includelink": true,
+  "includelink": false,
   "removetags": false,
   "listparagraph": true,
   "includechildren": true

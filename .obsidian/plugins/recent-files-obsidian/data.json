@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "测试",
+      "path": "测试.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "测试",
-      "path": "测试.md"
+      "basename": "gj",
+      "path": "gj.md"
     },
     {
       "basename": "Dataview 测试",
@@ -35,10 +39,6 @@
     {
       "basename": "生存战争：伤害记录",
       "path": "随手记/生存战争：伤害记录.md"
-    },
-    {
-      "basename": "gj",
-      "path": "gj.md"
     },
     {
       "basename": "Try",

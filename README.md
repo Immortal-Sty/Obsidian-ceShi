@@ -7,3 +7,7 @@ If you want to find some useful plugins, you can open `.obsidian/plugins`.
 ```add-summary
 tags: #alksjdf
 ```
+
+```add-summary
+tags: #脑图
+```
