@@ -72,6 +72,14 @@
               "type": "trash-explorer",
               "state": {}
             }
+          },
+          {
+            "id": "1d7454a8f14feb1e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       },
