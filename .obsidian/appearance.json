@@ -15,7 +15,8 @@
     "文件列表美化",
     "尾随空格可视化",
     "标签美化",
-    "Callout GPT"
+    "Callout GPT",
+    "进度条美化"
   ],
   "baseFontSize": 14,
   "accentColor": "",

@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试.md"
+                "file": "随手记/剧本杀.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
+                "file": "随手记/剧本杀.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "随手记/剧本杀.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "随手记/剧本杀.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,11 +246,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f6e76daa7445bff9",
+  "active": "0300a3e1074658a0",
   "lastOpenFiles": [
+    "测试.md",
     "随手记/生存战争：伤害记录.md",
     "随手记/剧本杀.md",
-    "测试.md",
     "README.md",
     "gj.md",
     "Kanban/Dataview 测试.md",
