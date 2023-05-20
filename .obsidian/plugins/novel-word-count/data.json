@@ -16,27 +16,16 @@
     "pageCountType": "ByChars"
   },
   "cachedCounts": {
-    "随手记/生存战争：伤害记录.md": {
+    "测试.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 84,
-      "pageCount": 0.17466666666666666,
-      "characterCount": 411,
-      "nonWhitespaceCharacterCount": 262,
-      "createdDate": 1678021779945,
-      "modifiedDate": 1675583795090,
-      "sizeInBytes": 459
-    },
-    "随手记/剧本杀.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 82,
-      "pageCount": 0.15066666666666667,
-      "characterCount": 348,
-      "nonWhitespaceCharacterCount": 226,
-      "createdDate": 1678021779941,
-      "modifiedDate": 1676472483722,
-      "sizeInBytes": 616
+      "wordCount": 460,
+      "pageCount": 1.4066666666666667,
+      "characterCount": 2773,
+      "nonWhitespaceCharacterCount": 2110,
+      "createdDate": 1678021779933,
+      "modifiedDate": 1684589579280,
+      "sizeInBytes": 2925
     },
     "gj.md": {
       "isDirectory": false,
@@ -49,16 +38,38 @@
       "modifiedDate": 1681826340102,
       "sizeInBytes": 196
     },
-    "测试.md": {
+    "随手记/生存战争：伤害记录.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 436,
-      "pageCount": 1.31,
-      "characterCount": 2603,
-      "nonWhitespaceCharacterCount": 1965,
-      "createdDate": 1678021779933,
-      "modifiedDate": 1683194378756,
-      "sizeInBytes": 2741
+      "wordCount": 90,
+      "pageCount": 0.18533333333333332,
+      "characterCount": 434,
+      "nonWhitespaceCharacterCount": 278,
+      "createdDate": 1678021779945,
+      "modifiedDate": 1684582282206,
+      "sizeInBytes": 482
+    },
+    "随手记/剧本杀.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 82,
+      "pageCount": 0.15333333333333332,
+      "characterCount": 352,
+      "nonWhitespaceCharacterCount": 230,
+      "createdDate": 1678021779941,
+      "modifiedDate": 1684586030352,
+      "sizeInBytes": 620
+    },
+    "Excalidraw.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 131,
+      "pageCount": 4.432,
+      "characterCount": 6884,
+      "nonWhitespaceCharacterCount": 6648,
+      "createdDate": 1678021779856,
+      "modifiedDate": 1662788557378,
+      "sizeInBytes": 6888
     },
     "Template.md": {
       "isDirectory": false,
@@ -71,16 +82,16 @@
       "modifiedDate": 1662791154027,
       "sizeInBytes": 127
     },
-    "README.md": {
+    "Template/网址集合.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 33,
-      "pageCount": 0.11866666666666667,
-      "characterCount": 214,
-      "nonWhitespaceCharacterCount": 178,
-      "createdDate": 1678021779896,
-      "modifiedDate": 1681826368242,
-      "sizeInBytes": 218
+      "wordCount": 78,
+      "pageCount": 0.7273333333333334,
+      "characterCount": 1183,
+      "nonWhitespaceCharacterCount": 1091,
+      "createdDate": 1678021779910,
+      "modifiedDate": 1648415692564,
+      "sizeInBytes": 1565
     },
     "Template/Try.md": {
       "isDirectory": false,
@@ -93,16 +104,16 @@
       "modifiedDate": 1665815795542,
       "sizeInBytes": 6
     },
-    "Template/网址集合.md": {
+    "README.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 78,
-      "pageCount": 0.7273333333333334,
-      "characterCount": 1183,
-      "nonWhitespaceCharacterCount": 1091,
-      "createdDate": 1678021779910,
-      "modifiedDate": 1648415692564,
-      "sizeInBytes": 1565
+      "wordCount": 33,
+      "pageCount": 0.11866666666666667,
+      "characterCount": 214,
+      "nonWhitespaceCharacterCount": 178,
+      "createdDate": 1678021779896,
+      "modifiedDate": 1681826368242,
+      "sizeInBytes": 218
     },
     "Kanban/Dataview 测试.md": {
       "isDirectory": false,
@@ -114,17 +125,6 @@
       "createdDate": 1681558645869,
       "modifiedDate": 1681561670202,
       "sizeInBytes": 145
-    },
-    "Excalidraw.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 131,
-      "pageCount": 4.432,
-      "characterCount": 6884,
-      "nonWhitespaceCharacterCount": 6648,
-      "createdDate": 1678021779856,
-      "modifiedDate": 1662788557378,
-      "sizeInBytes": 6888
     },
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md": {
       "isDirectory": false,
