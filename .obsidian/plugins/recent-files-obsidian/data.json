@@ -5,6 +5,14 @@
       "path": "测试.md"
     },
     {
+      "basename": "生存战争：伤害记录",
+      "path": "随手记/生存战争：伤害记录.md"
+    },
+    {
+      "basename": "剧本杀",
+      "path": "随手记/剧本杀.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -21,10 +29,6 @@
       "path": "Canvas.canvas"
     },
     {
-      "basename": "剧本杀",
-      "path": "随手记/剧本杀.md"
-    },
-    {
       "basename": "测试's Excalidraw 2023.02.14 14.52.49",
       "path": "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Template",
       "path": "Template.md"
-    },
-    {
-      "basename": "生存战争：伤害记录",
-      "path": "随手记/生存战争：伤害记录.md"
     },
     {
       "basename": "Try",
