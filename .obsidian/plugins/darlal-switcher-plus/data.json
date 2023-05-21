@@ -1,4 +1,5 @@
 {
+  "version": "1.0.0",
   "onOpenPreferNewTab": false,
   "alwaysNewTabForSymbols": false,
   "useActiveTabForSymbolsOnMobile": false,
@@ -7,7 +8,7 @@
   "symbolListCommand": "@",
   "workspaceListCommand": "+",
   "headingsListCommand": "#",
-  "starredListCommand": "'",
+  "bookmarksListCommand": "'",
   "commandListCommand": ">",
   "relatedItemsListCommand": "~",
   "strictHeadingsOnly": false,
@@ -73,11 +74,11 @@
   "enableMatchPriorityAdjustments": false,
   "matchPriorityAdjustments": {
     "isOpenInEditor": 0,
-    "isStarred": 0,
     "isRecent": 0,
     "file": 0,
     "alias": 0,
-    "h1": 0
+    "h1": 0,
+    "isBookmarked": 0
   },
   "quickFilters": {
     "resetKey": "0",
@@ -180,11 +181,32 @@
         "label": "disk location",
         "isActive": false,
         "isAvailable": true
+      },
+      {
+        "id": "bookmarks-file",
+        "mode": 32,
+        "label": "files",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "bookmarks-folder",
+        "mode": 32,
+        "label": "folders",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "bookmarks-search",
+        "mode": 32,
+        "label": "searches",
+        "isActive": false,
+        "isAvailable": true
       }
     ],
     "shouldResetActiveFacets": false,
     "shouldShowFacetInstructions": true
   },
-  "preserveCommandPaletteLastInput": false,
+  "preserveCommandPaletteLastInput": true,
   "preserveQuickSwitcherLastInput": true
 }

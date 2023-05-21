@@ -45,7 +45,6 @@
   "obsidian-relative-line-numbers",
   "recent-files-obsidian",
   "obsidian-filename-heading-sync",
-  "darlal-switcher-plus",
   "mysnippets-plugin",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-trash-explorer",
@@ -60,5 +59,6 @@
   "obsidian-annotator",
   "quick-explorer",
   "obsidian-quiet-outline",
-  "tag-summary-plugin"
+  "tag-summary-plugin",
+  "darlal-switcher-plus"
 ]

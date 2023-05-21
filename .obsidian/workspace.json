@@ -11,9 +11,11 @@
             "id": "f6e76daa7445bff9",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Kanban/Dataview 测试.md"
+                "file": "测试.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -132,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kanban/Dataview 测试.md"
+                "file": "测试.md"
               }
             }
           }
@@ -149,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Kanban/Dataview 测试.md",
+                "file": "测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kanban/Dataview 测试.md",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kanban/Dataview 测试.md",
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,22 +240,22 @@
       "audio-recorder:开始/结束录音": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-trash-explorer:Open trash explorer": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-omnivore:Omnivore": false,
-      "periodic-notes:Open today": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "f6e76daa7445bff9",
   "lastOpenFiles": [
-    "Template.md",
+    "Canvas.canvas",
     "测试.md",
     "随手记/剧本杀.md",
+    "Kanban/Dataview 测试.md",
+    "Template.md",
     "随手记/生存战争：伤害记录.md",
     "README.md",
     "gj.md",
-    "Kanban/Dataview 测试.md",
     "Kanban",
-    "Canvas.canvas",
     "Dataview 测试 2023.04.15-1.canvas",
     "Omnivore.md",
     "try2.md",
