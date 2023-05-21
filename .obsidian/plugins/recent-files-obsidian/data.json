@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Dataview 测试",
+      "path": "Kanban/Dataview 测试.md"
+    },
+    {
+      "basename": "Template",
+      "path": "Template.md"
+    },
+    {
       "basename": "测试",
       "path": "测试.md"
     },
@@ -21,10 +29,6 @@
       "path": "gj.md"
     },
     {
-      "basename": "Dataview 测试",
-      "path": "Kanban/Dataview 测试.md"
-    },
-    {
       "basename": "Canvas",
       "path": "Canvas.canvas"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Excalidraw",
       "path": "Excalidraw.md"
-    },
-    {
-      "basename": "Template",
-      "path": "Template.md"
     },
     {
       "basename": "Try",

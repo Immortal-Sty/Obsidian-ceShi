@@ -2,7 +2,7 @@
   "modifierForNewNote": "Mod",
   "hideNoteInExplorer": true,
   "hideCollapseIndicator": true,
-  "longPressFocus": true,
+  "longPressFocus": false,
   "folderIcon": true,
   "folderNotePref": null,
   "deleteOutsideNoteWithFolder": null,
