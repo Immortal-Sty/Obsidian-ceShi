@@ -64,29 +64,14 @@
               "type": "recent-files",
               "state": {}
             }
-          },
-          {
-            "id": "a6d6d49e650df659",
-            "type": "leaf",
-            "state": {
-              "type": "trash-explorer",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "39d07a2c42657312",
         "type": "tabs",
         "children": [
-          {
-            "id": "be83f8990a4d7e60",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
           {
             "id": "947e1064ecf21b59",
             "type": "leaf",
@@ -121,14 +106,6 @@
             }
           },
           {
-            "id": "9c0efb6bc8b77cde",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "758564b066718e50",
             "type": "leaf",
             "state": {
@@ -137,9 +114,16 @@
                 "file": "测试.md"
               }
             }
+          },
+          {
+            "id": "c8d95c85cdf621ed",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4dbf103314f6888d",
@@ -238,14 +222,14 @@
       "command-palette:打开命令面板": false,
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-omnivore:Omnivore": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "f6e76daa7445bff9",
+  "active": "49578976ab129243",
   "lastOpenFiles": [
     "Canvas.canvas",
     "测试.md",

@@ -1,5 +1,4 @@
 [
-  "table-editor-obsidian",
   "alx-folder-note",
   "alx-folder-note-folderv",
   "obsidian-banners",
@@ -24,20 +23,17 @@
   "obsidian-kanban",
   "media-extended",
   "mx-bili-plugin",
-  "obsidian-minimal-settings",
   "nldates-obsidian",
   "obsidian-charts",
   "obsidian-git",
   "obsidian-outliner",
   "obsidian-pandoc",
-  "obsidian-paste-image-rename",
   "url-into-selection",
   "periodic-notes",
   "quickadd",
   "remember-cursor-position",
   "reveal-active-file-button",
   "obsidian-sortable",
-  "obsidian-style-settings",
   "table-extended",
   "tag-wrangler",
   "cm-typewriter-scroll-obsidian",
@@ -48,7 +44,6 @@
   "mysnippets-plugin",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-trash-explorer",
-  "obsidian-image-toolkit",
   "obsidian42-brat",
   "obsidian-better-codeblock",
   "obsidian-any-block",
@@ -61,5 +56,5 @@
   "obsidian-quiet-outline",
   "tag-summary-plugin",
   "darlal-switcher-plus",
-  "mousewheel-image-zoom"
+  "table-editor-obsidian"
 ]

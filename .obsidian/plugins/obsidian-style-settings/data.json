@@ -36,5 +36,5 @@
   "minimal-style@@callouts-style": "callouts-default",
   "minimal-style@@callout-blend-mode": "var(--highlight-mix-blend-mode)",
   "minimal-style@@tag-radius": "14px",
-  "minimal-style@@image-grid-fit": "contain"
+  "minimal-style@@image-grid-fit": "cover"
 }
