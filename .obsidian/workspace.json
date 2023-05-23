@@ -158,7 +158,7 @@
                   "repelStrength": 14.0625,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7132754626224422,
+                  "scale": 0.7132754626224423,
                   "close": true
                 }
               }
@@ -229,7 +229,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f6e76daa7445bff9",
+  "active": "87e16bfa63e4cb8b",
   "lastOpenFiles": [
     "Canvas.canvas",
     "测试.md",

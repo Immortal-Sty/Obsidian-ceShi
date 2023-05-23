@@ -17,6 +17,19 @@
     "pageCountType": "ByChars"
   },
   "cachedCounts": {
+    "随手记/剧本杀.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 82,
+      "pageCount": 0.15333333333333332,
+      "characterCount": 352,
+      "nonWhitespaceCharacterCount": 230,
+      "linkCount": 0,
+      "embedCount": 0,
+      "createdDate": 1678021779941,
+      "modifiedDate": 1684586030352,
+      "sizeInBytes": 620
+    },
     "随手记/生存战争：伤害记录.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -30,18 +43,18 @@
       "modifiedDate": 1684582282206,
       "sizeInBytes": 482
     },
-    "随手记/剧本杀.md": {
+    "测试.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 82,
-      "pageCount": 0.15333333333333332,
-      "characterCount": 352,
-      "nonWhitespaceCharacterCount": 230,
-      "linkCount": 0,
-      "embedCount": 0,
-      "createdDate": 1678021779941,
-      "modifiedDate": 1684586030352,
-      "sizeInBytes": 620
+      "wordCount": 463,
+      "pageCount": 1.4333333333333333,
+      "characterCount": 2817,
+      "nonWhitespaceCharacterCount": 2150,
+      "linkCount": 3,
+      "embedCount": 7,
+      "createdDate": 1678021779933,
+      "modifiedDate": 1684763749093,
+      "sizeInBytes": 2969
     },
     "gj.md": {
       "isDirectory": false,
@@ -56,18 +69,18 @@
       "modifiedDate": 1681826340102,
       "sizeInBytes": 196
     },
-    "测试.md": {
+    "Template.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 463,
-      "pageCount": 1.4333333333333333,
-      "characterCount": 2817,
-      "nonWhitespaceCharacterCount": 2150,
-      "linkCount": 3,
-      "embedCount": 7,
-      "createdDate": 1678021779933,
-      "modifiedDate": 1684763749093,
-      "sizeInBytes": 2969
+      "wordCount": 5,
+      "pageCount": 0.072,
+      "characterCount": 115,
+      "nonWhitespaceCharacterCount": 108,
+      "linkCount": 1,
+      "embedCount": 1,
+      "createdDate": 1678021779915,
+      "modifiedDate": 1662791154027,
+      "sizeInBytes": 127
     },
     "Template/网址集合.md": {
       "isDirectory": false,
@@ -95,19 +108,6 @@
       "modifiedDate": 1665815795542,
       "sizeInBytes": 6
     },
-    "Template.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 5,
-      "pageCount": 0.072,
-      "characterCount": 115,
-      "nonWhitespaceCharacterCount": 108,
-      "linkCount": 1,
-      "embedCount": 1,
-      "createdDate": 1678021779915,
-      "modifiedDate": 1662791154027,
-      "sizeInBytes": 127
-    },
     "README.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -120,19 +120,6 @@
       "createdDate": 1678021779896,
       "modifiedDate": 1681826368242,
       "sizeInBytes": 218
-    },
-    "Excalidraw.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "createdDate": 1678021779856,
-      "modifiedDate": 1662788557378,
-      "sizeInBytes": 6888
     },
     "Kanban/Dataview 测试.md": {
       "isDirectory": false,
@@ -276,6 +263,19 @@
       "createdDate": 1678021779714,
       "modifiedDate": 1661937190616,
       "sizeInBytes": 4238
+    },
+    "Excalidraw.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "createdDate": 1678021779856,
+      "modifiedDate": 1662788557378,
+      "sizeInBytes": 6888
     },
     "Day Planners/Day Planner-20220718.md": {
       "isDirectory": false,
