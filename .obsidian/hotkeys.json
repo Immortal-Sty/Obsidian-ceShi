@@ -165,15 +165,6 @@
       "key": "0"
     }
   ],
-  "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "I"
-    }
-  ],
   "table-editor-obsidian:center-align-column": [
     {
       "modifiers": [
@@ -520,6 +511,15 @@
         "Alt"
       ],
       "key": "F"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
     }
   ]
 }

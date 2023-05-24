@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "85104938d5a15c78",
+        "id": "ea999d93e252b4b4",
         "type": "tabs",
         "children": [
           {
-            "id": "f6e76daa7445bff9",
+            "id": "96bc7948ce4a2d38",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -237,7 +237,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f6e76daa7445bff9",
+  "active": "96bc7948ce4a2d38",
   "lastOpenFiles": [
     "Template.md",
     "gj.md",
