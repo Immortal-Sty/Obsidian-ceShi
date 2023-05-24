@@ -5,6 +5,14 @@
       "path": "测试.md"
     },
     {
+      "basename": "Template",
+      "path": "Template.md"
+    },
+    {
+      "basename": "gj",
+      "path": "gj.md"
+    },
+    {
       "basename": "Canvas",
       "path": "Canvas.canvas"
     },
@@ -17,20 +25,12 @@
       "path": "Kanban/Dataview 测试.md"
     },
     {
-      "basename": "Template",
-      "path": "Template.md"
-    },
-    {
       "basename": "生存战争：伤害记录",
       "path": "随手记/生存战争：伤害记录.md"
     },
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "gj",
-      "path": "gj.md"
     },
     {
       "basename": "测试's Excalidraw 2023.02.14 14.52.49",
