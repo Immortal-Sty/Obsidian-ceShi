@@ -11,3 +11,5 @@ tags: #alksjdf
 ```add-summary
 tags: #脑图
 ```
+
+![[随手记/剧本杀#^03c7d2]]

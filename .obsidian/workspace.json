@@ -199,7 +199,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -239,14 +239,14 @@
   },
   "active": "96bc7948ce4a2d38",
   "lastOpenFiles": [
-    "Template.md",
+    "README.md",
     "gj.md",
-    "测试.md",
-    "Canvas.canvas",
     "随手记/剧本杀.md",
+    "测试.md",
+    "Template.md",
+    "Canvas.canvas",
     "Kanban/Dataview 测试.md",
     "随手记/生存战争：伤害记录.md",
-    "README.md",
     "Kanban",
     "Dataview 测试 2023.04.15-1.canvas",
     "Omnivore.md",
