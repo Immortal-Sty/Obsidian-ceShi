@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -240,9 +240,9 @@
   "active": "96bc7948ce4a2d38",
   "lastOpenFiles": [
     "README.md",
+    "测试.md",
     "gj.md",
     "随手记/剧本杀.md",
-    "测试.md",
     "Template.md",
     "Canvas.canvas",
     "Kanban/Dataview 测试.md",
