@@ -524,6 +524,12 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "try",
+      "id": "46582ef9-9153-4956-9d09-5413a3207aa6",
+      "commands": [],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",
