@@ -16,5 +16,6 @@
   "trashOption": "local",
   "foldHeading": true,
   "showFrontmatter": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "newFileLocation": "current"
 }
