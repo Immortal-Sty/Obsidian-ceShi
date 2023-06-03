@@ -232,8 +232,7 @@
       "obsidian-omnivore:Omnivore": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "periodic-notes:Open today": false,
-      "obsidian-bookmaster-plugin:Book Explorer": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "96bc7948ce4a2d38",
