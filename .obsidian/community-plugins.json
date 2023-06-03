@@ -62,5 +62,6 @@
   "obsidian-paste-image-rename",
   "obsidian-style-settings",
   "obsidian-minimal-settings",
-  "persistent-links"
+  "persistent-links",
+  "templater-obsidian"
 ]
