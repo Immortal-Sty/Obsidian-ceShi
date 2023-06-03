@@ -17,6 +17,32 @@
     "pageCountType": "ByChars"
   },
   "cachedCounts": {
+    "bookmaster/book-data/ZdkZaUittDgPKBzC.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 23,
+      "pageCount": 0.10133333333333333,
+      "characterCount": 174,
+      "nonWhitespaceCharacterCount": 152,
+      "linkCount": 0,
+      "embedCount": 0,
+      "createdDate": 1685767181090,
+      "modifiedDate": 1685767181094,
+      "sizeInBytes": 182
+    },
+    "bookmaster/book-data/pEfbtnDYqPbRZLDw.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 25,
+      "pageCount": 0.096,
+      "characterCount": 168,
+      "nonWhitespaceCharacterCount": 144,
+      "linkCount": 0,
+      "embedCount": 0,
+      "createdDate": 1685767142720,
+      "modifiedDate": 1685767142727,
+      "sizeInBytes": 208
+    },
     "测试.md": {
       "isDirectory": false,
       "noteCount": 1,
