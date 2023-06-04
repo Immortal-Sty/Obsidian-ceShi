@@ -45,7 +45,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-trash-explorer",
   "obsidian42-brat",
-  "obsidian-better-codeblock",
   "obsidian-any-block",
   "ob-table-enhancer",
   "obsidian-table-generator",
@@ -63,5 +62,6 @@
   "obsidian-minimal-settings",
   "persistent-links",
   "templater-obsidian",
-  "awesome-image"
+  "awesome-image",
+  "codeblock-customizer"
 ]
