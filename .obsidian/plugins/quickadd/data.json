@@ -75,415 +75,91 @@
           "openFileInMode": "default"
         },
         {
-          "id": "ca2c4bbf-9cd0-408b-8e32-2137b2e050ef",
+          "id": "01cb92d2-d177-41a3-aa90-bef3303ed1c1",
           "name": "Note",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!note]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "eada9833-b15e-452d-9351-46849acb83ac"
         },
         {
-          "id": "29bf24da-0b0e-4e82-9641-568c283b88f2",
+          "id": "50d4e5e5-959a-409c-9715-462d66e804f7",
           "name": "Summary",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!summary]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "f19adf82-b882-4279-b8d2-8e99428f3862"
         },
         {
-          "id": "c2066d32-0e22-4c45-a5c1-78739461d0aa",
+          "id": "7245be7b-71d1-4fa0-a7e3-5ce25af9a9ad",
           "name": "Info",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!info]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "b63ba69d-0c05-451d-be72-1915284ac374"
         },
         {
-          "id": "86b4991e-ce33-4e8c-b5a0-2cb3c04326da",
+          "id": "c84d705c-aaca-46ac-815b-42d7962bc899",
           "name": "Tip",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!tip]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "a03f9e27-832c-4efe-b5c1-6ecb4f1c4ede"
         },
         {
-          "id": "f20e6c4c-8ca1-4678-a682-0a73b99c53af",
+          "id": "438820db-5674-440e-88e7-91931a53fbe6",
           "name": "Done",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!done]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "8564ba6d-1a2c-4677-ada5-7e8078108510"
         },
         {
-          "id": "8bc9373d-ea01-4701-9478-dd884dbcaeab",
+          "id": "9786c850-4615-436b-9b4c-eb390e6ac159",
           "name": "Help",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!help]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "1b1f8df1-23ef-4882-9e84-36122e74c626"
         },
         {
-          "id": "0797a9b8-5073-48b4-b839-4ed3f967928d",
+          "id": "069f2b7f-1352-4085-8dfd-1b3065f0b3f7",
           "name": "Warning",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!warning]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "891e83e9-83f8-4c28-842a-4217c2106eed"
         },
         {
-          "id": "a087b582-f24e-44ea-8eb7-5444da3b2435",
+          "id": "6c283bb1-1c72-42b4-877f-7731d339eff2",
           "name": "Fail",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!fail]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "a3f0c0d1-9f74-4745-af8f-0ae3eb31429f"
         },
         {
-          "id": "5d11802f-6998-4d0f-ad34-cd36feb9668c",
+          "id": "c700c750-7c07-407d-9721-b83870701985",
           "name": "Error",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!error]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "811d2504-ab56-4392-a183-6fc8bf3c43e1"
         },
         {
-          "id": "c5388705-2f4c-40f4-af3c-9709fb7d0925",
+          "id": "18584165-7374-4b55-8f24-b2be368296ca",
           "name": "Bug",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!bug]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "e12c803d-035c-4e0c-aaf2-328c141bd8dd"
         },
         {
-          "id": "c5d0d0fc-82b8-421d-8a39-a1cb76fcb0ee",
+          "id": "9c79a587-1176-45ac-b206-104582a2888a",
           "name": "Example",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!example]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "d0998db8-aabc-49c3-a1f3-499767f1041d"
         },
         {
-          "id": "28484230-e569-40b1-9dbc-78830c650f2e",
+          "id": "a3de421e-b06e-4433-93a3-ca5543a669f2",
           "name": "Quote",
-          "type": "Capture",
+          "type": "Macro",
           "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "> [!quote]+ {{VALUE}}\n> \n> "
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "fa41e61d-bc10-4f02-915a-00bdd6255b36"
         }
       ],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "14a19914-1e05-4874-919e-36c09b17c324",
@@ -529,6 +205,714 @@
       "name": "try",
       "id": "46582ef9-9153-4956-9d09-5413a3207aa6",
       "commands": [],
+      "runOnStartup": false
+    },
+    {
+      "name": "Note",
+      "id": "eada9833-b15e-452d-9351-46849acb83ac",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "3419ed5f-8de4-42de-82b3-9a7c0d447830",
+          "choice": {
+            "id": "e6025d31-6c3b-4417-9def-fc04786cfe1b",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!note]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "57219ced-58c9-4720-8a3a-1956e3f5928c",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "4d13e884-e0e7-483c-a9c7-60b97e4eaf7d",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Summary",
+      "id": "f19adf82-b882-4279-b8d2-8e99428f3862",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "7eb06245-dfe9-49d7-9eb9-b34e95e39055",
+          "choice": {
+            "id": "9932af50-2286-4285-9899-59781ee76e32",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!summary]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "9fbacdf1-0dac-4bd0-95b3-cef8bca5ad54",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "2e9c7695-862f-4813-a1af-6bf3cad09746",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Info",
+      "id": "b63ba69d-0c05-451d-be72-1915284ac374",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "19a6ca66-3da2-4442-951d-59e94279c6e4",
+          "choice": {
+            "id": "3db584f2-7e3f-4ee5-89f7-307fd61ca73b",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!info]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "6fc76b16-f693-4a7a-be0a-998d23d7bc80",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "a0a3abe3-3a3a-43ac-aa68-a313ba710060",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Tip",
+      "id": "a03f9e27-832c-4efe-b5c1-6ecb4f1c4ede",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "6c724b2e-be23-42e9-b4e1-c0cfc610769c",
+          "choice": {
+            "id": "1ad620e4-67bb-449b-8af8-c3137b178ba3",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!tip]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "088d7cfa-6dd2-4504-9adf-a52477b9f393",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "c0524b69-9bfe-448a-a006-e1a7bc88ff01",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Done",
+      "id": "8564ba6d-1a2c-4677-ada5-7e8078108510",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "17e1e5ae-d759-4a2a-bf9f-b46890206d95",
+          "choice": {
+            "id": "55f60c85-d3ed-4344-964c-8adcd0abfc43",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!done]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "eb79df86-0965-4618-aae8-9740e004805c",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "617fd30a-e0c9-4454-8541-e5883bc274aa",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Help",
+      "id": "1b1f8df1-23ef-4882-9e84-36122e74c626",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "2f90abdc-c430-4b71-ae63-9182e0f4c8a1",
+          "choice": {
+            "id": "1afca3a6-a9cc-4a14-8f2b-ce9a64144efb",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!help]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "3a343f14-5106-48a9-80b3-b5a9475732fb",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "bfda33fc-bde7-4ca8-a902-a2092da5d540",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Warning",
+      "id": "891e83e9-83f8-4c28-842a-4217c2106eed",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "aaf81607-de10-4729-841d-289bf129648f",
+          "choice": {
+            "id": "c1e96107-0e3d-4c24-811d-776ba9e6ff3e",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!warning]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "1d50a30f-a96b-4224-90f3-9511cc7c31b3",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "a6faa6dd-a191-4c52-a9b5-5a0fbd26f647",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Fail",
+      "id": "a3f0c0d1-9f74-4745-af8f-0ae3eb31429f",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "749164d3-1c49-4e84-8429-97b662957998",
+          "choice": {
+            "id": "528ffd96-2e44-4562-af8b-404167bdf2a1",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!fail]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "5e81dacc-15e6-4ac8-a37f-afee1fa240cc",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "c9d2745e-e74a-4f43-bf50-3a72c3bd8b75",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Error",
+      "id": "811d2504-ab56-4392-a183-6fc8bf3c43e1",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "e1875058-8ade-44b8-95d9-e5b3af9df279",
+          "choice": {
+            "id": "2e81815f-af09-478b-aa0c-73ac51c46b99",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!error]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "b63cad7e-1d7f-4c16-ab86-e2e5a2c71300",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "adc8b650-3a1d-41de-988c-d22c97b3f7ee",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Bug",
+      "id": "e12c803d-035c-4e0c-aaf2-328c141bd8dd",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "24f19ba1-4474-4851-9ccb-e8b6043a3ba8",
+          "choice": {
+            "id": "0d3aec47-8e8c-41ee-ace2-11ab88a0a548",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!bug]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "80890809-7dd0-4508-a126-eb648355c891",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "bae1c8c1-2136-4bad-9286-a090b1f7157b",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Example",
+      "id": "d0998db8-aabc-49c3-a1f3-499767f1041d",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "2c05ae6c-c53f-4710-8fda-8cbbdb7a736e",
+          "choice": {
+            "id": "e12b54bb-5517-49f6-b8aa-8fb1e28e216e",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!example]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "8f023996-16e3-4c85-9aae-e307e82f001c",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "27b1f7b5-61fc-4df8-b966-341a7f115724",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Quote",
+      "id": "fa41e61d-bc10-4f02-915a-00bdd6255b36",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "4ebf385d-8892-4d6d-89c1-a92e85ab0a15",
+          "choice": {
+            "id": "1398ccd0-dad6-44da-b621-a7341456b59d",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!quote]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "32c9525f-7e54-41d4-b8e9-efe29d5daa21",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "81ba3045-f1e0-4a06-b49f-a6bb5d2685e4",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
       "runOnStartup": false
     }
   ],

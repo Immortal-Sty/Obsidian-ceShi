@@ -110,7 +110,6 @@
       "key": "H"
     }
   ],
-  "file-explorer:new-file": [],
   "editor:swap-line-up": [
     {
       "modifiers": [
@@ -319,14 +318,6 @@
     }
   ],
   "obsidian-outliner:move-list-item-up": [],
-  "periodic-notes:open-daily-note": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
   "periodic-notes:open-weekly-note": [
     {
       "modifiers": [
@@ -519,6 +510,14 @@
         "Shift"
       ],
       "key": "I"
+    }
+  ],
+  "templater-obsidian:jump-to-next-cursor-location": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
     }
   ]
 }

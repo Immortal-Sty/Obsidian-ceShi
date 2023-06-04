@@ -17,6 +17,19 @@
     "pageCountType": "ByChars"
   },
   "cachedCounts": {
+    "测试.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 463,
+      "pageCount": 1.424,
+      "characterCount": 2802,
+      "nonWhitespaceCharacterCount": 2136,
+      "linkCount": 5,
+      "embedCount": 7,
+      "createdDate": 1678021779933,
+      "modifiedDate": 1685687707462,
+      "sizeInBytes": 2970
+    },
     "随手记/生存战争：伤害记录.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -42,32 +55,6 @@
       "createdDate": 1678021779941,
       "modifiedDate": 1685184536094,
       "sizeInBytes": 667
-    },
-    "测试.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 463,
-      "pageCount": 1.424,
-      "characterCount": 2802,
-      "nonWhitespaceCharacterCount": 2136,
-      "linkCount": 5,
-      "embedCount": 7,
-      "createdDate": 1678021779933,
-      "modifiedDate": 1685687707462,
-      "sizeInBytes": 2970
-    },
-    "Template.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 5,
-      "pageCount": 0.072,
-      "characterCount": 115,
-      "nonWhitespaceCharacterCount": 108,
-      "linkCount": 1,
-      "embedCount": 1,
-      "createdDate": 1678021779915,
-      "modifiedDate": 1662791154027,
-      "sizeInBytes": 127
     },
     "gj.md": {
       "isDirectory": false,
@@ -108,18 +95,31 @@
       "modifiedDate": 1685767181094,
       "sizeInBytes": 182
     },
-    "Template/Try.md": {
+    "README.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 2,
-      "pageCount": 0.0026666666666666666,
-      "characterCount": 6,
-      "nonWhitespaceCharacterCount": 4,
+      "wordCount": 34,
+      "pageCount": 0.132,
+      "characterCount": 236,
+      "nonWhitespaceCharacterCount": 198,
       "linkCount": 0,
-      "embedCount": 0,
-      "createdDate": 1678021779906,
-      "modifiedDate": 1665815795542,
-      "sizeInBytes": 6
+      "embedCount": 1,
+      "createdDate": 1678021779896,
+      "modifiedDate": 1685184513796,
+      "sizeInBytes": 252
+    },
+    "Template.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.072,
+      "characterCount": 115,
+      "nonWhitespaceCharacterCount": 108,
+      "linkCount": 1,
+      "embedCount": 1,
+      "createdDate": 1678021779915,
+      "modifiedDate": 1662791154027,
+      "sizeInBytes": 127
     },
     "Template/网址集合.md": {
       "isDirectory": false,
@@ -134,18 +134,18 @@
       "modifiedDate": 1648415692564,
       "sizeInBytes": 1565
     },
-    "README.md": {
+    "Template/Try.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 34,
-      "pageCount": 0.132,
-      "characterCount": 236,
-      "nonWhitespaceCharacterCount": 198,
+      "wordCount": 2,
+      "pageCount": 0.0026666666666666666,
+      "characterCount": 6,
+      "nonWhitespaceCharacterCount": 4,
       "linkCount": 0,
-      "embedCount": 1,
-      "createdDate": 1678021779896,
-      "modifiedDate": 1685184513796,
-      "sizeInBytes": 252
+      "embedCount": 0,
+      "createdDate": 1678021779906,
+      "modifiedDate": 1665815795542,
+      "sizeInBytes": 6
     },
     "Kanban/Dataview 测试.md": {
       "isDirectory": false,
