@@ -16,16 +16,16 @@
   "header": {
     "bHeaderBold": false,
     "bHeaderItalic": false,
-    "bCodeblockLangBold": true,
-    "bCodeblockLangItalic": true,
+    "bCodeblockLangBold": false,
+    "bCodeblockLangItalic": false,
     "bAlwaysDisplayCodeblockLang": true,
     "bAlwaysDisplayCodeblockIcon": false,
     "bDefaultDarkTheme": false,
     "bDefaultLightTheme": false,
     "color": "#21222C",
     "textColor": "#DADADA",
-    "lineColor": "#46cced",
-    "codeBlockLangColor": "#000000",
+    "lineColor": "#A676E9",
+    "codeBlockLangColor": "#FFFFFF",
     "codeBlockLangBackgroundColor": "#00808000"
   },
   "colorThemes": [
