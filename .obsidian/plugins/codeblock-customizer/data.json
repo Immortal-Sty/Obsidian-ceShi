@@ -1,7 +1,7 @@
 {
   "bEnableLineNumbers": true,
   "bActiveCodeblockLineHighlight": true,
-  "bActiveLineHighlight": true,
+  "bActiveLineHighlight": false,
   "bGutterHighlight": false,
   "ExcludeLangs": "dataview",
   "activeCodeBlockLineColor": "#30323F",
@@ -11,22 +11,22 @@
   "bDisplayCodeBlockLanguage": true,
   "bDisplayCodeBlockIcon": false,
   "gutterTextColor": "#6c6c6c",
-  "gutterBackgroundColor": "#073642",
+  "gutterBackgroundColor": "#07364200",
   "SelectedTheme": "Dark Theme",
   "header": {
     "bHeaderBold": false,
     "bHeaderItalic": false,
     "bCodeblockLangBold": true,
     "bCodeblockLangItalic": true,
-    "bAlwaysDisplayCodeblockLang": false,
+    "bAlwaysDisplayCodeblockLang": true,
     "bAlwaysDisplayCodeblockIcon": false,
     "bDefaultDarkTheme": false,
     "bDefaultLightTheme": false,
-    "color": "#0a4554",
+    "color": "#21222C",
     "textColor": "#DADADA",
     "lineColor": "#46cced",
     "codeBlockLangColor": "#000000",
-    "codeBlockLangBackgroundColor": "#008080"
+    "codeBlockLangBackgroundColor": "#00808000"
   },
   "colorThemes": [
     {
