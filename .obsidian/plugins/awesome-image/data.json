@@ -1,7 +1,7 @@
 {
   "viewImageEditor": true,
   "viewImageInCPB": true,
-  "viewImageWithALink": true,
+  "viewImageWithALink": false,
   "viewImageOther": true,
   "pinMode": true,
   "pinMaximum": 5,
@@ -9,18 +9,26 @@
   "imageMoveSpeed": 10,
   "imgTipToggle": true,
   "imgFullScreenMode": "FIT",
-  "imgViewBackgroundColor": "#282A3787",
+  "imgViewBackgroundColor": "#00000087",
   "imageBorderToggle": false,
-  "imageBorderWidth": "medium",
+  "imageBorderWidth": "thin",
   "imageBorderStyle": "solid",
-  "imageBorderColor": "pink",
-  "galleryNavbarToggle": true,
+  "imageBorderColor": "purple",
+  "galleryNavbarToggle": false,
   "galleryNavbarDefaultColor": "#0000001A",
   "galleryNavbarHoverColor": "#0000004D",
   "galleryImgBorderActive": true,
-  "galleryImgBorderActiveColor": "#FF78C7",
+  "galleryImgBorderActiveColor": "#FF0000",
   "moveTheImageHotkey": "NONE",
-  "switchTheImageHotkey": "CTRL",
+  "switchTheImageHotkey": "SHIFT",
   "doubleClickToolbar": "toolbar_close",
-  "viewTriggerHotkey": "CTRL"
+  "viewTriggerHotkey": "CTRL",
+  "realTimeUpdate": false,
+  "excludedFolders": [
+    ".git/",
+    ".obsidian/",
+    ".trash/"
+  ],
+  "includedFileRegex": ".*\\.md",
+  "mediaRootDirectory": ".\\attachments"
 }

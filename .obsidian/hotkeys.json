@@ -512,12 +512,5 @@
       "key": "I"
     }
   ],
-  "templater-obsidian:jump-to-next-cursor-location": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "H"
-    }
-  ]
+  "templater-obsidian:jump-to-next-cursor-location": []
 }

@@ -57,11 +57,11 @@
   "tag-summary-plugin",
   "darlal-switcher-plus",
   "table-editor-obsidian",
-  "obsidian-image-toolkit",
   "mousewheel-image-zoom",
   "obsidian-paste-image-rename",
   "obsidian-style-settings",
   "obsidian-minimal-settings",
   "persistent-links",
-  "templater-obsidian"
+  "templater-obsidian",
+  "awesome-image"
 ]
