@@ -96,6 +96,13 @@
           "macroId": "b63ba69d-0c05-451d-be72-1915284ac374"
         },
         {
+          "id": "49c9c3ee-97b3-42b5-a434-800ed6f473c4",
+          "name": "Todo",
+          "type": "Macro",
+          "command": false,
+          "macroId": "c0ec48ee-7e68-4111-ab49-d0cada609e0a"
+        },
+        {
           "id": "c84d705c-aaca-46ac-815b-42d7962bc899",
           "name": "Tip",
           "type": "Macro",
@@ -910,6 +917,65 @@
           "name": "Templater: Jump to next cursor location",
           "type": "Obsidian",
           "id": "81ba3045-f1e0-4a06-b49f-a6bb5d2685e4",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Todo",
+      "id": "c0ec48ee-7e68-4111-ab49-d0cada609e0a",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "900c528b-8757-4d43-88b1-13ffde0590e5",
+          "choice": {
+            "id": "bcd4322d-9db3-4a10-b7fd-af4f2c5dfed5",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "> [!todo]+ <% tp.file.cursor(1) %>\n> \n> <% tp.file.cursor(2) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "83020479-1802-4b8a-bad2-ff474fe51c02",
+          "time": 1
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "3857f4b5-5bc2-4f92-8641-925585d9033b",
           "commandId": "templater-obsidian:jump-to-next-cursor-location"
         }
       ],
