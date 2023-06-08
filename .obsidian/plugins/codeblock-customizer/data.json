@@ -3,7 +3,7 @@
   "bActiveCodeblockLineHighlight": true,
   "bActiveLineHighlight": false,
   "bGutterHighlight": false,
-  "ExcludeLangs": "dataview",
+  "ExcludeLangs": "dataview, mermaid",
   "activeCodeBlockLineColor": "#30323F",
   "activeLineColor": "#468EEB33",
   "backgroundColor": "#21222C",
