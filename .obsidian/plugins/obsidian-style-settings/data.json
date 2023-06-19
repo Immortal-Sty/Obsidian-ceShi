@@ -36,5 +36,8 @@
   "minimal-style@@callouts-style": "callouts-default",
   "minimal-style@@callout-blend-mode": "var(--highlight-mix-blend-mode)",
   "minimal-style@@tag-radius": "14px",
-  "minimal-style@@image-grid-fit": "cover"
+  "minimal-style@@image-grid-fit": "cover",
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-bt-default",
+  "blue-topaz-theme@@transparent-setting-panel": false,
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-honey-milk-topaz"
 }
