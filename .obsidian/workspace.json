@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ea999d93e252b4b4",
+        "id": "dca050dfecc68a0f",
         "type": "tabs",
         "children": [
           {
-            "id": "96bc7948ce4a2d38",
+            "id": "463b365f59dee2e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,6 +62,14 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "5175a1ba512577ae",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
               "state": {}
             }
           }
@@ -228,15 +236,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "87e16bfa63e4cb8b",
+  "active": "463b365f59dee2e4",
   "lastOpenFiles": [
     "测试 2023.06.03-1.pdf",
+    "测试.md",
+    "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
+    "attachments/PanDownload-背景.jpg",
     "Canvas",
     "bookmaster/book-data/ZdkZaUittDgPKBzC.md",
     "bookmaster/book-data/pEfbtnDYqPbRZLDw.md",
     "bookmaster/book-data",
     "bookmaster",
-    "测试.md",
     "README.md",
     "gj.md",
     "随手记/剧本杀.md",
@@ -250,7 +260,6 @@
     "try2.md",
     "try1.md",
     "随手记/good.md",
-    "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.47.32.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.46.18.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.44.44.md",
