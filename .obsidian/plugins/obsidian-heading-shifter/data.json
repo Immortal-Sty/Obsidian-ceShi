@@ -1,4 +1,8 @@
 {
   "limitHeadingFrom": 1,
-  "overrideTab": false
+  "overrideTab": false,
+  "styleToRemove": {
+    "ul": false,
+    "ol": false
+  }
 }

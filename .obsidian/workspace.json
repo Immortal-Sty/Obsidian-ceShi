@@ -229,17 +229,18 @@
       "command-palette:打开命令面板": false,
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-omnivore:Omnivore": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-trash-explorer:Open trash explorer": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "cbd69a8244cc660d",
+  "active": "463b365f59dee2e4",
   "lastOpenFiles": [
-    "测试 2023.06.03-1.pdf",
+    "Canvas.canvas",
     "测试.md",
+    "测试 2023.06.03-1.pdf",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "attachments/PanDownload-背景.jpg",
     "Canvas",
@@ -251,7 +252,6 @@
     "gj.md",
     "随手记/剧本杀.md",
     "Template.md",
-    "Canvas.canvas",
     "Kanban/Dataview 测试.md",
     "随手记/生存战争：伤害记录.md",
     "Kanban",

@@ -3,5 +3,8 @@
   "ignoredFiles": {},
   "ignoreRegex": "^Excalidraw(\\.md|\\/.+)$|^attachments\\/.+$|^.+\\.(zxm|png|svg|jpe?g)$|^Kanban.+$",
   "useFileOpenHook": true,
-  "useFileSaveHook": true
+  "useFileSaveHook": true,
+  "newHeadingStyle": "Prefix",
+  "replaceStyle": true,
+  "underlineString": "==="
 }
