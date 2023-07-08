@@ -43,7 +43,6 @@
   "obsidian-filename-heading-sync",
   "mysnippets-plugin",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-trash-explorer",
   "obsidian42-brat",
   "obsidian-any-block",
   "ob-table-enhancer",
@@ -64,5 +63,6 @@
   "templater-obsidian",
   "awesome-image",
   "codeblock-customizer",
-  "obsidian-local-images-plus"
+  "obsidian-local-images-plus",
+  "obsidian-trash-explorer"
 ]
