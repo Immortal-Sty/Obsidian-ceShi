@@ -12,10 +12,13 @@
   "folderDateFormat": "yyyy.MM.dd",
   "endpoint": "https://api-prod.omnivore.app/api/graphql",
   "filename": "{{{title}}}",
+  "filenameDateFormat": "yyyy-MM-dd",
   "attachmentFolder": "Omnivore/attachments",
-  "version": "1.3.0",
+  "version": "1.5.3",
   "isSingleFile": false,
   "frequency": 0,
   "intervalId": 0,
+  "frontMatterVariables": [],
+  "frontMatterTemplate": "",
   "dateFormat": "yyyy.MM.dd"
 }

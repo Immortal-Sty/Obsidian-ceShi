@@ -6,11 +6,13 @@
   "symbolsInLineOrder": true,
   "editorListCommand": "edt ",
   "symbolListCommand": "@",
+  "symbolListActiveEditorCommand": "$ ",
   "workspaceListCommand": "+",
   "headingsListCommand": "#",
   "bookmarksListCommand": "'",
   "commandListCommand": ">",
   "relatedItemsListCommand": "~",
+  "relatedItemsListActiveEditorCommand": "^ ",
   "strictHeadingsOnly": false,
   "searchAllHeadings": true,
   "headingsSearchDebounceMilli": 250,
@@ -208,5 +210,23 @@
     "shouldShowFacetInstructions": true
   },
   "preserveCommandPaletteLastInput": true,
-  "preserveQuickSwitcherLastInput": true
+  "preserveQuickSwitcherLastInput": true,
+  "shouldCloseModalOnBackspace": false,
+  "maxRecentFileSuggestionsOnInit": 10,
+  "orderEditorListByAccessTime": true,
+  "insertLinkInEditor": {
+    "isEnabled": true,
+    "keymap": {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "i",
+      "purpose": "insert in editor"
+    },
+    "insertableEditorTypes": [
+      "markdown"
+    ],
+    "useBasenameAsAlias": false,
+    "useHeadingAsAlias": false
+  }
 }
