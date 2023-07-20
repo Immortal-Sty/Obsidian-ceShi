@@ -223,13 +223,13 @@
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "periodic-notes:Open today": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-omnivore:Omnivore": false,
+      "periodic-notes:Open today": false,
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "1bef51e096dcd8bb",
+  "active": "463b365f59dee2e4",
   "lastOpenFiles": [
     "Canvas.canvas",
     "测试.md",
