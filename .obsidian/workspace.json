@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "22531af0f6b60ff1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,7 +240,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "463b365f59dee2e4",
+  "active": "22531af0f6b60ff1",
   "lastOpenFiles": [
     "Canvas.canvas",
     "测试.md",
