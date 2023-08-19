@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "39d07a2c42657312",
