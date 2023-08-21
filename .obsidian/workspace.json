@@ -11,14 +11,11 @@
             "id": "463b365f59dee2e4",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Canvas.canvas",
-                "viewState": {
-                  "x": -2,
-                  "y": -233,
-                  "zoom": 0
-                }
+                "file": "测试.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -93,8 +90,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,7 +133,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Canvas.canvas",
+                "file": "测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -186,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canvas.canvas",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Canvas.canvas",
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,12 +228,12 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "947e1064ecf21b59",
+  "active": "cbd69a8244cc660d",
   "lastOpenFiles": [
-    "测试.md",
-    "Canvas.canvas",
-    "测试 2023.06.03-1.pdf",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
+    "Canvas.canvas",
+    "测试.md",
+    "测试 2023.06.03-1.pdf",
     "attachments/PanDownload-背景.jpg",
     "Canvas",
     "bookmaster/book-data/ZdkZaUittDgPKBzC.md",
