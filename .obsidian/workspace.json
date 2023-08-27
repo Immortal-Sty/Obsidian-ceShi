@@ -64,6 +64,14 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "93680c82a4aba7a6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       },
@@ -228,7 +236,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "463b365f59dee2e4",
+  "active": "cbd69a8244cc660d",
   "lastOpenFiles": [
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "Canvas.canvas",
