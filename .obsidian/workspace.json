@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -62,14 +62,6 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
-            }
-          },
-          {
-            "id": "93680c82a4aba7a6",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
               "state": {}
             }
           }
@@ -232,11 +224,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-omnivore:Omnivore": false,
-      "periodic-notes:Open today": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "cbd69a8244cc660d",
+  "active": "463b365f59dee2e4",
   "lastOpenFiles": [
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "Canvas.canvas",
