@@ -1,3 +1,7 @@
+---
+
+---
+
 # README
 
 It's a vault of Obsidian used to test some interesting plugins.

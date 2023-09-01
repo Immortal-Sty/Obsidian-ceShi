@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "测试.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "108d80c1a3d519a4",
@@ -134,7 +133,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -183,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,12 +209,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false,
       "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -223,17 +220,20 @@
       "command-palette:打开命令面板": false,
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-omnivore:Omnivore": false,
-      "periodic-notes:Open today": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false,
+      "periodic-notes:Open today": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
   "active": "463b365f59dee2e4",
   "lastOpenFiles": [
+    "gj.md",
+    "测试.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "Canvas.canvas",
-    "测试.md",
     "测试 2023.06.03-1.pdf",
     "attachments/PanDownload-背景.jpg",
     "Canvas",
@@ -242,7 +242,6 @@
     "bookmaster/book-data",
     "bookmaster",
     "README.md",
-    "gj.md",
     "随手记/剧本杀.md",
     "Template.md",
     "Kanban/Dataview 测试.md",

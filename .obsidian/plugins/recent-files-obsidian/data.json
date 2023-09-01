@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "gj",
+      "path": "gj.md"
+    },
+    {
       "basename": "测试",
       "path": "测试.md"
     },
@@ -15,14 +23,6 @@
     {
       "basename": "测试 2023.06.03-1",
       "path": "测试 2023.06.03-1.pdf"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "gj",
-      "path": "gj.md"
     },
     {
       "basename": "剧本杀",
