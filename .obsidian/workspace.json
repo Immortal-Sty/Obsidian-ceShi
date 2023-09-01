@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -104,6 +104,26 @@
         "id": "016914691a733b95",
         "type": "tabs",
         "children": [
+          {
+            "id": "8c2609e917d30621",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "1a4e3dd3e4b0007d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
           {
             "id": "06b2a923fa803a5d",
             "type": "leaf",
@@ -231,6 +251,7 @@
   "active": "463b365f59dee2e4",
   "lastOpenFiles": [
     "gj.md",
+    "README.md",
     "测试.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "Canvas.canvas",
@@ -241,7 +262,6 @@
     "bookmaster/book-data/pEfbtnDYqPbRZLDw.md",
     "bookmaster/book-data",
     "bookmaster",
-    "README.md",
     "随手记/剧本杀.md",
     "Template.md",
     "Kanban/Dataview 测试.md",
