@@ -64,6 +64,14 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "592c7dbf9c094c8d",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {}
+            }
           }
         ]
       },
