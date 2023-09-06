@@ -681,54 +681,60 @@ if (typeof HTMLElement === "function") {
   SvelteElement = class extends HTMLElement {
     constructor($$componentCtor, $$slots, use_shadow_dom) {
       super();
-      __publicField(this, "$$componentCtor");
-      __publicField(this, "$$slots");
-      __publicField(this, "$$component");
-      __publicField(this, "$$connected", false);
-      __publicField(this, "$$data", {});
-      __publicField(this, "$$reflecting", false);
-      /** @type {Record<string, CustomElementPropDefinition>} */
-      __publicField(this, "$$props_definition", {});
-      /** @type {Record<string, Function[]>} */
-      __publicField(this, "$$listeners", {});
-      /** @type {Map<Function, Function>} */
-      __publicField(this, "$$listener_unsubscribe_fns", /* @__PURE__ */ new Map());
-      this.$$componentCtor = $$componentCtor;
-      this.$$slots = $$slots;
+      /** The Svelte component constructor */
+      __publicField(this, "$$ctor");
+      /** Slots */
+      __publicField(this, "$$s");
+      /** The Svelte component instance */
+      __publicField(this, "$$c");
+      /** Whether or not the custom element is connected */
+      __publicField(this, "$$cn", false);
+      /** Component props data */
+      __publicField(this, "$$d", {});
+      /** `true` if currently in the process of reflecting component props back to attributes */
+      __publicField(this, "$$r", false);
+      /** @type {Record<string, CustomElementPropDefinition>} Props definition (name, reflected, type etc) */
+      __publicField(this, "$$p_d", {});
+      /** @type {Record<string, Function[]>} Event listeners */
+      __publicField(this, "$$l", {});
+      /** @type {Map<Function, Function>} Event listener unsubscribe functions */
+      __publicField(this, "$$l_u", /* @__PURE__ */ new Map());
+      this.$$ctor = $$componentCtor;
+      this.$$s = $$slots;
       if (use_shadow_dom) {
         this.attachShadow({ mode: "open" });
       }
     }
     addEventListener(type, listener, options) {
-      this.$$listeners[type] = this.$$listeners[type] || [];
-      this.$$listeners[type].push(listener);
-      if (this.$$component) {
-        const unsub = this.$$component.$on(type, listener);
-        this.$$listener_unsubscribe_fns.set(listener, unsub);
+      this.$$l[type] = this.$$l[type] || [];
+      this.$$l[type].push(listener);
+      if (this.$$c) {
+        const unsub = this.$$c.$on(type, listener);
+        this.$$l_u.set(listener, unsub);
       }
       super.addEventListener(type, listener, options);
     }
     removeEventListener(type, listener, options) {
       super.removeEventListener(type, listener, options);
-      if (this.$$component) {
-        const unsub = this.$$listener_unsubscribe_fns.get(listener);
+      if (this.$$c) {
+        const unsub = this.$$l_u.get(listener);
         if (unsub) {
           unsub();
-          this.$$listener_unsubscribe_fns.delete(listener);
+          this.$$l_u.delete(listener);
         }
       }
     }
     async connectedCallback() {
-      this.$$connected = true;
-      if (!this.$$component) {
+      this.$$cn = true;
+      if (!this.$$c) {
         let create_slot = function(name) {
           return () => {
             let node;
             const obj = {
               c: function create() {
-                node = document.createElement("slot");
+                node = element("slot");
                 if (name !== "default") {
-                  node.setAttribute("name", name);
+                  attr(node, "name", name);
                 }
               },
               /**
@@ -748,73 +754,85 @@ if (typeof HTMLElement === "function") {
           };
         };
         await Promise.resolve();
-        if (!this.$$connected) {
+        if (!this.$$cn) {
           return;
         }
         const $$slots = {};
         const existing_slots = get_custom_elements_slots(this);
-        for (const name of this.$$slots) {
+        for (const name of this.$$s) {
           if (name in existing_slots) {
             $$slots[name] = [create_slot(name)];
           }
         }
         for (const attribute of this.attributes) {
-          const name = this.$$get_prop_name(attribute.name);
-          if (!(name in this.$$data)) {
-            this.$$data[name] = get_custom_element_value(
-              name,
-              attribute.value,
-              this.$$props_definition,
-              "toProp"
-            );
+          const name = this.$$g_p(attribute.name);
+          if (!(name in this.$$d)) {
+            this.$$d[name] = get_custom_element_value(name, attribute.value, this.$$p_d, "toProp");
           }
         }
-        this.$$component = new this.$$componentCtor({
+        this.$$c = new this.$$ctor({
           target: this.shadowRoot || this,
           props: {
-            ...this.$$data,
+            ...this.$$d,
             $$slots,
             $$scope: {
               ctx: []
             }
           }
         });
-        for (const type in this.$$listeners) {
-          for (const listener of this.$$listeners[type]) {
-            const unsub = this.$$component.$on(type, listener);
-            this.$$listener_unsubscribe_fns.set(listener, unsub);
+        const reflect_attributes = () => {
+          this.$$r = true;
+          for (const key in this.$$p_d) {
+            this.$$d[key] = this.$$c.$$.ctx[this.$$c.$$.props[key]];
+            if (this.$$p_d[key].reflect) {
+              const attribute_value = get_custom_element_value(
+                key,
+                this.$$d[key],
+                this.$$p_d,
+                "toAttribute"
+              );
+              if (attribute_value == null) {
+                this.removeAttribute(key);
+              } else {
+                this.setAttribute(this.$$p_d[key].attribute || key, attribute_value);
+              }
+            }
+          }
+          this.$$r = false;
+        };
+        this.$$c.$$.after_update.push(reflect_attributes);
+        reflect_attributes();
+        for (const type in this.$$l) {
+          for (const listener of this.$$l[type]) {
+            const unsub = this.$$c.$on(type, listener);
+            this.$$l_u.set(listener, unsub);
           }
         }
-        this.$$listeners = {};
+        this.$$l = {};
       }
     }
     // We don't need this when working within Svelte code, but for compatibility of people using this outside of Svelte
     // and setting attributes through setAttribute etc, this is helpful
     attributeChangedCallback(attr2, _oldValue, newValue) {
       var _a;
-      if (this.$$reflecting)
+      if (this.$$r)
         return;
-      attr2 = this.$$get_prop_name(attr2);
-      this.$$data[attr2] = get_custom_element_value(
-        attr2,
-        newValue,
-        this.$$props_definition,
-        "toProp"
-      );
-      (_a = this.$$component) == null ? void 0 : _a.$set({ [attr2]: this.$$data[attr2] });
+      attr2 = this.$$g_p(attr2);
+      this.$$d[attr2] = get_custom_element_value(attr2, newValue, this.$$p_d, "toProp");
+      (_a = this.$$c) == null ? void 0 : _a.$set({ [attr2]: this.$$d[attr2] });
     }
     disconnectedCallback() {
-      this.$$connected = false;
+      this.$$cn = false;
       Promise.resolve().then(() => {
-        if (!this.$$connected) {
-          this.$$component.$destroy();
-          this.$$component = void 0;
+        if (!this.$$cn) {
+          this.$$c.$destroy();
+          this.$$c = void 0;
         }
       });
     }
-    $$get_prop_name(attribute_name) {
-      return Object.keys(this.$$props_definition).find(
-        (key) => this.$$props_definition[key].attribute === attribute_name || !this.$$props_definition[key].attribute && key.toLowerCase() === attribute_name
+    $$g_p(attribute_name) {
+      return Object.keys(this.$$p_d).find(
+        (key) => this.$$p_d[key].attribute === attribute_name || !this.$$p_d[key].attribute && key.toLowerCase() === attribute_name
       ) || attribute_name;
     }
   };
@@ -1063,7 +1081,14 @@ var units = [
 ];
 function formatItemStats(item) {
   if (item.kind === "folder") {
-    return `${item.children.length} items`;
+    const fileCount = item.children.reduce(
+      (count, child) => child.kind === "file" ? count + 1 : count,
+      0
+    );
+    const folderCount = item.children.length - fileCount;
+    const fileWord = fileCount === 1 ? "file" : "files";
+    const folderWord = folderCount === 1 ? "folder" : "folders";
+    return `${fileCount} ${fileWord}, ${folderCount} ${folderWord}`;
   }
   const bestUnit = units.reduce(
     (best, unit) => item.size >= unit.size ? unit : best
@@ -1221,6 +1246,7 @@ function create_fragment2(ctx) {
     ctx[1].basename + ""
   );
   let t0;
+  let div0_aria_label_value;
   let t1;
   let div1;
   let t2;
@@ -1262,6 +1288,8 @@ function create_fragment2(ctx) {
         if_block.c();
       if_block_anchor = empty();
       attr(div0, "class", "name svelte-yg1um6");
+      attr(div0, "aria-label", div0_aria_label_value = /*item*/
+      ctx[1].basename);
       attr(div1, "class", "info svelte-yg1um6");
       attr(div2, "class", "textcontainer svelte-yg1um6");
       attr(button0, "aria-label", "Restore");
@@ -1311,6 +1339,11 @@ function create_fragment2(ctx) {
       2) && t0_value !== (t0_value = /*item*/
       ctx2[1].basename + ""))
         set_data(t0, t0_value);
+      if (!current || dirty & /*item*/
+      2 && div0_aria_label_value !== (div0_aria_label_value = /*item*/
+      ctx2[1].basename)) {
+        attr(div0, "aria-label", div0_aria_label_value);
+      }
       if (!current || dirty & /*itemStats*/
       4)
         set_data(
@@ -1719,19 +1752,17 @@ function create_fragment3(ctx) {
   };
 }
 function buildViewNodes(items, filter) {
-  return items.filter((item) => matchesFilter(item, filter)).map((item) => ({
-    item,
-    nodes: item.kind === "folder" ? buildViewNodes(item.children, filter) : []
-  }));
+  const nodes = [];
+  for (const item of items) {
+    const childNodes = item.kind === "folder" ? buildViewNodes(item.children, filter) : [];
+    if (childNodes.length || matchesFilter(item, filter)) {
+      nodes.push({ item, nodes: childNodes });
+    }
+  }
+  return nodes;
 }
 function matchesFilter(item, filter) {
-  if (!filter || item.path.toLocaleUpperCase().includes(filter)) {
-    return true;
-  }
-  if (item.kind === "folder") {
-    return item.children.some((child) => matchesFilter(child, filter));
-  }
-  return false;
+  return !filter || item.path.toLocaleUpperCase().includes(filter);
 }
 function instance3($$self, $$props, $$invalidate) {
   let viewNodes;

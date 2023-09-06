@@ -60,6 +60,7 @@
   "excludeOpenRelatedFiles": false,
   "excludeObsidianIgnoredFiles": true,
   "shouldSearchFilenames": false,
+  "shouldSearchBookmarks": false,
   "pathDisplayFormat": 4,
   "hidePathIfRoot": true,
   "enabledRelatedItems": [
@@ -228,5 +229,43 @@
     ],
     "useBasenameAsAlias": false,
     "useHeadingAsAlias": false
-  }
+  },
+  "removeDefaultTabBinding": true,
+  "navigationKeys": {
+    "nextKeys": [
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "n"
+      },
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "j"
+      }
+    ],
+    "prevKeys": [
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "p"
+      },
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "k"
+      }
+    ]
+  },
+  "preferredSourceForTitle": "H1",
+  "closeWhenEmptyKeys": [
+    {
+      "modifiers": null,
+      "key": "Backspace"
+    }
+  ]
 }
