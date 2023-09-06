@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "测试.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "测试.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,8 +258,8 @@
   },
   "active": "463b365f59dee2e4",
   "lastOpenFiles": [
-    "gj.md",
     "README.md",
+    "gj.md",
     "测试.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "Canvas.canvas",

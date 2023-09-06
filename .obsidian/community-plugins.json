@@ -34,7 +34,6 @@
   "remember-cursor-position",
   "reveal-active-file-button",
   "obsidian-sortable",
-  "table-extended",
   "tag-wrangler",
   "cm-typewriter-scroll-obsidian",
   "cm-chs-patch",
@@ -64,5 +63,6 @@
   "awesome-image",
   "codeblock-customizer",
   "obsidian-local-images-plus",
-  "obsidian-trash-explorer"
+  "obsidian-trash-explorer",
+  "table-extended"
 ]
