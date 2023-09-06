@@ -5,7 +5,6 @@
   "obsidian-better-command-palette",
   "better-fn",
   "calendar",
-  "obsidian-collapse-all-plugin",
   "obsidian-contextual-typography",
   "convert-url-to-iframe",
   "obsidian-copy-block-link",
@@ -64,5 +63,6 @@
   "codeblock-customizer",
   "obsidian-local-images-plus",
   "obsidian-trash-explorer",
-  "table-extended"
+  "table-extended",
+  "obsidian-collapse-all-plugin"
 ]

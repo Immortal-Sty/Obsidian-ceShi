@@ -192,7 +192,7 @@
           "enableLineNumbers": true,
           "enableActiveLineHighlight": true,
           "enableDeleteCodeButton": false,
-          "codeBlockBorderStylingPosition": "disable"
+          "codeBlockBorderStylingPosition": "left"
         },
         "semiFold": {
           "enableSemiFold": false,
@@ -202,43 +202,43 @@
         "header": {
           "boldText": false,
           "italicText": false,
-          "collapseIconPosition": "hide",
+          "collapseIconPosition": "right",
           "collapsedCodeText": "",
-          "codeblockLangBoldText": true,
-          "codeblockLangItalicText": true,
-          "alwaysDisplayCodeblockLang": false,
+          "codeblockLangBoldText": false,
+          "codeblockLangItalicText": false,
+          "alwaysDisplayCodeblockLang": true,
           "alwaysDisplayCodeblockIcon": false,
           "displayCodeBlockLanguage": true,
           "displayCodeBlockIcon": false
         },
         "gutter": {
-          "highlightActiveLineNr": true,
-          "enableHighlight": true
+          "highlightActiveLineNr": false,
+          "enableHighlight": false
         },
         "inlineCode": {
           "enableInlineCodeStyling": false
         },
         "printing": {
-          "enablePrintToPDFStyling": false,
-          "forceCurrentColorUse": false
+          "enablePrintToPDFStyling": true,
+          "forceCurrentColorUse": true
         },
-        "enableEditorActiveLineHighlight": true
+        "enableEditorActiveLineHighlight": false
       },
       "colors": {
         "dark": {
           "codeblock": {
-            "activeLineColor": "--color-base-30",
-            "backgroundColor": "--code-background",
+            "activeLineColor": "#282C34",
+            "backgroundColor": "#21252C",
             "highlightColor": "--text-highlight-bg",
             "alternateHighlightColors": {},
             "languageBorderColors": {}
           },
           "header": {
-            "backgroundColor": "--code-background",
-            "textColor": "--text-normal",
-            "lineColor": "--color-base-30",
-            "codeBlockLangTextColor": "--code-comment",
-            "codeBlockLangBackgroundColor": "--code-background"
+            "backgroundColor": "#21252C",
+            "textColor": "#DADADA",
+            "lineColor": "#598CF3",
+            "codeBlockLangTextColor": "#FFFFFF",
+            "codeBlockLangBackgroundColor": "#00808000"
           },
           "gutter": {
             "textColor": "--text-faint",
@@ -249,7 +249,7 @@
             "backgroundColor": "--code-background",
             "textColor": "--code-normal"
           },
-          "editorActiveLineColor": "--color-base-20"
+          "editorActiveLineColor": "#262626"
         },
         "light": {
           "codeblock": {
