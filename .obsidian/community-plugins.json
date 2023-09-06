@@ -60,9 +60,9 @@
   "templater-obsidian",
   "awesome-image",
   "codeblock-customizer",
-  "obsidian-local-images-plus",
   "table-extended",
   "obsidian-collapse-all-plugin",
   "obsidian-image-toolkit",
-  "obsidian-trash-explorer"
+  "obsidian-trash-explorer",
+  "attachment-manager"
 ]

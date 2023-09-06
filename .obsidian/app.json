@@ -5,7 +5,7 @@
   "vimMode": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "./attachments",
   "userIgnoreFilters": [
