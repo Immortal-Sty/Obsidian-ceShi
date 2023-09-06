@@ -1,8 +1,11 @@
 {
   "commands": {
     "global": true,
-    "FileExplorer": false,
-    "TagPane": false
+    "FileExplorer": true,
+    "TagPane": true,
+    "Global": false,
+    "Search": true,
+    "Bookmarks": false
   },
   "folderContextMenu": true,
   "expandAttachmentFolder": false,
