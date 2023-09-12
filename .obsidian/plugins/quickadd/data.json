@@ -55,7 +55,7 @@
           },
           "format": {
             "enabled": true,
-            "format": "> [!blank]\n> \n> "
+            "format": "> [!blank]\n> > \n> > "
           },
           "insertAfter": {
             "enabled": false,
@@ -166,7 +166,7 @@
           "macroId": "fa41e61d-bc10-4f02-915a-00bdd6255b36"
         }
       ],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "14a19914-1e05-4874-919e-36c09b17c324",
