@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "lazyloong/obsidian-code-tab",
     "MahmoudFawzyKhalil/obsidian-global-search-and-replace",
     "Stardusten/ob-table-enhancer",
     "dragonwocky/obsidian-tray",

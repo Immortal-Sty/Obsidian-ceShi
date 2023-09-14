@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -256,7 +256,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "8c2609e917d30621",
+  "active": "0255c85da59b657d",
   "lastOpenFiles": [
     "Canvas.canvas",
     "测试 2023.06.03-1.pdf",

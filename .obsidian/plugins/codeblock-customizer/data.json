@@ -280,7 +280,7 @@
       }
     }
   },
-  "ExcludeLangs": "dataview, mermaid,add-summary",
+  "ExcludeLangs": "dataview, mermaid,add-summary,tab",
   "SelectedTheme": {
     "settings": {
       "codeblock": {
