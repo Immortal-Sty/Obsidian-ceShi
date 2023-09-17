@@ -267,5 +267,6 @@
       "modifiers": null,
       "key": "Backspace"
     }
-  ]
+  ],
+  "escapeCmdChar": "!"
 }
