@@ -5,12 +5,16 @@
       "path": "测试.md"
     },
     {
-      "basename": "Canvas",
-      "path": "Canvas.canvas"
-    },
-    {
       "basename": "测试 2023.06.03-1",
       "path": "测试 2023.06.03-1.pdf"
+    },
+    {
+      "basename": "测试 2023.09.17-1",
+      "path": "测试 2023.09.17-1.canvas"
+    },
+    {
+      "basename": "Canvas",
+      "path": "Canvas.canvas"
     },
     {
       "basename": "Template",

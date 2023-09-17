@@ -114,6 +114,16 @@
         "type": "tabs",
         "children": [
           {
+            "id": "ce60a76fda6cf256",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "测试.md"
+              }
+            }
+          },
+          {
             "id": "1a4e3dd3e4b0007d",
             "type": "leaf",
             "state": {
@@ -248,12 +258,13 @@
   },
   "active": "0255c85da59b657d",
   "lastOpenFiles": [
-    "Canvas.canvas",
     "测试 2023.06.03-1.pdf",
+    "测试.md",
+    "测试 2023.09.17-1.canvas",
+    "Canvas.canvas",
     "Template.md",
     "README.md",
     "gj.md",
-    "测试.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "attachments/PanDownload-背景.jpg",
     "Canvas",
