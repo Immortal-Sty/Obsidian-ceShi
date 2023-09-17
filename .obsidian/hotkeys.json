@@ -528,5 +528,6 @@
       "key": "M"
     }
   ],
-  "easy-typing-obsidian:easy-typing-paste-without-format": []
+  "easy-typing-obsidian:easy-typing-paste-without-format": [],
+  "obsidian-linter:lint-file": []
 }

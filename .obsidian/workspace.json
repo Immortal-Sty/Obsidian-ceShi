@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -113,16 +113,6 @@
         "id": "016914691a733b95",
         "type": "tabs",
         "children": [
-          {
-            "id": "8c2609e917d30621",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "测试.md"
-              }
-            }
-          },
           {
             "id": "1a4e3dd3e4b0007d",
             "type": "leaf",
