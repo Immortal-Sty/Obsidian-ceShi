@@ -114,7 +114,7 @@
       "list-end-style": "."
     },
     "proper-ellipsis": {
-      "enabled": true
+      "enabled": false
     },
     "quote-style": {
       "enabled": false,
@@ -221,7 +221,7 @@
       "enabled": true
     },
     "proper-ellipsis-on-paste": {
-      "enabled": true
+      "enabled": false
     },
     "remove-hyphens-on-paste": {
       "enabled": false
@@ -230,7 +230,7 @@
       "enabled": false
     },
     "remove-leftover-footnotes-from-quote-on-paste": {
-      "enabled": true
+      "enabled": false
     },
     "remove-multiple-blank-lines-on-paste": {
       "enabled": true
