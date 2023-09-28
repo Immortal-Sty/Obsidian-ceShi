@@ -88,6 +88,10 @@
     [
       "\\left \\{| \\right \\}",
       "\\left |"
+    ],
+    [
+      "{ | }",
+      "{|}"
     ]
   ],
   "userConvertRulesStrList": [
@@ -118,6 +122,22 @@
     [
       "\\left \\{ |}",
       "\\left \\{ | \\right \\}"
+    ],
+    [
+      "\\frac{ |}",
+      "\\frac{ | }{  }"
+    ],
+    [
+      "\\<=|",
+      "\\le|"
+    ],
+    [
+      "\\>=|",
+      "\\ge|"
+    ],
+    [
+      "{ |}",
+      "{ | }"
     ]
   ],
   "userSelRuleSettingsOpen": true,
