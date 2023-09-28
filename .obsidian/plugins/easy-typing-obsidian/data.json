@@ -92,6 +92,22 @@
     [
       "{ | }",
       "{|}"
+    ],
+    [
+      "\\begin{bmatrix}\n|\n\\end{bmatrix}",
+      "\\begin{bmatrix}|\\end{bmatrix}"
+    ],
+    [
+      "\\begin{bmatrix}|\\end{bmatrix}",
+      "\\|"
+    ],
+    [
+      "\\begin{vmatrix}\n|\n\\end{vmatrix}",
+      "\\begin{vmatrix}|\\end{vmatrix}"
+    ],
+    [
+      "\\begin{vmatrix}|\\end{vmatrix}",
+      "\\|"
     ]
   ],
   "userConvertRulesStrList": [
@@ -138,6 +154,14 @@
     [
       "{ |}",
       "{ | }"
+    ],
+    [
+      "\\bmatrix\n|",
+      "\\begin{bmatrix}\n|\n\\end{bmatrix}"
+    ],
+    [
+      "\\vmatrix\n|",
+      "\\begin{vmatrix}\n|\n\\end{vmatrix}"
     ]
   ],
   "userSelRuleSettingsOpen": true,
