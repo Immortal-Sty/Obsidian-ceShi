@@ -57,7 +57,6 @@
   "obsidian-style-settings",
   "obsidian-minimal-settings",
   "persistent-links",
-  "templater-obsidian",
   "awesome-image",
   "codeblock-customizer",
   "obsidian-collapse-all-plugin",
@@ -66,5 +65,6 @@
   "attachment-manager",
   "obsidian-code-tab",
   "table-extended",
-  "obsidian-linter"
+  "obsidian-linter",
+  "templater-obsidian"
 ]

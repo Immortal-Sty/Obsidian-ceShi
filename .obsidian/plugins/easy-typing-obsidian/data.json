@@ -24,8 +24,7 @@
   "userSelRepRuleTrigger": [
     "<",
     "‘",
-    "「",
-    "%"
+    "「"
   ],
   "userSelRepRuleValue": [
     {
@@ -39,10 +38,6 @@
     {
       "left": "「",
       "right": "」"
-    },
-    {
-      "left": "%%",
-      "right": "%%"
     }
   ],
   "userDeleteRulesStrList": [
@@ -69,6 +64,30 @@
     [
       "$|$",
       "|"
+    ],
+    [
+      "\\begin{align}\n|\n\\end{align}",
+      "\\begin{align}|\\end{align}"
+    ],
+    [
+      "\\begin{align}|\\end{align}",
+      "\\|"
+    ],
+    [
+      "\\left (| \\right )",
+      "\\left |"
+    ],
+    [
+      "\\left |",
+      "|"
+    ],
+    [
+      "\\left [| \\right ]",
+      "\\left |"
+    ],
+    [
+      "\\left \\{| \\right \\}",
+      "\\left |"
     ]
   ],
   "userConvertRulesStrList": [
@@ -85,8 +104,20 @@
       "<% | %>"
     ],
     [
-      "\\align|",
+      "\\align\n|",
       "\\begin{align}\n|\n\\end{align}"
+    ],
+    [
+      "\\left ( |)",
+      "\\left ( | \\right )"
+    ],
+    [
+      "\\left [ |]",
+      "\\left [ | \\right ]"
+    ],
+    [
+      "\\left \\{ |}",
+      "\\left \\{ | \\right \\}"
     ]
   ],
   "userSelRuleSettingsOpen": true,
