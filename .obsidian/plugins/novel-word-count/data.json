@@ -21,18 +21,18 @@
     "测试.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 286,
+      "wordCount": 287,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.0193333333333334,
-      "characterCount": 1872,
-      "nonWhitespaceCharacterCount": 1529,
+      "pageCount": 1.0213333333333334,
+      "characterCount": 1876,
+      "nonWhitespaceCharacterCount": 1532,
       "linkCount": 1,
       "embedCount": 4,
       "aliases": null,
       "createdDate": 1688398198898,
-      "modifiedDate": 1695876858484,
-      "sizeInBytes": 2222
+      "modifiedDate": 1696485826230,
+      "sizeInBytes": 2226
     },
     "随手记/剧本杀.md": {
       "isDirectory": false,
