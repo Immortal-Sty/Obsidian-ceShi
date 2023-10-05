@@ -15,7 +15,6 @@
   "folder-note-core",
   "obsidian-footnotes",
   "obsidian-heading-shifter",
-  "obsidian-hider",
   "obsidian-hover-editor",
   "obsidian-icon-shortcodes",
   "obsidian-kanban",
@@ -54,8 +53,6 @@
   "table-editor-obsidian",
   "mousewheel-image-zoom",
   "obsidian-paste-image-rename",
-  "obsidian-style-settings",
-  "obsidian-minimal-settings",
   "persistent-links",
   "awesome-image",
   "codeblock-customizer",
@@ -65,6 +62,8 @@
   "attachment-manager",
   "obsidian-code-tab",
   "table-extended",
-  "obsidian-linter",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-hider",
+  "obsidian-style-settings",
+  "obsidian-minimal-settings"
 ]
