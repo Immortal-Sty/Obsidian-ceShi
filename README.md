@@ -1,5 +1,6 @@
 ---
 title: README
+good: true
 ---
 
 # README

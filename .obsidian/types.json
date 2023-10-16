@@ -5,6 +5,7 @@
     "tags": "tags",
     "goodTime": "datetime",
     "ctime": "datetime",
-    "mtime": "datetime"
+    "mtime": "datetime",
+    "good": "checkbox"
   }
 }
