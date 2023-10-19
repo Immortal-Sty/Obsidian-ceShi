@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7c709fb0128f4811",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,7 +267,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "0255c85da59b657d",
+  "active": "7c709fb0128f4811",
   "lastOpenFiles": [
     "随手记/测试.md",
     "测试.md",
