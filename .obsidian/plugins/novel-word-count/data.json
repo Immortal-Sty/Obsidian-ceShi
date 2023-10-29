@@ -37,18 +37,18 @@
     "测试.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 319,
+      "wordCount": 320,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.1353333333333333,
-      "characterCount": 2086,
-      "nonWhitespaceCharacterCount": 1703,
+      "pageCount": 1.1966666666666668,
+      "characterCount": 2180,
+      "nonWhitespaceCharacterCount": 1795,
       "linkCount": 1,
       "embedCount": 4,
       "aliases": null,
       "createdDate": 1688398198898,
-      "modifiedDate": 1698559650852,
-      "sizeInBytes": 2471
+      "modifiedDate": 1698561512578,
+      "sizeInBytes": 2575
     },
     "随手记/生存战争：伤害记录.md": {
       "isDirectory": false,
