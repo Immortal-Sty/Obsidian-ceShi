@@ -529,5 +529,13 @@
     }
   ],
   "easy-typing-obsidian:easy-typing-paste-without-format": [],
-  "obsidian-linter:lint-file": []
+  "obsidian-linter:lint-file": [],
+  "highlightr-plugin:highlighter-plugin-menu": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ]
 }
