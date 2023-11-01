@@ -18,6 +18,22 @@
     "excludeComments": true
   },
   "cachedCounts": {
+    "测试.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 321,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.2246666666666666,
+      "characterCount": 2224,
+      "nonWhitespaceCharacterCount": 1837,
+      "linkCount": 1,
+      "embedCount": 4,
+      "aliases": null,
+      "createdDate": 1688398198898,
+      "modifiedDate": 1698762367827,
+      "sizeInBytes": 2699
+    },
     "随手记/生存战争：伤害记录.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -33,22 +49,6 @@
       "createdDate": 1688398220348,
       "modifiedDate": 1697189177386,
       "sizeInBytes": 494
-    },
-    "随手记/测试.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 2,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.002,
-      "characterCount": 5,
-      "nonWhitespaceCharacterCount": 3,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1697189462924,
-      "modifiedDate": 1697189471034,
-      "sizeInBytes": 9
     },
     "随手记/剧本杀.md": {
       "isDirectory": false,
@@ -66,21 +66,21 @@
       "modifiedDate": 1697189168142,
       "sizeInBytes": 679
     },
-    "测试.md": {
+    "随手记/测试.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 321,
+      "wordCount": 2,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.2246666666666666,
-      "characterCount": 2224,
-      "nonWhitespaceCharacterCount": 1837,
-      "linkCount": 1,
-      "embedCount": 4,
+      "pageCount": 0.002,
+      "characterCount": 5,
+      "nonWhitespaceCharacterCount": 3,
+      "linkCount": 0,
+      "embedCount": 0,
       "aliases": null,
-      "createdDate": 1688398198898,
-      "modifiedDate": 1698730549435,
-      "sizeInBytes": 2623
+      "createdDate": 1697189462924,
+      "modifiedDate": 1697189471034,
+      "sizeInBytes": 9
     },
     "测试 2023.09.17-1.canvas": {
       "isDirectory": false,
@@ -146,37 +146,21 @@
       "modifiedDate": 1697188899840,
       "sizeInBytes": 207
     },
-    "bookmaster/book-data/pEfbtnDYqPbRZLDw.md": {
+    "attachments/测试 2023.02.14-1.jpg": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1,
+      "wordCount": 0,
       "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.006,
-      "characterCount": 10,
-      "nonWhitespaceCharacterCount": 9,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1688398145742,
-      "modifiedDate": 1685767142727,
-      "sizeInBytes": 208
-    },
-    "bookmaster/book-data/ZdkZaUittDgPKBzC.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 1,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.006,
-      "characterCount": 10,
-      "nonWhitespaceCharacterCount": 9,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1688398145742,
-      "modifiedDate": 1685767181094,
-      "sizeInBytes": 182
+      "aliases": [],
+      "createdDate": 1688398239355,
+      "modifiedDate": 1676356453284,
+      "sizeInBytes": 980415
     },
     "attachments/PanDownload-背景.jpg": {
       "isDirectory": false,
@@ -194,69 +178,37 @@
       "modifiedDate": 1658198966183,
       "sizeInBytes": 1348989
     },
-    "attachments/测试 2023.02.14-1.jpg": {
+    "bookmaster/book-data/ZdkZaUittDgPKBzC.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1688398239355,
-      "modifiedDate": 1676356453284,
-      "sizeInBytes": 980415
-    },
-    "Template/网址集合.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 78,
+      "wordCount": 1,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.7273333333333334,
-      "characterCount": 1183,
-      "nonWhitespaceCharacterCount": 1091,
+      "pageCount": 0.006,
+      "characterCount": 10,
+      "nonWhitespaceCharacterCount": 9,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1688398245613,
-      "modifiedDate": 1648415692564,
-      "sizeInBytes": 1565
+      "createdDate": 1688398145742,
+      "modifiedDate": 1685767181094,
+      "sizeInBytes": 182
     },
-    "Template/Try.md": {
+    "bookmaster/book-data/pEfbtnDYqPbRZLDw.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 2,
+      "wordCount": 1,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.0026666666666666666,
-      "characterCount": 6,
-      "nonWhitespaceCharacterCount": 4,
+      "pageCount": 0.006,
+      "characterCount": 10,
+      "nonWhitespaceCharacterCount": 9,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1688398245607,
-      "modifiedDate": 1665815795542,
-      "sizeInBytes": 6
-    },
-    "Canvas.canvas": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1688398198903,
-      "modifiedDate": 1676353841755,
-      "sizeInBytes": 972
+      "createdDate": 1688398145742,
+      "modifiedDate": 1685767142727,
+      "sizeInBytes": 208
     },
     "ZhiXi/测试 2023.01.21 17.27.11.zxm": {
       "isDirectory": false,
@@ -306,6 +258,22 @@
       "modifiedDate": 1685846977559,
       "sizeInBytes": 127
     },
+    "Excalidraw.svg": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1688398198870,
+      "modifiedDate": 1676353970162,
+      "sizeInBytes": 480
+    },
     "README.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -321,6 +289,54 @@
       "createdDate": 1688398198892,
       "modifiedDate": 1697188928101,
       "sizeInBytes": 286
+    },
+    "Template/网址集合.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 78,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7273333333333334,
+      "characterCount": 1183,
+      "nonWhitespaceCharacterCount": 1091,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1688398245613,
+      "modifiedDate": 1648415692564,
+      "sizeInBytes": 1565
+    },
+    "Template/Try.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 2,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.0026666666666666666,
+      "characterCount": 6,
+      "nonWhitespaceCharacterCount": 4,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1688398245607,
+      "modifiedDate": 1665815795542,
+      "sizeInBytes": 6
+    },
+    "Kanban/Dataview 测试.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.024666666666666667,
+      "characterCount": 52,
+      "nonWhitespaceCharacterCount": 37,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1688398116950,
+      "modifiedDate": 1681561670202,
+      "sizeInBytes": 145
     },
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.svg": {
       "isDirectory": false,
@@ -354,6 +370,38 @@
       "modifiedDate": 1676357619431,
       "sizeInBytes": 2272
     },
+    "Excalidraw/Scripts/Fonts/手札体.ttf": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1688398218838,
+      "modifiedDate": 1685602742243,
+      "sizeInBytes": 6123300
+    },
+    "Excalidraw/Scripts/Fonts/Muyao-Softbrush-2.ttf": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1688398218785,
+      "modifiedDate": 1536875076000,
+      "sizeInBytes": 4673412
+    },
     "Excalidraw/Scripts/Downloaded/Set Text Alignment.svg": {
       "isDirectory": false,
       "noteCount": 1,
@@ -385,6 +433,22 @@
       "createdDate": 1688398213067,
       "modifiedDate": 1661938010151,
       "sizeInBytes": 717
+    },
+    "Excalidraw/Scripts/Downloaded/Reverse arrows.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 68,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.5593333333333333,
+      "characterCount": 936,
+      "nonWhitespaceCharacterCount": 839,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1688398213094,
+      "modifiedDate": 1661937828187,
+      "sizeInBytes": 936
     },
     "Excalidraw/Scripts/Downloaded/Select Elements of Type.svg": {
       "isDirectory": false,
@@ -434,22 +498,6 @@
       "modifiedDate": 1661937828203,
       "sizeInBytes": 602
     },
-    "Excalidraw/Scripts/Downloaded/Reverse arrows.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 68,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.5593333333333333,
-      "characterCount": 936,
-      "nonWhitespaceCharacterCount": 839,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1688398213094,
-      "modifiedDate": 1661937828187,
-      "sizeInBytes": 936
-    },
     "Excalidraw/Scripts/Downloaded/Repeat Elements.svg": {
       "isDirectory": false,
       "noteCount": 1,
@@ -465,6 +513,22 @@
       "createdDate": 1688398213115,
       "modifiedDate": 1676354234735,
       "sizeInBytes": 279
+    },
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1688398213115,
+      "modifiedDate": 1676354210915,
+      "sizeInBytes": 1617
     },
     "Excalidraw/Scripts/Downloaded/Repeat Elements.md": {
       "isDirectory": false,
@@ -498,7 +562,7 @@
       "modifiedDate": 1676354210898,
       "sizeInBytes": 3537
     },
-    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg": {
+    "Excalidraw/Scripts/Downloaded/Connect elements.svg": {
       "isDirectory": false,
       "noteCount": 1,
       "wordCount": 0,
@@ -511,8 +575,8 @@
       "embedCount": 0,
       "aliases": [],
       "createdDate": 1688398213115,
-      "modifiedDate": 1676354210915,
-      "sizeInBytes": 1617
+      "modifiedDate": 1662094039772,
+      "sizeInBytes": 753
     },
     "Excalidraw/Scripts/Downloaded/Elbow connectors.md": {
       "isDirectory": false,
@@ -562,22 +626,6 @@
       "modifiedDate": 1662094039758,
       "sizeInBytes": 2605
     },
-    "Excalidraw/Scripts/Downloaded/Connect elements.svg": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1688398213115,
-      "modifiedDate": 1662094039772,
-      "sizeInBytes": 753
-    },
     "Excalidraw/Scripts/Downloaded/Box Selected Elements.svg": {
       "isDirectory": false,
       "noteCount": 1,
@@ -593,22 +641,6 @@
       "createdDate": 1688398213101,
       "modifiedDate": 1661937271633,
       "sizeInBytes": 660
-    },
-    "Excalidraw/Scripts/Downloaded/Box Selected Elements.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 159,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.9986666666666667,
-      "characterCount": 1716,
-      "nonWhitespaceCharacterCount": 1498,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1688398213084,
-      "modifiedDate": 1661937271613,
-      "sizeInBytes": 1716
     },
     "Excalidraw/Scripts/Downloaded/Add Next Step in Process.svg": {
       "isDirectory": false,
@@ -642,69 +674,21 @@
       "modifiedDate": 1661937190616,
       "sizeInBytes": 4238
     },
-    "Excalidraw/Scripts/Fonts/Muyao-Softbrush-2.ttf": {
+    "Excalidraw/Scripts/Downloaded/Box Selected Elements.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1688398218785,
-      "modifiedDate": 1536875076000,
-      "sizeInBytes": 4673412
-    },
-    "Excalidraw/Scripts/Fonts/手札体.ttf": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1688398218838,
-      "modifiedDate": 1685602742243,
-      "sizeInBytes": 6123300
-    },
-    "Excalidraw.svg": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1688398198870,
-      "modifiedDate": 1676353970162,
-      "sizeInBytes": 480
-    },
-    "Kanban/Dataview 测试.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 8,
+      "wordCount": 159,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.024666666666666667,
-      "characterCount": 52,
-      "nonWhitespaceCharacterCount": 37,
+      "pageCount": 0.9986666666666667,
+      "characterCount": 1716,
+      "nonWhitespaceCharacterCount": 1498,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1688398116950,
-      "modifiedDate": 1681561670202,
-      "sizeInBytes": 145
+      "createdDate": 1688398213084,
+      "modifiedDate": 1661937271613,
+      "sizeInBytes": 1716
     },
     "Excalidraw.md": {
       "isDirectory": false,
@@ -721,6 +705,22 @@
       "createdDate": 1688398198446,
       "modifiedDate": 1662788557378,
       "sizeInBytes": 6888
+    },
+    "Canvas.canvas": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1688398198903,
+      "modifiedDate": 1676353841755,
+      "sizeInBytes": 972
     },
     "Day Planners/Day Planner-20220718.md": {
       "isDirectory": false,

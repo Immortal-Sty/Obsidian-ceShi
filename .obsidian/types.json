@@ -6,6 +6,7 @@
     "goodTime": "datetime",
     "ctime": "datetime",
     "mtime": "datetime",
-    "good": "checkbox"
+    "good": "checkbox",
+    "Try": "multitext"
   }
 }
