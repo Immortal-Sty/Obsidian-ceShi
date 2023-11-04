@@ -21,18 +21,18 @@
     "测试.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 317,
+      "wordCount": 323,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.2246666666666666,
-      "characterCount": 2216,
-      "nonWhitespaceCharacterCount": 1837,
+      "pageCount": 1.238,
+      "characterCount": 2244,
+      "nonWhitespaceCharacterCount": 1857,
       "linkCount": 1,
       "embedCount": 4,
       "aliases": null,
       "createdDate": 1688398198898,
-      "modifiedDate": 1699108649010,
-      "sizeInBytes": 2691
+      "modifiedDate": 1699109799150,
+      "sizeInBytes": 2737
     },
     "随手记/测试.md": {
       "isDirectory": false,
@@ -709,18 +709,18 @@
     "Day Planners/Day Planner-20220718.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 6,
+      "wordCount": 9,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.01,
-      "characterCount": 21,
-      "nonWhitespaceCharacterCount": 15,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 44,
+      "nonWhitespaceCharacterCount": 35,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1688398242573,
-      "modifiedDate": 1658132248693,
-      "sizeInBytes": 21
+      "modifiedDate": 1699109460832,
+      "sizeInBytes": 44
     },
     "Canvas.canvas": {
       "isDirectory": false,
