@@ -6,7 +6,7 @@
 	padding:2px;
 }
 .theme-dark .markdown-source-view div.cm-line span.cm-highlight {
-	background-color:#3464ff;
+	background-color:#2d87a1;
     color:white;
 	padding:2px;
 	border-radius: 5px;
@@ -20,7 +20,7 @@
 	padding:2px;
 }
 .theme-dark div p mark {
-	background-color:#3464ff;
+	background-color:#2d87a1;
     color: white;
 	border-radius: 5px;
 	padding:2px;
