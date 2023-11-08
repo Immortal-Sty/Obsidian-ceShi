@@ -1,0 +1,45 @@
+/* 对脚注不友好 */
+
+/* 高亮颜色 */
+.cm-s-obsidian span.cm-highlight,
+.cm-highlight.cm-quote {
+    font-size: 1em;
+    font-weight: bolder;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #f55454;
+    background-image: linear-gradient(120deg, #43d3ff 0%, #baaaff 80%);
+}
+
+.markdown-reading-view mark {
+    font-size: 1em;
+    font-weight: bolder;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #f55454;
+    background-image: linear-gradient(120deg, #43d3ff 0%, #baaaff 80%);
+}
+
+.markdown-source-view.mod-cm6 div.cm-line span.cm-strong {
+    background-image: linear-gradient(
+        to bottom right,
+        hsl(164 100% 55%) 0%,
+        hsl(205 100% 65%) 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.markdown-reading-view strong {
+    background-image: linear-gradient(
+        to bottom right,
+        hsl(164 100% 55%) 0%,
+        hsl(205 100% 65%) 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

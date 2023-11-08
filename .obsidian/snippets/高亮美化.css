@@ -1,7 +1,9 @@
+/* 对列表不友好 */
+
 /*实时编辑*/
 .theme-light .markdown-source-view div.cm-line span.cm-highlight {
-	background-color:red;
-    color: white;
+	background-color:#8AC6EB;
+    color: black;
 	border-radius: 5px;
 	padding:2px;
 }
@@ -14,8 +16,8 @@
 
 /*阅读模式*/
 .theme-light div p mark {
-	background-color:red;
-    color: white;
+	background-color:#8AC6EB;
+    color: black;
 	border-radius: 5px;
 	padding:2px;
 }
