@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "39d07a2c42657312",
@@ -256,7 +257,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "0255c85da59b657d",
+  "active": "e13ccbfbfb60f347",
   "lastOpenFiles": [
     "测试.md",
     "Day Planners/Day Planner-20220718.md",
