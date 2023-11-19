@@ -98,13 +98,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "108d80c1a3d519a4",
@@ -149,22 +147,9 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "adb380ec85a6d67d",
-            "type": "leaf",
-            "state": {
-              "type": "zotero-annotation-view",
-              "state": {
-                "file": "测试.md",
-                "itemId": -1,
-                "attachmentId": -1,
-                "follow": "zt-reader"
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "4dbf103314f6888d",
@@ -252,8 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -272,11 +256,31 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "0255c85da59b657d",
+  "active": "c8d95c85cdf621ed",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "测试.md",
+    "ZoteroNotes/Templete/zt-colored.eta.md",
+    "ZoteroNotes/Templete/zt-cite2.eta.md",
+    "ZoteroNotes/Templete/zt-cite.eta.md",
+    "ZoteroNotes/Templete/zt-annot.eta.md",
+    "ZoteroNotes/Templete/zt-annots.eta.md",
+    "ZoteroNotes/Templete/zt-field.eta.md",
+    "ZoteroNotes/Templete/zt-note.eta.md",
+    "ZoteroNotes/Templete",
+    "ZoteroNotes",
+    "ZoteroTemplete/zt-colored.eta.md",
+    "ZoteroTemplete/zt-cite2.eta.md",
+    "ZoteroTemplete/zt-cite.eta.md",
+    "ZoteroTemplete/zt-annot.eta.md",
+    "ZoteroTemplete/zt-annots.eta.md",
+    "ZoteroTemplete/zt-field.eta.md",
+    "ZoteroTemplete/zt-note.eta.md",
+    "ZoteroTemplete",
+    "ZtTemplates/zt-annot.eta.md",
+    "ZtTemplates",
     "测试 2023.06.03-1.pdf",
     "随手记/剧本杀.md",
-    "测试.md",
     "Day Planners/Day Planner-20220718.md",
     "随手记/测试.md",
     "随手记/生存战争：伤害记录.md",
@@ -290,20 +294,9 @@
     "attachments/PanDownload-背景.jpg",
     "Canvas",
     "bookmaster/book-data/ZdkZaUittDgPKBzC.md",
-    "bookmaster/book-data/pEfbtnDYqPbRZLDw.md",
     "bookmaster/book-data",
     "bookmaster",
-    "Kanban/Dataview 测试.md",
     "Kanban",
-    "Dataview 测试 2023.04.15-1.canvas",
-    "Omnivore.md",
-    "try2.md",
-    "try1.md",
-    "随手记/good.md",
-    "Excalidraw/测试's Excalidraw 2023.02.14 14.47.32.md",
-    "Excalidraw/测试's Excalidraw 2023.02.14 14.46.18.md",
-    "Excalidraw/测试's Excalidraw 2023.02.14 14.44.44.md",
-    "Excalidraw/测试's Excalidraw 2023.02.14 14.34.32.md",
-    "Excalidraw.md"
+    "Dataview 测试 2023.04.15-1.canvas"
   ]
 }

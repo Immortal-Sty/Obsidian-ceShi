@@ -7,9 +7,9 @@
   "serverPort": 9091,
   "serverHostname": "127.0.0.1",
   "template": {
-    "folder": "ZtTemplates",
+    "folder": "ZoteroNotes/Templete",
     "templates": {
-      "filename": "<%= it.citekey ?? it.DOI ?? it.title ?? it.key %>.md"
+      "filename": "<%= it.title ?? it.DOI ?? it.citekey ?? it.key %>.md"
     }
   },
   "updateAnnotBlock": false,
@@ -23,5 +23,5 @@
   "zoteroDataDir": "C:\\Users\\immor\\Zotero",
   "citationLibrary": 1,
   "imgExcerptImport": "copy",
-  "imgExcerptPath": "ZoteroImage"
+  "imgExcerptPath": "ZoteroNotes/Image"
 }
