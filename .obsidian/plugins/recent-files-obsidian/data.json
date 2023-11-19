@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "zt-note.eta",
+      "path": "ZoteroNotes/Templete/zt-note.eta.md"
+    },
+    {
+      "basename": "zt-field.eta",
+      "path": "ZoteroNotes/Templete/zt-field.eta.md"
+    },
+    {
+      "basename": "zt-annot.eta",
+      "path": "ZoteroNotes/Templete/zt-annot.eta.md"
+    },
+    {
+      "basename": "zt-annots.eta",
+      "path": "ZoteroNotes/Templete/zt-annots.eta.md"
+    },
+    {
       "basename": "测试",
       "path": "测试.md"
     },

@@ -120,10 +120,6 @@
       "$$\n|\n$$"
     ],
     [
-      "<% |",
-      "<% | %>"
-    ],
-    [
       "\\align\n|",
       "\\begin{align}\n|\n\\end{align}"
     ],
@@ -162,6 +158,10 @@
     [
       "\\vmatrix\n|",
       "\\begin{vmatrix}\n|\n\\end{vmatrix}"
+    ],
+    [
+      "<% |",
+      "<% | %>"
     ]
   ],
   "userSelRuleSettingsOpen": true,

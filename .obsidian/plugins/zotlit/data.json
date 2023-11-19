@@ -14,14 +14,14 @@
   },
   "updateAnnotBlock": false,
   "updateOverwrite": true,
-  "autoPairEta": true,
+  "autoPairEta": false,
   "autoTrim": [
-    "nl",
-    "nl"
+    false,
+    false
   ],
   "autoRefresh": true,
-  "zoteroDataDir": "C:\\Files\\Long\\Zotero",
-  "citationLibrary": 1,
+  "zoteroDataDir": "C:\\Users\\immor\\Zotero",
+  "citationLibrary": 2,
   "imgExcerptImport": "copy",
   "imgExcerptPath": "ZoteroNotes/Image"
 }
