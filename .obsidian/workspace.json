@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -103,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "108d80c1a3d519a4",
@@ -148,8 +149,22 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "adb380ec85a6d67d",
+            "type": "leaf",
+            "state": {
+              "type": "zotero-annotation-view",
+              "state": {
+                "file": "测试.md",
+                "itemId": -1,
+                "attachmentId": -1,
+                "follow": "zt-reader"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "4dbf103314f6888d",
@@ -237,7 +252,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,7 +272,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "cbd69a8244cc660d",
+  "active": "0255c85da59b657d",
   "lastOpenFiles": [
     "测试 2023.06.03-1.pdf",
     "随手记/剧本杀.md",
