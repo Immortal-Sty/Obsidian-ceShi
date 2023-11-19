@@ -11,8 +11,12 @@
             "id": "2bebca2c57a254cb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ZoteroNotes/Building a Second Brain.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -143,9 +147,22 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "0d808ff9442fe16f",
+            "type": "leaf",
+            "state": {
+              "type": "zotero-annotation-view",
+              "state": {
+                "file": "ZoteroNotes/Building a Second Brain.md",
+                "itemId": -1,
+                "attachmentId": -1,
+                "follow": null
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "4dbf103314f6888d",
@@ -157,6 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "ZoteroNotes/Building a Second Brain.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,6 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ZoteroNotes/Building a Second Brain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,6 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ZoteroNotes/Building a Second Brain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,14 +269,14 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "cbd69a8244cc660d",
+  "active": "2bebca2c57a254cb",
   "lastOpenFiles": [
-    "ZoteroNotes/Templete/zt-note.eta.md",
+    "测试.md",
     "ZoteroNotes/Building a Second Brain.md",
-    "ZoteroNotes/Templete/zt-field.eta.md",
     "ZoteroNotes/Templete/zt-annot.eta.md",
     "ZoteroNotes/Templete/zt-annots.eta.md",
-    "测试.md",
+    "ZoteroNotes/Templete/zt-note.eta.md",
+    "ZoteroNotes/Templete/zt-field.eta.md",
     "ZoteroNotes/Templete/zt-colored.eta.md",
     "ZoteroNotes/Templete/zt-cite2.eta.md",
     "ZoteroNotes/Templete/zt-cite.eta.md",
