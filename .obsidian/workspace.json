@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZoteroNotes/Building a Second Brain.md",
-                "mode": "preview",
+                "file": "测试.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "ZoteroNotes/Building a Second Brain.md"
+                "file": "测试.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ZoteroNotes/Building a Second Brain.md",
+                "file": "测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZoteroNotes/Building a Second Brain.md",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ZoteroNotes/Building a Second Brain.md",
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -272,6 +272,7 @@
   "active": "2bebca2c57a254cb",
   "lastOpenFiles": [
     "测试.md",
+    "测试 2023.06.03-1.pdf",
     "ZoteroNotes/Building a Second Brain.md",
     "ZoteroNotes/Templete/zt-annot.eta.md",
     "ZoteroNotes/Templete/zt-annots.eta.md",
@@ -293,7 +294,6 @@
     "ZoteroTemplete",
     "ZtTemplates/zt-annot.eta.md",
     "ZtTemplates",
-    "测试 2023.06.03-1.pdf",
     "随手记/剧本杀.md",
     "Day Planners/Day Planner-20220718.md",
     "随手记/测试.md",
@@ -307,7 +307,6 @@
     "Template.md",
     "attachments/PanDownload-背景.jpg",
     "Canvas",
-    "bookmaster/book-data/ZdkZaUittDgPKBzC.md",
     "bookmaster/book-data",
     "bookmaster",
     "Kanban",

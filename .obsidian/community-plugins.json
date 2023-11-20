@@ -26,7 +26,6 @@
   "url-into-selection",
   "periodic-notes",
   "quickadd",
-  "remember-cursor-position",
   "reveal-active-file-button",
   "obsidian-sortable",
   "tag-wrangler",
@@ -64,5 +63,6 @@
   "obsidian-style-settings",
   "obsidian-minimal-settings",
   "obsidian-footnotes",
-  "better-fn"
+  "better-fn",
+  "double-click-tab"
 ]
