@@ -85,18 +85,18 @@
     "测试.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 346,
+      "wordCount": 347,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.334,
-      "characterCount": 2432,
-      "nonWhitespaceCharacterCount": 2001,
+      "pageCount": 1.3353333333333333,
+      "characterCount": 2434,
+      "nonWhitespaceCharacterCount": 2003,
       "linkCount": 1,
       "embedCount": 5,
       "aliases": null,
       "createdDate": 1699156605188,
-      "modifiedDate": 1700454366117,
-      "sizeInBytes": 2971
+      "modifiedDate": 1700454368317,
+      "sizeInBytes": 2977
     },
     "测试 2023.09.17-1.canvas": {
       "isDirectory": false,
