@@ -57,7 +57,6 @@
   "obsidian-trash-explorer",
   "attachment-manager",
   "obsidian-code-tab",
-  "table-extended",
   "templater-obsidian",
   "obsidian-hider",
   "obsidian-style-settings",
@@ -65,5 +64,6 @@
   "obsidian-footnotes",
   "better-fn",
   "double-click-tab",
-  "obsidian-markdown-export-plugin"
+  "obsidian-markdown-export-plugin",
+  "sheets"
 ]
