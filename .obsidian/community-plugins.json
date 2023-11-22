@@ -40,7 +40,6 @@
   "obsidian-any-block",
   "ob-table-enhancer",
   "obsidian-table-generator",
-  "novel-word-count",
   "obsidian-omnivore",
   "obsidian-annotator",
   "quick-explorer",
@@ -65,5 +64,6 @@
   "better-fn",
   "double-click-tab",
   "obsidian-markdown-export-plugin",
-  "sheets"
+  "sheets",
+  "better-word-count"
 ]
