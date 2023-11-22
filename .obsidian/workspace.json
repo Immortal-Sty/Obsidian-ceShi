@@ -102,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "108d80c1a3d519a4",
@@ -147,22 +148,9 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "0d808ff9442fe16f",
-            "type": "leaf",
-            "state": {
-              "type": "zotero-annotation-view",
-              "state": {
-                "file": "ZoteroNotes/Building a Second Brain.md",
-                "itemId": -1,
-                "attachmentId": -1,
-                "follow": null
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "4dbf103314f6888d",
@@ -250,7 +238,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
