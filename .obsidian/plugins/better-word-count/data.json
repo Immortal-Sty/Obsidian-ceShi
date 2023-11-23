@@ -2,31 +2,31 @@
   "statusBar": [
     {
       "prefix": "当前：",
-      "suffix": " 字数",
+      "suffix": "字数",
       "metric": {
         "type": 0,
         "counter": 0
       }
     },
     {
-      "prefix": "当前：",
-      "suffix": " 字符",
+      "prefix": " 当前：",
+      "suffix": "字符",
       "metric": {
         "type": 0,
         "counter": 1
       }
     },
     {
-      "prefix": "库：",
-      "suffix": " 字数",
+      "prefix": " 库：",
+      "suffix": "字数",
       "metric": {
         "type": 2,
         "counter": 0
       }
     },
     {
-      "prefix": "库：",
-      "suffix": " 字符",
+      "prefix": " 库：",
+      "suffix": "字符",
       "metric": {
         "type": 2,
         "counter": 1
@@ -36,15 +36,15 @@
   "altBar": [
     {
       "prefix": "当前：",
-      "suffix": " 字数",
+      "suffix": "字数",
       "metric": {
         "type": 0,
         "counter": 0
       }
     },
     {
-      "prefix": "库：",
-      "suffix": " 字符",
+      "prefix": " 库：",
+      "suffix": "字符",
       "metric": {
         "type": 2,
         "counter": 0
@@ -52,7 +52,7 @@
     }
   ],
   "countComments": true,
-  "collectStats": false,
+  "collectStats": true,
   "displaySectionCounts": false,
   "pageWords": 300
 }
