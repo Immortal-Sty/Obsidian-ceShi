@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZoteroNotes/Building a Second Brain.md",
-                "mode": "preview",
+                "file": "测试.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "ZoteroNotes/Building a Second Brain.md"
+                "file": "测试.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ZoteroNotes/Building a Second Brain.md",
+                "file": "测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZoteroNotes/Building a Second Brain.md",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ZoteroNotes/Building a Second Brain.md",
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,9 +258,10 @@
   },
   "active": "2bebca2c57a254cb",
   "lastOpenFiles": [
+    "ZoteroNotes/Building a Second Brain.md",
+    "Building a Second Brain 2023.11.24-1.canvas",
     "测试.md",
     "测试 2023.06.03-1.pdf",
-    "ZoteroNotes/Building a Second Brain.md",
     "ZoteroNotes/Templete/zt-annot.eta.md",
     "ZoteroNotes/Templete/zt-annots.eta.md",
     "ZoteroNotes/Templete/zt-note.eta.md",
@@ -270,7 +271,6 @@
     "ZoteroNotes/Templete/zt-cite.eta.md",
     "ZoteroNotes/Templete",
     "ZoteroNotes",
-    "未命名.canvas",
     "ZoteroTemplete/zt-colored.eta.md",
     "ZoteroTemplete/zt-cite2.eta.md",
     "ZoteroTemplete/zt-cite.eta.md",
