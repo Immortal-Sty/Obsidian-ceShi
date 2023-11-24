@@ -11,11 +11,9 @@
             "id": "2bebca2c57a254cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "测试.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md"
               }
             }
           }
@@ -118,7 +116,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "测试.md"
+                "file": "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md"
               }
             }
           },
@@ -161,7 +159,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
+                "file": "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,9 +256,13 @@
   },
   "active": "2bebca2c57a254cb",
   "lastOpenFiles": [
+    "测试 2023.09.17-1.canvas",
+    "测试.md",
+    "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
+    "随手记/生存战争：伤害记录.md",
+    "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.svg",
     "ZoteroNotes/Building a Second Brain.md",
     "Building a Second Brain 2023.11.24-1.canvas",
-    "测试.md",
     "测试 2023.06.03-1.pdf",
     "ZoteroNotes/Templete/zt-annot.eta.md",
     "ZoteroNotes/Templete/zt-annots.eta.md",
@@ -284,12 +286,9 @@
     "随手记/剧本杀.md",
     "Day Planners/Day Planner-20220718.md",
     "随手记/测试.md",
-    "随手记/生存战争：伤害记录.md",
     "gj.md",
     "README.md",
     "Excalidraw.svg",
-    "测试 2023.09.17-1.canvas",
-    "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "Canvas.canvas",
     "Template.md",
     "attachments/PanDownload-背景.jpg",

@@ -1,1 +1,6 @@
-{}
+{
+	"nodes":[
+		{"id":"873633b44b47be38","x":-150,"y":-213,"width":250,"height":60,"type":"text","text":"![](ZoteroNotes/Building a Second Brain)"}
+	],
+	"edges":[]
+}
