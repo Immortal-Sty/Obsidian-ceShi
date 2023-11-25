@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db8cc0299aa37c6c",
+        "id": "282220b9073dd271",
         "type": "tabs",
         "children": [
           {
-            "id": "2bebca2c57a254cb",
+            "id": "4a380b904fb51b91",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -256,11 +256,15 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "2bebca2c57a254cb",
+  "active": "4a380b904fb51b91",
   "lastOpenFiles": [
+    "测试 2023.11.25-3.canvas",
+    "测试.md",
+    "测试 2023.11.25-2.canvas",
+    "未命名.canvas",
+    "测试 2023.11.25-1.canvas",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "测试 2023.09.17-1.canvas",
-    "测试.md",
     "随手记/生存战争：伤害记录.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.svg",
     "ZoteroNotes/Building a Second Brain.md",
