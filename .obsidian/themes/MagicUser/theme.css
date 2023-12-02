@@ -118,7 +118,7 @@ body {
   --code-keyword: var(--mu-purple-1);
   --code-operator: var(--mu-purple-1);
   --code-property: #0088f1;
-  --code-punctuation: var(--mu-purple-1);
+  --code-punctuation: #d372ff;
   --code-string: #00d8ff;
   --code-tag: var(--mu-purple-1);
   --code-value: #ffa300;
@@ -278,7 +278,7 @@ body {
 
   /* Indentation guide */
   --indentation-guide-width: 1px;
-  --indentation-guide-color: #00a3ff48;
+  --indentation-guide-color: var(--mu-indent-color-level-1);
   --indentation-guide-color-active: #bf00ff;
 
   /* Inline title */
@@ -403,7 +403,7 @@ body {
   /* Modals */
   --modal-background: var(--background-primary);
   --modal-width: 90vw;
-  --modal-height: 85vh;
+  --modal-height: 92vh;
   --modal-max-width: 1100px;
   --modal-max-height: 1000px;
   --modal-max-width-narrow: 800px;
@@ -644,7 +644,7 @@ body {
   /* Font Settings */
   --mu-font-headings: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --mu-font-ui: "Inter", Helvetica, Arial, sans-serif;
-  --mu-font-mono: "JetBrains Mono", "Consolas", "Roboto Mono", monospace;
+  --mu-font-mono: "JetBrains Mono", Consolas, "Roboto Mono", Menlo, Monaco, "Courier New", monospace;
 
   /* UI Settings */
   --ui-status-bar: 1;
@@ -679,6 +679,25 @@ body {
   --mu-line-highlight-background: transparent;
   --mu-folder: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath style='fill:%230048a3; stroke:none' d='M1 4.018 C1 4.018 1.104 2.905 2.569 3.006 C4.348 3.006 7.069 3.006 7.069 3.006 C7.069 3.006 8.639 4.828 8.639 4.828 C8.639 4.828 17.744 4.825 17.744 4.825 C17.744 4.825 18.999 4.524 18.999 6.043 C18.999 7.46 18.999 15.457 18.999 15.457 C18.999 15.457 18.999 16.773 17.116 16.874 C15.023 16.874 2.883 16.977 2.883 16.977 C2.984 16.968 1.313 17.276 1 15.86 C1 5.737 1 4.018 1 4.018 z'/%3E%3C/svg%3E");
   --mu-folder-open: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath style='fill:%2300a3ff; stroke:none' d='M1 4.018 C1 4.018 1.104 2.905 2.569 3.006 C4.348 3.006 7.069 3.006 7.069 3.006 C7.069 3.006 8.639 4.828 8.639 4.828 C8.639 4.828 17.744 4.825 17.744 4.825 C17.744 4.825 18.999 4.524 18.999 6.043 C18.999 7.46 18.999 15.457 18.999 15.457 C18.999 15.457 18.999 16.773 17.116 16.874 C15.023 16.874 2.883 16.977 2.883 16.977 C2.984 16.968 1.313 17.276 1 15.86 C1 5.737 1 4.018 1 4.018 z'/%3E%3C/svg%3E");
+  --mu-file-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%230048cf' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3C/svg%3E");
+  --mu-canvas-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%230048cf' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect width='7' height='9' x='3' y='3' rx='1'/%3E%3Crect width='7' height='5' x='14' y='3' rx='1'/%3E%3Crect width='7' height='9' x='14' y='12' rx='1'/%3E%3Crect width='7' height='5' x='3' y='16' rx='1'/%3E%3C/svg%3E");
+  --mu-reading-indicator-color: #007fffa3;
+  --mu-reading-indicator-right: transparent;
+
+  --mu-reading-indicator-width-value: 4;
+  --mu-reading-indicator-left-width: calc(var(--mu-reading-indicator-width-value) * -1px);
+  --mu-reading-indicator-right-width: calc(var(--mu-reading-indicator-width-value) * 1px);
+  --mu-indent-color-level-1: #007fff7f;
+  --mu-indent-color-level-2: #d372ff7f;
+  --mu-indent-color-level-3: #ff7f007f;
+  --mu-indent-color-level-4: #00a3487f;
+  --mu-indent-color-level-5: #e500007f;
+  --mu-indent-color-level-6: #8282007f;
+  --mu-folder-color-hue-value: 0;
+  --mu-folder-color-hue: calc(var(--mu-folder-color-hue-value) * 1deg);
+  --mu-file-color-hue-value: 0;
+  --mu-file-color-hue: calc(var(--mu-file-color-hue-value) * 1deg);
+  --mu-header-title-drag: no-drag;
 }
 
 body.is-translucent {
@@ -740,12 +759,12 @@ body.is-translucent.theme-dark input[type="text"] {
 .cm-s-obsidian span.cm-formatting-link,
 .cm-formatting-header,
 .cm-s-obsidian span.cm-formatting-quote {
-  color: #bf00ff;
+  color: var(--code-punctuation);
   font-weight: var(--font-semibold);
 }
 
 .modal-bg {
-  opacity: 0.2 !important;
+  opacity: 0.3 !important;
   background-color: #000;
 }
 
@@ -766,14 +785,14 @@ body.is-translucent.theme-dark input[type="text"] {
   background-color: var(--mu-line-highlight-background);
 }
 
-.show-folders {
-  --mu-folder: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath style='fill:%230048a3; stroke:none' d='M1 4.018 C1 4.018 1.104 2.905 2.569 3.006 C4.348 3.006 7.069 3.006 7.069 3.006 C7.069 3.006 8.639 4.828 8.639 4.828 C8.639 4.828 17.744 4.825 17.744 4.825 C17.744 4.825 18.999 4.524 18.999 6.043 C18.999 7.46 18.999 15.457 18.999 15.457 C18.999 15.457 18.999 16.773 17.116 16.874 C15.023 16.874 2.883 16.977 2.883 16.977 C2.984 16.968 1.313 17.276 1 15.86 C1 5.737 1 4.018 1 4.018 z'/%3E%3C/svg%3E");
-  --mu-folder-open: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath style='fill:%2300a3ff; stroke:none' d='M1 4.018 C1 4.018 1.104 2.905 2.569 3.006 C4.348 3.006 7.069 3.006 7.069 3.006 C7.069 3.006 8.639 4.828 8.639 4.828 C8.639 4.828 17.744 4.825 17.744 4.825 C17.744 4.825 18.999 4.524 18.999 6.043 C18.999 7.46 18.999 15.457 18.999 15.457 C18.999 15.457 18.999 16.773 17.116 16.874 C15.023 16.874 2.883 16.977 2.883 16.977 C2.984 16.968 1.313 17.276 1 15.86 C1 5.737 1 4.018 1 4.018 z'/%3E%3C/svg%3E");
-}
-
-.hide-folders {
+.mu-hide-folders {
   --mu-folder: none;
   --mu-folder-open: none;
+}
+
+.mu-hide-file-icons {
+  --mu-file-icon: none;
+  --mu-canvas-icon: none;
 }
 
 .search-result-file-matched-text {
@@ -826,6 +845,7 @@ body.is-translucent.theme-dark input[type="text"] {
   padding-right: 8px;
   zoom: var(--mu-folder-icon-zoom);
   vertical-align: middle;
+  filter: hue-rotate(var(--mu-folder-color-hue));
 }
 
 .nav-folder.is-collapsed .nav-folder-title-content:not(:nth-child(1))::before {
@@ -833,10 +853,19 @@ body.is-translucent.theme-dark input[type="text"] {
   padding-right: 8px;
   zoom: var(--mu-folder-icon-zoom);
   vertical-align: middle;
+  filter: hue-rotate(var(--mu-folder-color-hue));
 }
 
 .nav-file-title-content::before {
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%230048cf' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3C/svg%3E");
+  content: var(--mu-file-icon);
+  padding-right: 8px;
+  zoom: var(--mu-notes-icon-zoom);
+  vertical-align: middle;
+  filter: hue-rotate(var(--mu-file-color-hue));
+}
+
+.tree-item-self[data-path*=".canvas"] .nav-file-title-content::before {
+  content: var(--mu-canvas-icon);
   padding-right: 8px;
   zoom: var(--mu-notes-icon-zoom);
   vertical-align: middle;
@@ -893,8 +922,8 @@ body.is-translucent.theme-dark input[type="text"] {
   --mu-vault-title: var(--mu-purple-2);
   --mu-sidebar-folder: #72a3ff;
   --mu-table-background: #001133;
-  --mu-link: #c348ff;
-  --mu-link-hover: #d372ff;
+  --mu-link: #d372ff;
+  --mu-link-hover: #db8fff;
   --mu-external-link: #00a9dd;
   --mu-external-link-hover: #00c3ff;
   --tab-divider-color: #003364;
@@ -903,9 +932,18 @@ body.is-translucent.theme-dark input[type="text"] {
   --mu-notes-icon-zoom: 72%;
   --interactive-normal: #001122;
   --interactive-hover: #007fff20;
+  --mu-code-attribute: #ffa3a3;
+  --mu-input-bg-color: #001836;
+  --mu-label-h1: #a35fbf;
+  --mu-label-h2: #a35fbf;
+  --mu-label-h3: #a35fbf;
+  --mu-label-h4: #a35fbf;
+  --mu-label-h5: #a35fbf;
+  --mu-label-h6: #a35fbf;
+  --mu-text-selection: #0051f1a3;
+  --mu-suggestion-color: #00d3ff;
   --mu-caret-color: #00cfff;
 }
-
 
 /* Dark theme settings */
 /* ======================================================== */
@@ -932,19 +970,19 @@ body.is-translucent.theme-dark input[type="text"] {
   background-color: #00a3ff20
 }
 
-.theme-dark button:not(.mod-cta, .clickable-icon[aria-disabled='true'], .mod-warning) {
+.theme-dark button:not(.mod-cta, .clickable-icon[aria-disabled='true'], .mod-warning, .mod-tappable) {
   color: #f1f1f1;
   background-color: #00a3ff30;
 }
 
-.theme-dark button:not(.mod-cta, .clickable-icon[aria-disabled='true'], .mod-warning):hover {
+.theme-dark button:not(.mod-cta, .clickable-icon[aria-disabled='true'], .mod-warning, .mod-tappable):hover {
   color: #f1f1f1;
   background-color: #00a3ff40;
 }
 
 .theme-dark input[type="text"],
 .theme-dark input[type="search"] {
-  background-color: #001836;
+  background-color: var(--mu-input-bg-color);
 }
 
 .theme-dark span.obsidian-search-match-highlight {
@@ -968,11 +1006,11 @@ body.is-translucent.theme-dark input[type="text"] {
 }
 
 .theme-dark .suggestion-highlight {
-  color: #00d3ff;
+  color: var(--mu-suggestion-color);
 }
 
 .theme-dark ::selection {
-  background-color: #0051f1a3 !important;
+  background-color: var(--mu-text-selection) !important;
 }
 
 .theme-dark .nav-folder-title {
@@ -1006,8 +1044,9 @@ body.is-translucent.theme-dark input[type="text"] {
 .theme-dark .setting-item {
   display: flex;
   align-items: center;
-  padding: 0.75em 0;
-  border-top: 1px solid var(--mu-setting-color);
+  padding: var(--size-4-2) 0;
+  border: 0;
+  border-bottom: 1px solid var(--mu-setting-color);
 }
 
 .theme-dark .vertical-tab-header-group-title {
@@ -1065,6 +1104,14 @@ body.is-translucent.theme-dark input[type="text"] {
   --mu-link-hover: #c300ff;
   --mu-external-link: #0033ff;
   --mu-external-link-hover: #00a3ff;
+  --mu-code-attribute: #e50000;
+  --mu-input-bg-color: #fff;
+  --mu-label-h1: #bf72d8;
+  --mu-label-h2: #bf72d8;
+  --mu-label-h3: #bf72d8;
+  --mu-label-h4: #bf72d8;
+  --mu-label-h5: #bf72d8;
+  --mu-label-h6: #bf72d8;
   --mu-caret-color: #cf00ff;
   /* Code */
   --code-white-space: pre-wrap;
@@ -1086,6 +1133,8 @@ body.is-translucent.theme-dark input[type="text"] {
   --mu-notes-icon-zoom: 72%;
   --text-normal: #000;
   --text-muted: #353535;
+  --mu-text-selection: #0051f136;
+  --mu-suggestion-color: #0072d3;
   --interactive-normal: var(--mu-background-color-2);
   --interactive-hover: #007fff48;
 }
@@ -1112,12 +1161,12 @@ body.is-translucent.theme-dark input[type="text"] {
   background-color: #00a3ff20
 }
 
-.theme-light button:not(.mod-cta, .clickable-icon[aria-disabled='true'], .mod-warning) {
+.theme-light button:not(.mod-cta, .clickable-icon[aria-disabled='true'], .mod-warning, .mod-tappable) {
   color: #000;
   background-color: #00a3ff30;
 }
 
-.theme-light button:not(.mod-cta, .clickable-icon[aria-disabled='true'], .mod-warning):hover {
+.theme-light button:not(.mod-cta, .clickable-icon[aria-disabled='true'], .mod-warning, .mod-tappable):hover {
   color: #000;
   background-color: #00a3ff40
 }
@@ -1143,11 +1192,11 @@ body.is-translucent.theme-dark input[type="text"] {
 }
 
 .theme-light .suggestion-highlight {
-  color: #0072d3;
+  color: var(--mu-suggestion-color);
 }
 
 .theme-light ::selection {
-  background-color: #0051f136 !important;
+  background-color: var(--mu-text-selection) !important;
 }
 
 .theme-light .nav-folder-title {
@@ -1180,14 +1229,15 @@ body.is-translucent.theme-dark input[type="text"] {
 
 .theme-light input[type="text"],
 .theme-light input[type="search"] {
-  background-color: #fff;
+  background-color: var(--mu-input-bg-color);
 }
 
 .theme-light .setting-item {
   display: flex;
   align-items: center;
-  padding: 0.75em 0;
-  border-top: 1px solid var(--mu-setting-color);
+  padding: var(--size-4-2) 0;
+  border: 0;
+  border-bottom: 1px solid var(--mu-setting-color);
 }
 
 .theme-light .vertical-tab-header-group-title {
@@ -2786,11 +2836,11 @@ td {
 
 /* Code Adjustments */
 .theme-dark .cm-attribute {
-  color: #ffa3a3;
+  color: var(--mu-code-attribute);
 }
 
 .theme-light .cm-attribute {
-  color: #e50000;
+  color: var(--mu-code-attribute);
 }
 
 /* Extra Mobile Adjustments */
@@ -2802,6 +2852,10 @@ td {
 
 .is-mobile .mobile-toolbar {
   background-color: var(--mu-background-color-2);
+}
+
+.is-mobile .workspace-tab-header-container {
+  background-color: var(--mu-titlebar-background);
 }
 
 .is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left,
@@ -2921,6 +2975,18 @@ body:not(.is-mobile).mu-distraction-free-mode {
   --ribbon-width: 8px;
   --ui-distraction-free-toggle-button: none;
   --ribbon-background: var(--mu-background-color-1);
+  --mu-header-title-drag: drag;
+}
+
+body:not(.is-mobile) .view-header-title-container.mod-at-start,
+body:not(.is-mobile) .status-bar-item:not(.mod-clickable) {
+  -webkit-app-region: var(--mu-header-title-drag);
+}
+
+.status-bar-item,
+.view-header-breadcrumb,
+.view-header-title {
+  -webkit-app-region: no-drag;
 }
 
 body:not(.is-mobile) .workspace-ribbon.mod-left:before {
@@ -3029,27 +3095,24 @@ body:not(.is-mobile) .side-dock-settings:hover {
   --ui-side-dock-settings: 1;
 }
 
+/* Source mode */
+.markdown-source-view:not(.is-live-preview) * {
+  --font-text: var(--mu-font-mono);
+  font-family: var(--mu-font-mono);
+}
+
 /* Reading mode */
 
-.markdown-reading-view .markdown-preview-view.heading-collapse-indicator {
-  transform: translateX(-2rem);
+.markdown-reading-view>div>div>div:not(.mod-header) {
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-div.workspace-tab-container>div>div>div.view-content>div.markdown-reading-view>div>div>div:not(.mod-header):hover {
-  box-shadow: -0.2rem 0 0 0 #007fff88, 0.2rem 0 0 0 #007fff88;
-  margin-left: -0.2rem;
-  margin-right: -0.2rem;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
-}
-
-div.workspace-tab-container>div>div>div.view-content>div.markdown-reading-view>div>div>div:not(.mod-header):active {
-  box-shadow: 0 0 0 .2rem #00a3ff, 0 0 1.2rem .2rem #00a3ff;
-  margin-left: -0.2rem;
-  margin-right: -0.2rem;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
-  transition: box-shadow .5s;
+.markdown-reading-view>div>div>div:not(.mod-header):hover {
+  box-shadow: var(--mu-reading-indicator-left-width) 0 0 0 var(--mu-reading-indicator-color), var(--mu-reading-indicator-right-width) 0 0 0 var(--mu-reading-indicator-right);
 }
 
 .markdown-reading-view h1::before,
@@ -3059,43 +3122,554 @@ div.workspace-tab-container>div>div>div.view-content>div.markdown-reading-view>d
 .markdown-reading-view h5::before,
 .markdown-reading-view h6::before {
   font-size: .8rem;
-  font-weight: 600;
-  font-family: var(--mu-font-mono);
-  color: #007fff88;
-  display: flex;
-  justify-content: flex-start;
-  align-content: baseline;
+  font-family: var(--mu-font-ui);
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  visibility: hidden;
+  letter-spacing: 1px;
 }
 
 .markdown-reading-view h1::before {
   content: "H1 ";
+  color: var(--mu-label-h1);
 }
 
 .markdown-reading-view h2::before {
   content: "H2 ";
+  color: var(--mu-label-h2);
 }
 
 .markdown-reading-view h3::before {
   content: "H3 ";
+  color: var(--mu-label-h3);
 }
 
 .markdown-reading-view h4::before {
   content: "H4 ";
+  color: var(--mu-label-h4);
 }
 
 .markdown-reading-view h5::before {
   content: "H5 ";
+  color: var(--mu-label-h5);
 }
 
 .markdown-reading-view h6::before {
   content: "H6 ";
+  color: var(--mu-label-h6);
+}
+
+.markdown-reading-view h1:hover::before,
+.markdown-reading-view h2:hover::before,
+.markdown-reading-view h3:hover::before,
+.markdown-reading-view h4:hover::before,
+.markdown-reading-view h5:hover::before,
+.markdown-reading-view h6:hover::before {
+  visibility: visible;
+}
+
+/* Settings */
+.vertical-tab-header-group {
+  padding-top: 0;
+}
+
+/* Themes */
+/* Purple */
+.theme-light.magicuser-purple-theme {
+  --mu-background-color-1: #dbd0ff;
+  --mu-background-color-2: #cdbeff;
+  --mu-divider-color: #00000000;
+  --mu-input-bg-color: #fff;
+  --mu-setting-color: #a300a320;
+  --mu-text-title: #a300cf;
+  --mu-titlebar-background: #250035;
+  --mu-vault-title: #a300cf;
+  --code-background: #e8e8e8;
+  --mu-sidebar-folder: #0048a3;
+  --mu-h1: #0048a3;
+  --mu-h2: #0048a3;
+  --mu-h3: #0048a3;
+  --mu-h4: #0048a3;
+  --mu-h5: #0048a3;
+  --mu-h6: #0048a3;
+}
+
+.theme-dark.magicuser-purple-theme {
+  --mu-background-color-1: #330048;
+  --mu-background-color-2: #250035;
+  --mu-divider-color: #00000000;
+  --mu-input-bg-color: #160020;
+  --mu-setting-color: #f100f110;
+  --mu-text-title: #bf48ff;
+  --mu-titlebar-background: #210030;
+  --mu-vault-title: #bf48ff;
+  --code-background: #1f1f1f;
+}
+
+/* Teal */
+.theme-light.magicuser-teal-theme {
+  --mu-background-color-1: #E1F0F0;
+  --mu-background-color-2: #cde8e8;
+  --mu-divider-color: #00000000;
+  --mu-input-bg-color: #fff;
+  --mu-setting-color: #00a3a310;
+  --mu-titlebar-background: #004040;
+  --code-background: #e8e8e8;
+  --mu-h1: #0048a3;
+  --mu-h2: #0048a3;
+  --mu-h3: #0048a3;
+  --mu-h4: #0048a3;
+  --mu-h5: #0048a3;
+  --mu-h6: #0048a3;
+}
+
+.theme-dark.magicuser-teal-theme {
+  --mu-background-color-1: #002828;
+  --mu-background-color-2: #002121;
+  --mu-divider-color: #00000000;
+  --mu-input-bg-color: #003838;
+  --mu-setting-color: #00a3a310;
+  --mu-titlebar-background: #004040;
+  --code-background: #1f1f1f;
+}
+
+/* Camouflage */
+.theme-light.magicuser-camouflage-theme {
+  --mu-background-color-1: #e1e8d3;
+  --mu-background-color-2: #d1d8c0;
+  --mu-caret-color: #ff5f00;
+  --mu-divider-color: #00000000;
+  --mu-input-bg-color: #fff;
+  --mu-setting-color: #a3a3a348;
+  --mu-sidebar-folder: #4f573c;
+  --mu-text-title: #727d57;
+  --mu-titlebar-background: #3a3f2c;
+  --mu-vault-title: #727d57;
+  --code-background: #e8e8e8;
+  --code-punctuation: #727d57;
+  --mu-h1: #0048a3;
+  --mu-h2: #0048a3;
+  --mu-h3: #0048a3;
+  --mu-h4: #0048a3;
+  --mu-h5: #0048a3;
+  --mu-h6: #0048a3;
+}
+
+.theme-dark.magicuser-camouflage-theme {
+  --mu-background-color-1: #24281c;
+  --mu-background-color-2: #1e2117;
+  --mu-caret-color: #ff5f00;
+  --mu-divider-color: #00000000;
+  --mu-input-bg-color: #000;
+  --mu-setting-color: #a3a3a318;
+  --mu-sidebar-folder: #a0ac82;
+  --mu-text-title: #727d57;
+  --mu-titlebar-background: #3a3f2c;
+  --mu-vault-title: #727d57;
+  --code-background: #000;
+  --code-punctuation: #727d57;
+}
+
+/* Gray */
+.theme-light.magicuser-gray-theme {
+  --mu-background-color-1: #e8e8e8;
+  --mu-background-color-2: #e1e1e1;
+  --mu-caret-color: #ff00a3;
+  --mu-divider-color: #00000000;
+  --mu-input-bg-color: #fff;
+  --mu-setting-color: #a3a3a348;
+  --mu-text-title: #828282;
+  --mu-titlebar-background: #080808;
+  --mu-vault-title: #828282;
+  --code-background: #f1f1f1;
+  --code-punctuation: #979797;
+  --mu-h1: #0072d3;
+  --mu-h2: #0072d3;
+  --mu-h3: #0072d3;
+  --mu-h4: #0072d3;
+  --mu-h5: #0072d3;
+  --mu-h6: #0072d3;
+}
+
+.theme-dark.magicuser-gray-theme {
+  --mu-background-color-1: #1f1f1f;
+  --mu-background-color-2: #181818;
+  --mu-caret-color: #ff00a3;
+  --mu-divider-color: #00000000;
+  --mu-input-bg-color: #000;
+  --mu-setting-color: #a3a3a318;
+  --mu-text-title: #828282;
+  --mu-titlebar-background: #080808;
+  --mu-vault-title: #828282;
+  --code-background: #000;
+  --code-punctuation: #7f7f7f;
+}
+
+/* Room lamp */
+.theme-light.magicuser-room-lamp-theme {
+  --mu-background-color-1: #f9edc6;
+  --mu-background-color-2: #f7e8b3;
+  --mu-caret-color: #d3148d;
+  --mu-divider-color: #00000000;
+  --mu-input-bg-color: #fff;
+  --mu-setting-color: #a3a3a348;
+  --mu-sidebar-folder: #0048a3;
+  --mu-text-title: #ac3f5d;
+  --mu-titlebar-background: #461828;
+  --mu-vault-title: #ac3f5d;
+  --code-background: #e8e8e8;
+  --code-punctuation: #ac3f5d;
+  --mu-h1: #0048a3;
+  --mu-h2: #0048a3;
+  --mu-h3: #0048a3;
+  --mu-h4: #0048a3;
+  --mu-h5: #0048a3;
+  --mu-h6: #0048a3;
+}
+
+.theme-dark.magicuser-room-lamp-theme {
+  --mu-background-color-1: #2f0f18;
+  --mu-background-color-2: #3f1423;
+  --mu-caret-color: #d3148d;
+  --mu-divider-color: #00000000;
+  --mu-input-bg-color: #000;
+  --mu-setting-color: #a3a3a318;
+  --mu-sidebar-folder: #97bff1;
+  --mu-text-title: #ac3f5d;
+  --mu-titlebar-background: #461828;
+  --mu-vault-title: #ac3f5d;
+  --code-background: #000;
+  --code-punctuation: #ac3f5d;
+  --mu-h1: #97bff1;
+  --mu-h2: #97bff1;
+  --mu-h3: #97bff1;
+  --mu-h4: #97bff1;
+  --mu-h5: #97bff1;
+  --mu-h6: #97bff1;
+}
+
+/* Moon */
+.theme-light.magicuser-moon-theme {
+  --mu-background-color-1: #d2e1f1;
+  --mu-background-color-2: #c3d6ea;
+  --mu-caret-color: #d300ff;
+  --mu-divider-color: #00000000;
+  --mu-input-bg-color: #fff;
+  --mu-setting-color: #a3a3a348;
+  --mu-sidebar-folder: #0048a3;
+  --mu-text-title: #a300cf;
+  --mu-titlebar-background: #001a33;
+  --mu-vault-title: #a300cf;
+  --code-background: #e1e1e1;
+  --code-punctuation: #a300a3;
+  --mu-h1: #0048a3;
+  --mu-h2: #0048a3;
+  --mu-h3: #0048a3;
+  --mu-h4: #0048a3;
+  --mu-h5: #0048a3;
+  --mu-h6: #0048a3;
+  --mu-text-selection: #bf48ff33;
+  --mu-suggestion-color: #0072d3;
+}
+
+.theme-dark.magicuser-moon-theme {
+  --mu-background-color-1: #001122;
+  --mu-background-color-2: #000b15;
+  --mu-caret-color: #d300ff;
+  --mu-divider-color: #dfc1c100;
+  --mu-input-bg-color: #001836;
+  --mu-setting-color: #a3a3a318;
+  --mu-sidebar-folder: #729fd8;
+  --mu-text-title: #a300cf;
+  --mu-titlebar-background: #001a33;
+  --mu-vault-title: #a300cf;
+  --code-background: #000;
+  --code-punctuation: #a300a3;
+  --mu-h1: #729fd8;
+  --mu-h2: #729fd8;
+  --mu-h3: #729fd8;
+  --mu-h4: #729fd8;
+  --mu-h5: #729fd8;
+  --mu-h6: #729fd8;
+  --mu-text-selection: #bf48ff55;
+  --text-normal: #c1c1c1;
+  --mu-suggestion-color: #00a3ff;
+}
+
+/* Frontmatter md */
+.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-def {
+  color: var(--code-comment);
+}
+
+.cm-atom.cm-hmd-frontmatter {
+  font-weight: var(--font-semibold);
+  color: var(--code-property);
+}
+
+.cm-hmd-frontmatter.cm-meta {
+  font-weight: var(--font-bold);
+  color: var(--code-punctuation);
+}
+
+.cm-hmd-frontmatter.cm-number {
+  font-weight: var(--font-semibold);
+  color: var(--code-value)
+}
+
+.cm-hmd-frontmatter.cm-string {
+  font-weight: var(--font-semibold);
+  color: var(--code-string)
+}
+
+.cm-hmd-frontmatter {
+  color: var(--mu-text-1);
+}
+
+.cm-comment.cm-hmd-frontmatter {
+  font-style: italic;
+  color: var(--code-comment);
+}
+
+/* Reading Ind position */
+.mu-reading-ind-left {
+  --mu-reading-indicator-right: transparent;
+}
+
+.mu-reading-ind-right {
+  --mu-reading-indicator-right: var(--mu-reading-indicator-color);
+}
+
+.mu-reading-ind-hide {
+  --mu-reading-indicator-color: transparent !important;
+  --mu-reading-indicator-right: transparent !important;
+}
+
+/* Folders indent */
+div.nav-files-container.node-insert-event>div>div.tree-item-children.nav-folder-children>div>div.tree-item-children.nav-folder-children>div>div.tree-item-children.nav-folder-children {
+  border-left: var(--nav-indentation-guide-width) solid var(--mu-indent-color-level-2);
+}
+
+div.nav-files-container.node-insert-event>div>div.tree-item-children.nav-folder-children>div>div.tree-item-children.nav-folder-children>div>div.tree-item-children.nav-folder-children>div.tree-item.nav-folder>div.tree-item-children.nav-folder-children {
+  border-left: var(--nav-indentation-guide-width) solid var(--mu-indent-color-level-3);
+}
+
+div.nav-files-container.node-insert-event>div>div.tree-item-children.nav-folder-children>div>div.tree-item-children.nav-folder-children>div>div.tree-item-children.nav-folder-children>div.tree-item.nav-folder>div.tree-item-children.nav-folder-children>div.tree-item.nav-folder>div.tree-item-children.nav-folder-children {
+  border-left: var(--nav-indentation-guide-width) solid var(--mu-indent-color-level-4);
+}
+
+div.nav-files-container.node-insert-event>div>div.tree-item-children.nav-folder-children>div>div.tree-item-children.nav-folder-children>div>div.tree-item-children.nav-folder-children>div.tree-item.nav-folder>div.tree-item-children.nav-folder-children>div.tree-item.nav-folder>div.tree-item-children.nav-folder-children>div.tree-item.nav-folder>div.tree-item-children.nav-folder-children {
+  border-left: var(--nav-indentation-guide-width) solid var(--mu-indent-color-level-5);
+}
+
+div.nav-files-container.node-insert-event>div>div.tree-item-children.nav-folder-children>div>div.tree-item-children.nav-folder-children>div>div.tree-item-children.nav-folder-children>div.tree-item.nav-folder>div.tree-item-children.nav-folder-children>div.tree-item.nav-folder>div.tree-item-children.nav-folder-children>div.tree-item.nav-folder>div.tree-item-children.nav-folder-children>div.tree-item.nav-folder>div.tree-item-children.nav-folder-children {
+  border-left: var(--nav-indentation-guide-width) solid var(--mu-indent-color-level-6);
+}
+
+.style-settings-heading[data-level="0"]+.style-settings-container {
+  padding-left: 34px;
+}
+
+.style-settings-heading[data-level="2"]+.style-settings-container {
+  padding-left: 18px;
+  border-left: 1px solid var(--mu-indent-color-level-1);
+}
+
+.style-settings-heading[data-level="3"]+.style-settings-container {
+  padding-left: 18px;
+  border-left: 1px solid var(--mu-indent-color-level-2);
+}
+
+.style-settings-heading[data-level="4"]+.style-settings-container {
+  padding-left: 18px;
+  border-left: 1px solid var(--mu-indent-color-level-3);
+}
+
+.style-settings-container {
+  padding-left: 18px;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-presets"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23007fffcf' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z'/%3E%3Cpath d='M5 3v4'/%3E%3Cpath d='M19 17v4'/%3E%3Cpath d='M3 5h4'/%3E%3Cpath d='M17 19h4'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-ui"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23007fffcf' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='2' y='4' width='20' height='18' rx='2'/%3E%3Cpath d='M10 4v4'/%3E%3Cpath d='M2 8h20'/%3E%3Cpath d='M6 4v4'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-headings"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23007fffcf' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h8'/%3E%3Cpath d='M4 18V6'/%3E%3Cpath d='M12 18V6'/%3E%3Cpath d='m17 12 3-2v8'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-text"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23007fffcf' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3Cline x1='16' x2='8' y1='13' y2='13'/%3E%3Cline x1='16' x2='8' y1='17' y2='17'/%3E%3Cline x1='10' x2='8' y1='9' y2='9'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-links"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23007fffcf' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-checkboxes"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23007fffcf' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect width='18' height='18' x='3' y='3' rx='2'/%3E%3Cpath d='m9 12 2 2 4-4'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-code"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23007fffcf' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m18 16 4-4-4-4'/%3E%3Cpath d='m6 8-4 4 4 4'/%3E%3Cpath d='m14.5 4-5 16'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-about"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23007fffcf' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 16v-4'/%3E%3Cpath d='M12 8h.01'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-ui-advanced"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23bf48ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 7h-9'/%3E%3Cpath d='M14 17H5'/%3E%3Ccircle cx='17' cy='17' r='3'/%3E%3Ccircle cx='7' cy='7' r='3'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-main-colors"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23bf48ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='13.5' cy='6.5' r='.5'/%3E%3Ccircle cx='17.5' cy='10.5' r='.5'/%3E%3Ccircle cx='8.5' cy='7.5' r='.5'/%3E%3Ccircle cx='6.5' cy='12.5' r='.5'/%3E%3Cpath d='M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-folders-icons"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23bf48ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-indent-guides-color"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23bf48ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 12h-8'/%3E%3Cpath d='M21 6H8'/%3E%3Cpath d='M21 18h-8'/%3E%3Cpath d='M3 6v4c0 1.1.9 2 2 2h3'/%3E%3Cpath d='M3 10v6c0 1.1.9 2 2 2h3'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-line-highlight"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23bf48ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect width='20' height='12' x='2' y='6' rx='2'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.setting-item.setting-item-heading.style-settings-heading[data-id="magicuser-theme-reading-mode-options"] .style-settings-collapse-indicator::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23bf48ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z'/%3E%3Cpath d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z'/%3E%3C/svg%3E");
+  margin-left: 4px;
+  zoom: 82%;
+  vertical-align: middle;
+}
+
+.style-settings-collapse-indicator {
+  padding-left: 8px;
+  color: #828282;
+}
+
+.setting-item-control .themed-color-wrapper .theme-light::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23007fff7f' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='4'/%3E%3Cpath d='M12 2v2'/%3E%3Cpath d='M12 20v2'/%3E%3Cpath d='m4.93 4.93 1.41 1.41'/%3E%3Cpath d='m17.66 17.66 1.41 1.41'/%3E%3Cpath d='M2 12h2'/%3E%3Cpath d='M20 12h2'/%3E%3Cpath d='m6.34 17.66-1.41 1.41'/%3E%3Cpath d='m19.07 4.93-1.41 1.41'/%3E%3C/svg%3E");
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.setting-item-control .themed-color-wrapper .theme-dark::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23007fff7f' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z'/%3E%3C/svg%3E");
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* Style Settings - further color adjustments */
+.setting-item-description>div>small {
+  font-weight: var(--font-semibold) !important;
+  color: var(--text-accent) !important;
+}
+
+.theme-light .setting-item-description>div>small>strong {
+  font-weight: var(--font-semibold) !important;
+  color: #000 !important;
+}
+
+.theme-dark .setting-item-description>div>small>strong {
+  font-weight: var(--font-semibold) !important;
+  color: #e1e1e1 !important;
+}
+
+.theme-light .setting-item-control .pickr-reset>button,
+.theme-light .setting-item-control .pickr-reset>button:hover {
+  color: #000;
+}
+
+.theme-dark .setting-item-control .pickr-reset>button,
+.theme-dark .setting-item-control .pickr-reset>button:hover {
+  color: #e1e1e1;
 }
 
 /* Style Settings */
+
 /* @settings
 name: MagicUser Theme
 id: magicuser-theme-for-obsidian
 settings:
+    -
+        id: magicuser-theme-presets
+        title: Preset Themes
+        type: heading
+        description: MagicUser preset themes
+        level: 2
+        collapsed: true
+    -
+        id: mu-presets-themes
+        title: Preset themes
+        type: class-select
+        allowEmpty: false
+        default: none
+        options:
+            - 
+                label: MagicUser
+                value: none
+            - 
+                label: MagicUser Room Lamp
+                value: magicuser-room-lamp-theme
+            - 
+                label: MagicUser Purple
+                value: magicuser-purple-theme
+            - 
+                label: MagicUser Teal
+                value: magicuser-teal-theme
+            - 
+                label: MagicUser Camouflage
+                value: magicuser-camouflage-theme
+            - 
+                label: MagicUser Gray
+                value: magicuser-gray-theme
+            - 
+                label: MagicUser Moon
+                value: magicuser-moon-theme
     -
         id: magicuser-theme-ui
         title: UI Settings
@@ -3104,14 +3678,14 @@ settings:
         level: 2
         collapsed: true
     -
-        id: magicuser-theme-ui-elements
-        title: UI Basic Settings
+        id: magicuser-theme-main-colors
+        title: Main Theme Colors
         type: heading
         level: 3
         collapsed: true
     -
         id: mu-titlebar-background
-        title: Frame Color
+        title: Frame color
         type: variable-themed-color
         description: Theme frame color
         format: hex
@@ -3120,33 +3694,25 @@ settings:
         default-dark: '#003388'
     -
         id: mu-background-color-1
-        title: Primary Background Color
+        title: Primary background color
         type: variable-themed-color
-        description: Main theme background color
+        description: Main editor theme background color
         format: hex
         opacity: false
         default-light: '#e8efff'
         default-dark: '#002248'
     -
         id: mu-background-color-2
-        title: Secondary Background Color
+        title: Secondary background color
         type: variable-themed-color
-        description: Sidebar, menus and code background color
+        description: Secondary theme background color
         format: hex
         opacity: false
         default-light: '#d1dfff'
         default-dark: '#001122'
     -
-        id: mu-icon-focused
-        title: Icon Focused Color
-        type: variable-color
-        description: Current focused icon color
-        format: hex
-        opacity: false
-        default: '#007fff'
-    -
         id: mu-caret-color
-        title: Caret Color
+        title: Caret color
         type: variable-themed-color
         description: Caret / text cursor color
         format: hex
@@ -3154,8 +3720,143 @@ settings:
         default-light: '#cf00ff'
         default-dark: '#00cfff'
     -
+        id: mu-vault-title
+        title: Vault title color
+        type: variable-themed-color
+        description: Sidebar vault title color
+        format: hex
+        opacity: false
+        default-light: '#b10aff'
+        default-dark: '#a273d8'
+    -
+        id: mu-text-title
+        title: Inline title color
+        type: variable-themed-color
+        description: Filename inline title color
+        format: hex
+        opacity: false
+        default-light: '#a200ff'
+        default-dark: '#af47eb'
+    -
+        id: magicuser-theme-folders-icons
+        title: Icons and Folders
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: mu-sidebar-folder
+        title: Folder name color
+        type: variable-themed-color
+        description: Folder name color
+        format: hex
+        opacity: false
+        default-light: '#0072d3'
+        default-dark: '#72a3ff'
+    - 
+        id: mu-folder-color-hue-value
+        title: Folder icons color
+        description: Select folder icons color
+        type: variable-number-slider
+        default: 0
+        min: 0
+        max: 360
+        step: 1
+    - 
+        id: mu-file-color-hue-value
+        title: File icons color
+        description: Select file icons color
+        type: variable-number-slider
+        default: 0
+        min: 0
+        max: 360
+        step: 1
+    -
+        id: mu-icon-focused
+        title: Icon focused color
+        type: variable-color
+        description: Current focused icon color
+        format: hex
+        opacity: false
+        default: '#007fff'
+    -
+        id: mu-hide-folders
+        title: Hide folder icons
+        description:  Toggle folder icons
+        type: class-toggle
+    -
+        id: mu-hide-file-icons
+        title: Hide file icons
+        description:  Toggle file icons
+        type: class-toggle
+    -
+        id: magicuser-theme-indent-guides-color
+        title: Indent Guides
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: mu-indent-color-level-1
+        title: Indent guide - color 1
+        type: variable-themed-color
+        description: Indent guide color 1
+        format: hex
+        opacity: true
+        default-light: '#007fff7f'
+        default-dark: '#007fff7f'
+    -
+        id: mu-indent-color-level-2
+        title: Indent guide - color 2
+        type: variable-themed-color
+        description: Indent guide color 2
+        format: hex
+        opacity: true
+        default-light: '#d372ff7f'
+        default-dark: '#d372ff7f'
+    -
+        id: mu-indent-color-level-3
+        title: Indent guide - color 3
+        type: variable-themed-color
+        description: Indent guide color 3
+        format: hex
+        opacity: true
+        default-light: '#ff7f007f'
+        default-dark: '#ff7f007f'
+    -
+        id: mu-indent-color-level-4
+        title: Indent guide - color 4
+        type: variable-themed-color
+        description: Indent guide color 4
+        format: hex
+        opacity: true
+        default-light: '#00a3487f'
+        default-dark: '#00a3487f'
+    -
+        id: mu-indent-color-level-5
+        title: Indent guide - color 5
+        type: variable-themed-color
+        description: Indent guide color 5
+        format: hex
+        opacity: true
+        default-light: '#e500007f'
+        default-dark: '#e500007f'
+    -
+        id: mu-indent-color-level-6
+        title: Indent guide - color 6
+        type: variable-themed-color
+        description: Indent guide color 6
+        format: hex
+        opacity: true
+        default-light: '#9797007f'
+        default-dark: '#9797007f'
+    -
+        id: magicuser-theme-line-highlight
+        title: Line Highlight
+        type: heading
+        level: 3
+        collapsed: true
+    -
         id: mu-line-highlight-border
-        title: Line Highlight Border Color
+        title: Line highlight border color
         type: class-select
         description: Border color of the active line
         allowEmpty: false
@@ -3190,7 +3891,7 @@ settings:
                 value: line-highlight-border-gray
     -
         id: mu-line-highlight-background
-        title: Line Highlight Background Color
+        title: Line highlight background color
         type: class-select
         description: Background color of the active line
         allowEmpty: false
@@ -3223,49 +3924,103 @@ settings:
             - 
                 label: Gray background
                 value: line-highlight-background-gray
+    -
+        id: magicuser-theme-reading-mode-options
+        title: Reading Mode
+        type: heading
+        level: 3
+        collapsed: true
     - 
-        id: mu-folder-icons
-        title: Folder Icons
-        description: Show or hide folder icons
+        id: mu-reading-indicator-color
+        title: Reading indicators color
+        type: variable-themed-color
+        description: Color of the reading indicators
+        format: hex
+        opacity: true
+        default-light: '#007fffa3'
+        default-dark: '#007fffa3'
+    -
+        id: mu-reading-indicators
+        title: Reading indicators
         type: class-select
         allowEmpty: false
-        default: show-folders
+        description: Select reading indicators
+        default:  mu-reading-ind-left
         options:
             - 
-                label: Show folder icons
-                value: show-folders
+                label: Left indicator
+                value: mu-reading-ind-left
             - 
-                label: Hide folder icons
-                value: hide-folders
+                label: Left and right
+                value: mu-reading-ind-right
+            - 
+                label: No indicators
+                value: mu-reading-ind-hide
+    - 
+        id: mu-reading-indicator-width-value
+        title: Reading indicators width
+        description: Select reading indicators width in px units
+        type: variable-number-slider
+        default: 4
+        min: 1
+        max: 36
+        step: 1
     -
-        id: mu-sidebar-folder
-        title: Folder Name Color
+        id: mu-label-h1
+        title: H1 label color
         type: variable-themed-color
-        description: Folder name color
+        description: Reading mode - H1 label color
         format: hex
         opacity: false
-        default-light: '#0072d3'
-        default-dark: '#72a3ff'
+        default-light: '#bf72d8'
+        default-dark: '#a35fbf'
     -
-        id: mu-vault-title
-        title: Vault Title Color
+        id: mu-label-h2
+        title: H2 label color
         type: variable-themed-color
-        description: Sidebar vault title color
+        description: Reading mode - H2 label color
         format: hex
         opacity: false
-        default-light: '#b10aff'
-        default-dark: '#a273d8'
+        default-light: '#bf72d8'
+        default-dark: '#a35fbf'
     -
-        id: mu-text-title
-        title: Inline Title Color
+        id: mu-label-h3
+        title: H3 label color
         type: variable-themed-color
-        description: Filename inline title color
+        description: Reading mode - H3 label color
         format: hex
         opacity: false
-        default-light: '#a200ff'
-        default-dark: '#af47eb'
+        default-light: '#bf72d8'
+        default-dark: '#a35fbf'
     -
-        id: magicuser-theme-ui-elements
+        id: mu-label-h4
+        title: H4 label color
+        type: variable-themed-color
+        description: Reading mode - H4 label color
+        format: hex
+        opacity: false
+        default-light: '#bf72d8'
+        default-dark: '#a35fbf'
+    -
+        id: mu-label-h5
+        title: H5 label color
+        type: variable-themed-color
+        description: Reading mode - H5 label color
+        format: hex
+        opacity: false
+        default-light: '#bf72d8'
+        default-dark: '#a35fbf'
+    -
+        id: mu-label-h6
+        title: H6 label color
+        type: variable-themed-color
+        description: Reading mode - H6 label color
+        format: hex
+        opacity: false
+        default-light: '#bf72d8'
+        default-dark: '#a35fbf'
+    -
+        id: magicuser-theme-ui-advanced
         title: UI Advanced Settings
         type: heading
         level: 3
@@ -3274,35 +4029,36 @@ settings:
         id: mu-distraction-free-mode
         title: Distraction-free mode 
         description: Activate distraction-free mode
+        addCommand: true
         type: class-toggle
     -
         id: mu-hide-nav-buttons-container
-        title: Sidebar Buttons
+        title: Hide sidebar buttons
         description:  Hide sidebar buttons (new note, new folder and others)
         type: class-toggle
     -  
         id: mu-hide-view-header-nav-buttons
-        title: Tab Navigation Buttons
+        title: Hide tab navigation buttons
         description:  Hide tab navigation back and forward buttons
         type: class-toggle
     -  
         id: mu-hide-titlebar-top-left-buttons
-        title: Title Bar Top Left Buttons
+        title: Auto hide title bar top left buttons
         description: Auto hide title bar top left buttons
         type: class-toggle
     -  
         id: mu-hide-side-dock-actions
-        title: Top Side Buttons
-        description: Auto hide top side buttons
+        title: Auto hide top side buttons
+        description: Auto hide top side buttons (left ribbon)
         type: class-toggle
     -  
         id: mu-hide-side-dock-settings
-        title: Bottom Side Buttons
-        description: Auto hide bottom side buttons
+        title: Auto hide bottom side buttons
+        description: Auto hide bottom side buttons (left ribbon)
         type: class-toggle
     -  
         id: mu-hide-status-bar
-        title: Status Bar
+        title: Auto hide status bar
         description: Auto hide status bar
         type: class-toggle
     -
@@ -3314,19 +4070,19 @@ settings:
         collapsed: true
     -
         id: mu-font-headings
-        title: Headings Font (H1-H6)
+        title: Headings font (H1-H6)
         type: variable-text
         description: Font used for the headings (H1-H6)
         default: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif
     -
         id: h1-size
-        title: H1 Font Size
+        title: H1 font size
         type: variable-text
         description: Heading 1 font size
         default: 2em
     -
         id: mu-h1
-        title: H1 Color
+        title: H1 color
         type: variable-themed-color
         description: Heading 1 color
         format: hex
@@ -3335,13 +4091,13 @@ settings:
         default-dark: '#00a3ff'
     -
         id: h2-size
-        title: H2 Font Size
+        title: H2 font size
         type: variable-text
         description: Heading 2 font size
         default: 1.5em
     -
         id: mu-h2
-        title: H2 Color
+        title: H2 color
         type: variable-themed-color
         description: Heading 2 color
         format: hex
@@ -3350,13 +4106,13 @@ settings:
         default-dark: '#00a3ff'
     -
         id: h3-size
-        title: H3 Font Size
+        title: H3 font size
         type: variable-text
         description: Heading 3 font size
         default: 1.17em
     -
         id: mu-h3
-        title: H3 Color
+        title: H3 color
         type: variable-themed-color
         description: Heading 3 color
         format: hex
@@ -3365,13 +4121,13 @@ settings:
         default-dark: '#00a3ff'
     -
         id: h4-size
-        title: H4 Font Size
+        title: H4 font size
         type: variable-text
         description: Heading 4 font size
         default: 1em
     -
         id: mu-h4
-        title: H4 Color
+        title: H4 color
         type: variable-themed-color
         description: Heading 4 color
         format: hex
@@ -3380,13 +4136,13 @@ settings:
         default-dark: '#00a3ff'
     -
         id: h5-size
-        title: H5 Font Size
+        title: H5 font size
         type: variable-text
         description: Heading 5 font size
         default: 0.83em
     -
         id: mu-h5
-        title: H5 Color
+        title: H5 color
         type: variable-themed-color
         description: Heading 5 color
         format: hex
@@ -3395,13 +4151,13 @@ settings:
         default-dark: '#00a3ff'
     -
         id: h6-size
-        title: H6 Font Size
+        title: H6 font size
         type: variable-text
         description: Heading 6 font size
         default: 0.67em
     -
         id: mu-h6
-        title: H6 Color
+        title: H6 color
         type: variable-themed-color
         description: Heading 6 color
         format: hex
@@ -3417,7 +4173,7 @@ settings:
         collapsed: true
     -
         id: mu-text-bold
-        title: Bold Text Color
+        title: Bold text color
         type: variable-themed-color
         description: Bold text color
         format: hex
@@ -3426,7 +4182,7 @@ settings:
         default-dark: '#f1f1f1'
     -
         id: mu-text-italic
-        title: Italic Text Color
+        title: Italic text color
         type: variable-themed-color
         description: Italic text color
         format: hex
@@ -3435,7 +4191,7 @@ settings:
         default-dark: '#f1f1f1'
     -
         id: text-highlight-bg
-        title: Highlighted Text Color
+        title: Highlighted text color
         type: variable-color
         description: Color used to highlight text
         format: hex
@@ -3450,7 +4206,7 @@ settings:
         collapsed: true
     -
         id: link-decoration
-        title: Internal Link Decoration
+        title: Internal link decoration
         type: variable-select
         description: Internal link decoration
         default: 'underline'
@@ -3459,25 +4215,25 @@ settings:
             - 'none'
     -
         id: mu-link
-        title: Internal Link Color
+        title: Internal link color
         type: variable-themed-color
         description: Internal link color
         format: hex
         opacity: false
         default-light: '#a200ff'
-        default-dark: '#c348ff'
+        default-dark: '#d372ff'
     -
         id: mu-link-hover
-        title: Internal Link Hover Color
+        title: Internal link hover color
         type: variable-themed-color
         description: Internal link hover color
         format: hex
         opacity: false
         default-light: '#c300ff'
-        default-dark: '#d372ff'
+        default-dark: '#db8fff'
     -
         id: link-external-decoration
-        title: External Link Decoration
+        title: External link decoration
         type: variable-select
         description: External link decoration
         default: 'underline'
@@ -3486,7 +4242,7 @@ settings:
             - 'none'
     -
         id: mu-external-link
-        title: External Link Color
+        title: External link color
         type: variable-themed-color
         description: External link color
         format: hex
@@ -3495,7 +4251,7 @@ settings:
         default-dark: '#00a9dd'
     -
         id: mu-external-link-hover
-        title: External Link Hover Color
+        title: External link hover color
         type: variable-themed-color
         description: External link hover color
         format: hex
@@ -3504,14 +4260,14 @@ settings:
         default-dark: '#00c3ff'
     - 
         id: magicuser-theme-checkboxes
-        title: CheckList      
+        title: Checklist      
         type: heading
         description: Checklist settings
         level: 2
         collapsed: true
     -
         id: checklist-done-decoration
-        title: Checklist Done Decoration
+        title: Checklist done decoration
         type: variable-select
         description: Text decoration of the completed task
         default: 'underline'
@@ -3521,12 +4277,113 @@ settings:
             - 'none'
     -
         id: checklist-done-color
-        title: Checklist Done Text Color
+        title: Checklist done text color
         type: variable-color
         description: Text color of the completed task
         format: hex
         opacity: false
         default: '#00cf48'
+    - 
+        id: magicuser-theme-code
+        title: Code
+        type: heading
+        description: Code background and syntax highlighting
+        level: 2
+        collapsed: true
+    -
+        id: mu-font-mono
+        title: Code font
+        type: variable-text
+        description: Font used for source mode
+        default: JetBrains Mono, Consolas, Roboto Mono, Menlo, Monaco, Courier New, monospace
+    -
+        id: code-background
+        title: Code background color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#f1f1f1'
+        default-dark: '#001122'
+    -
+        id: code-keyword
+        title: Keyword color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#c300f1'
+        default-dark: '#d372ff'
+    -
+        id: code-string
+        title: String color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#0000f1'
+        default-dark: '#00d8ff'
+    -
+        id: code-value
+        title: Number / Value color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#f18f00'
+        default-dark: '#ffa300'
+    -
+        id: code-comment
+        title: Comment color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#a3a3a3'
+        default-dark: '#a3a3a3'
+    -
+        id: code-function
+        title: Function color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#00a300'
+        default-dark: '#48f148'
+    -
+        id: code-property
+        title: Property color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#0048a3'
+        default-dark: '#0088f1'
+    -
+        id: code-tag
+        title: Tag color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#c300f1'
+        default-dark: '#d372ff'
+    -
+        id: mu-code-attribute
+        title: Attribute color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#e50000'
+        default-dark: '#ffa3a3'
+    -
+        id: code-operator
+        title: Operator color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#c300f1'
+        default-dark: '#d372ff'
+    -
+        id: code-punctuation
+        title: Punctuation color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#c300f1'
+        default-dark: '#d372ff'
     - 
         id: magicuser-theme-about
         title: MagicUser Theme
@@ -3534,5 +4391,11 @@ settings:
         description: Made with ♥ by Bernardo Pires
         level: 2
         collapsed: true
+    - 
+        id: my-info-text
+        title: MagicUser Theme for Obsidian
+        description: Made with ♥ by Bernardo Pires (@drbap). I hope you enjoy. Thanks for using it.
+        type: info-text
+        markdown: false
 
 */
