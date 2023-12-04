@@ -11,9 +11,11 @@
             "id": "4a380b904fb51b91",
             "type": "leaf",
             "state": {
-              "type": "diagram",
+              "type": "markdown",
               "state": {
-                "file": "Try Diagram.svg"
+                "file": "测试.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -116,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Try Diagram.svg"
+                "file": "测试.md"
               }
             }
           },
@@ -159,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Try Diagram.svg",
+                "file": "测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Try Diagram.svg",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Try Diagram.svg",
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,8 +258,8 @@
   },
   "active": "4a380b904fb51b91",
   "lastOpenFiles": [
-    "测试.md",
     "Try Diagram.svg",
+    "测试.md",
     "测试 2023.11.25-3.canvas",
     "测试 2023.11.25-2.canvas",
     "未命名.canvas",
