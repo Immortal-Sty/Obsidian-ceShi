@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "282220b9073dd271",
+        "id": "933419a02aba953b",
         "type": "tabs",
         "children": [
           {
@@ -98,7 +98,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
