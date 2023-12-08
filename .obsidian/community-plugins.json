@@ -66,5 +66,6 @@
   "obsidian-markdown-export-plugin",
   "sheets",
   "better-word-count",
-  "drawio-obsidian"
+  "drawio-obsidian",
+  "obsidian-file-link"
 ]
