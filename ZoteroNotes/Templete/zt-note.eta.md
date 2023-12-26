@@ -7,5 +7,5 @@
 > <%= it.abstractNote.first().replace(/[\r\n]+/g, "\n>\n> ") %>
 
 <% } -%>
-[Zotero](<%= it.backlink %>) <%= it.fileLink %>
+[Zotero](./<%= it.backlink %>) <%= it.fileLink %>
 <%~ include("annots", it.annotations) %>

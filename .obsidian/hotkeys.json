@@ -537,5 +537,22 @@
       ],
       "key": "B"
     }
+  ],
+  "links:editor-convert-link-to-mdlink": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "obsidian-another-quick-switcher:search-command_tag-folder": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    }
   ]
 }

@@ -10,13 +10,13 @@ tags: [excalidraw]
 # Text Elements
 [百度](https://www.baidu.com/) ^qaTYkhhf
 
-[aa](随手记/生存战争：伤害记录#^9c4199) ^M9qxZi56
+[aa](./随手记/生存战争：伤害记录#^9c4199) ^M9qxZi56
 
-![[随手记/生存战争：伤害记录#^9c4199]] ^jATOLsY9
+![](../随手记/生存战争：伤害记录.md#^9c4199) ^jATOLsY9
 
-![aa](随手记/生存战争：伤害记录#^9c4199) ^vAfoV4eV
+![aa](./随手记/生存战争：伤害记录#^9c4199) ^vAfoV4eV
 
-![[../ZoteroNotes/Building a Second Brain]] ^QhY4gNcy
+![[../ZoteroNotes/Building a Second Brain](../ZoteroNotes/Building%20a%20Second%20Brain.md) ^QhY4gNcy
 
 <iframe src="https://www.bilibili.com/"></iframe> ^wCZhGGYX
 

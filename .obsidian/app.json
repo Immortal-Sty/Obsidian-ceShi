@@ -7,7 +7,7 @@
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./示例.md_Attachments",
+  "attachmentFolderPath": "./测试.md_Attachments",
   "userIgnoreFilters": [
     "/^.+\\.(pn|jp)g$/"
   ],
@@ -24,5 +24,6 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "propertiesInDocument": "source"
+  "propertiesInDocument": "source",
+  "useMarkdownLinks": true
 }

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "933419a02aba953b",
+        "id": "649aa36cc5c0514f",
         "type": "tabs",
         "children": [
           {
-            "id": "4a380b904fb51b91",
+            "id": "4dad93bc8010615d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "测试.md",
+                "file": "随手记/测试.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "be93d2fc4fd96e59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "示例.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "示例.md"
+                "file": "随手记/测试.md"
               }
             }
           },
@@ -142,7 +129,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -175,7 +164,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "示例.md",
+                "file": "随手记/测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "示例.md",
+                "file": "随手记/测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "示例.md",
+                "file": "随手记/测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +244,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "attachment-manager:切换附件文件夹的“显示/隐藏”": false,
       "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -263,16 +251,23 @@
       "command-palette:打开命令面板": false,
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-omnivore:Omnivore": false,
-      "periodic-notes:Open today": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "attachment-manager:切换附件文件夹的“显示/隐藏”": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "be93d2fc4fd96e59",
+  "active": "4dad93bc8010615d",
   "lastOpenFiles": [
+    "attachments/-303be25f1554345b.jpg",
+    "随手记/测试.md",
     "测试.md",
+    "随手记/生存战争：伤害记录.md",
+    "随手记/剧本杀.md",
+    "ZhiXi/测试%202023.01.21%2017.27.11.zxm.md",
+    "测试 (1).md",
     "示例.md",
     "Try Diagram.svg",
     "测试 2023.11.25-3.canvas",
@@ -281,7 +276,6 @@
     "测试 2023.11.25-1.canvas",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.md",
     "测试 2023.09.17-1.canvas",
-    "随手记/生存战争：伤害记录.md",
     "Excalidraw/测试's Excalidraw 2023.02.14 14.52.49.svg",
     "ZoteroNotes/Building a Second Brain.md",
     "Building a Second Brain 2023.11.24-1.canvas",
@@ -305,14 +299,9 @@
     "ZoteroTemplete",
     "ZtTemplates/zt-annot.eta.md",
     "ZtTemplates",
-    "随手记/剧本杀.md",
     "Day Planners/Day Planner-20220718.md",
-    "随手记/测试.md",
-    "gj.md",
-    "README.md",
     "Excalidraw.svg",
     "Canvas.canvas",
-    "Template.md",
     "attachments/PanDownload-背景.jpg",
     "Canvas",
     "bookmaster/book-data",

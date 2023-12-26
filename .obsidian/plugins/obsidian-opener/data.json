@@ -1,0 +1,10 @@
+{
+  "newTab": true,
+  "PDFApp": true,
+  "extOnlyWhenMetaKey": true,
+  "allExt": false,
+  "custExt": true,
+  "custExtList": [
+    "svg"
+  ]
+}
