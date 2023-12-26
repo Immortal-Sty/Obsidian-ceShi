@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "39d07a2c42657312",
@@ -123,6 +124,14 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0b7c64349359c301",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -219,16 +228,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "random-note:开始漫游笔记": false,
-      "audio-recorder:开始/结束录音": false
+      "audio-recorder:开始/结束录音": false,
+      "canvas:新建白板": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "periodic-notes:Open today": false,
+      "obsidian-omnivore:Omnivore": false,
+      "attachment-manager:切换附件文件夹的“显示/隐藏”": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "4dad93bc8010615d",
+  "active": "49578976ab129243",
   "lastOpenFiles": [
     "attachments/-303be25f1554345b.jpg",
     "随手记/测试.md",
