@@ -64,14 +64,6 @@
               "type": "recent-files",
               "state": {}
             }
-          },
-          {
-            "id": "e13ccbfbfb60f347",
-            "type": "leaf",
-            "state": {
-              "type": "trash-explorer",
-              "state": {}
-            }
           }
         ]
       },
@@ -79,14 +71,6 @@
         "id": "39d07a2c42657312",
         "type": "tabs",
         "children": [
-          {
-            "id": "1bef51e096dcd8bb",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
           {
             "id": "947e1064ecf21b59",
             "type": "leaf",
@@ -98,8 +82,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -142,17 +125,9 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "c8d95c85cdf621ed",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "4dbf103314f6888d",
@@ -250,13 +225,7 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "random-note:开始漫游笔记": false,
-      "audio-recorder:开始/结束录音": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-omnivore:Omnivore": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "attachment-manager:切换附件文件夹的“显示/隐藏”": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "periodic-notes:Open today": false
+      "audio-recorder:开始/结束录音": false
     }
   },
   "active": "4dad93bc8010615d",
